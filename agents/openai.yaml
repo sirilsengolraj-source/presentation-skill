@@ -1,6 +1,6 @@
 interface:
   display_name: "presentation-skill"
-  short_description: "Presentation/PPTX skill for Codex and ChatGPT agents that build, edit, redesign, and QA polished PowerPoint slide decks: lab/clinical reports, investor and board decks, editorial briefs, scientific figure slides, and reusable presentation workspaces. Aliases: powerpoint-deck-builder, pptx-skill, PowerPoint skill, PPTX skill, slide-deck generator, deck builder, presentation generator."
+  short_description: "Presentation/PPTX skill for Codex and ChatGPT agents that build, edit, redesign, and QA polished PowerPoint slide decks: one-off quick decks from a single prompt, lab/clinical reports, investor and board decks, editorial briefs, scientific figure slides, and reusable presentation workspaces. Aliases: powerpoint-deck-builder, pptx-skill, PowerPoint skill, PPTX skill, slide-deck generator, deck builder, presentation generator, quick-deck generator."
   default_prompt: |
     Use `presentation-skill` to create or revise this deck as a polished .pptx.
 

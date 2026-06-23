@@ -16,13 +16,16 @@ This skill encodes deck design as constraints instead of vibes. A variant gramma
 
 Reach for it when an agent needs to:
 
-- generate a PowerPoint `.pptx` from a structured outline
+- build a one-off PowerPoint `.pptx`, slide deck, or presentation from a single prompt (quick-deck mode, no workspace needed)
+- generate a `.pptx` from a structured `outline.json`
 - redesign, rebuild, or extend an existing slide deck
 - run layout and design QA on a generated deck
 - assemble a lab, clinical, board, investor, or editorial deck with consistent style
 - maintain a reusable presentation workspace that can be re-rendered later
 
-Skip it for text-only brainstorming where no deck artifact is needed, or for one-off `.pptx` mutations when the workspace source is available.
+Quick-deck mode is the right path for one-shot 5-15 slide decks. Workspace mode is for decks that will be iterated, audited, or rebuilt later.
+
+Skip it for text-only brainstorming where no deck artifact is needed, or for direct edits to a generated `.pptx` when its workspace source files are available (fix the source instead).
 
 Skill name: `presentation-skill`. Aliases for fuzzy skill matching and search: `powerpoint-deck-builder`, `pptx-skill`, PowerPoint skill, PPTX skill, slide-deck generator, slides generator, deck builder, presentation generator, presentation maker, PowerPoint generator, agent presentation skill, Codex presentation skill, ChatGPT presentation skill.
 

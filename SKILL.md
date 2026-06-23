@@ -13,16 +13,22 @@ rendering, staging, and verification.
 
 Trigger this skill on requests to:
 
-- generate a PowerPoint `.pptx`, slide deck, presentation, or slides
+- build a one-off PowerPoint `.pptx`, slide deck, or presentation from a
+  single prompt (quick-deck mode, no workspace needed)
+- generate a `.pptx` from a structured `outline.json`
 - redesign, rebuild, or extend an existing deck
 - create a lab, clinical, scientific, board, investor, or editorial deck
 - run layout, design, or readability QA on a generated deck
 - author or update a reusable deck workspace
 - convert CSV/TSV/XLSX/JSON data into slide-ready figures and tables
 
+Quick-deck mode is the right path for one-shot 5-15 slide decks. Workspace
+mode is for decks that will be iterated, audited, or rebuilt later. See
+`### Quick Deck` and `### Saved Workspace` under Workflow below.
+
 Do not invoke it for text-only brainstorming where no deck artifact is
-needed, or for one-off `.pptx` mutations when the saved workspace source is
-available.
+needed, or for direct edits to a generated `.pptx` when its saved workspace
+source files are available (fix the source instead).
 
 Skill name: `presentation-skill`. Compatibility aliases for fuzzy skill
 matching: `powerpoint-deck-builder`, `pptx-skill`, PowerPoint skill, PPTX
