@@ -18,7 +18,7 @@
       "cards": [
         {
           "title": "Cool Air",
-          "body": "Conditioned space for residents without home AC.",
+          "body": "Conditioned space for residents without home cooling.",
           "accent": "accent_primary"
         },
         {
@@ -53,22 +53,26 @@
       "variant": "timeline",
       "title": "Setup Timeline",
       "subtitle": "From building audit to first hot day",
-      "steps": [
+      "milestones": [
         {
+          "label": "Wk 1",
           "title": "Audit",
-          "body": "Walk each branch with a facilities engineer to score HVAC capacity."
+          "body": "Score HVAC capacity per branch."
         },
         {
+          "label": "Wk 3",
           "title": "Retrofit",
-          "body": "Install or upgrade filtration and verify cooling load with sensors."
+          "body": "Install filtration; verify cooling load."
         },
         {
+          "label": "Wk 5",
           "title": "Train",
-          "body": "Run a one-day tabletop with staff and public health."
+          "body": "Tabletop with staff and public health."
         },
         {
+          "label": "Wk 6",
           "title": "Publish",
-          "body": "Map refuges on the city's emergency portal and library site."
+          "body": "Refuge map on city + library portals."
         }
       ]
     },
@@ -79,7 +83,7 @@
       "subtitle": "Two ways the same heat wave plays out",
       "left": {
         "title": "Day-Of Scramble",
-        "bullets": [
+        "body": [
           "Staff find out via the news.",
           "No filtered air for smoke days.",
           "Residents wander between buildings.",
@@ -88,13 +92,14 @@
       },
       "right": {
         "title": "Pre-Positioned",
-        "bullets": [
+        "body": [
           "Heads-up at the 48-hour forecast.",
           "Filtration installed and tested.",
           "Refuge map published before the heat.",
           "Staff already trained, supplies staged."
         ]
-      }
+      },
+      "verdict": "Pre-positioning is a procurement question solved months early, not a crisis decision."
     },
     {
       "type": "section",
