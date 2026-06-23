@@ -73,12 +73,10 @@ python3 scripts/qa_gate.py \
   --input out.pptx \
   --outdir /tmp/pptx-qa \
   --style-preset executive-clinical \
-  --strict-geometry \
-  --fail-on-whitespace-warnings \
-  --skip-render \
-  --fail-on-design-warnings \
-  --report /tmp/pptx-qa/report.json
+  --skip-render
 ```
+
+For production builds, add `--strict-geometry --fail-on-design-warnings --fail-on-whitespace-warnings` and complete one manual visual review (which writes a `manual_review_passed.flag` into the outdir) before re-running.
 
 ## What people actually build with this
 

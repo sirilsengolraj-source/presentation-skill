@@ -2,53 +2,104 @@
   "slides": [
     {
       "type": "title",
-      "title": "AI Operations Review",
-      "subtitle": "Reliable delivery with explicit QA"
+      "title": "How City Libraries Become Climate Refuges",
+      "subtitle": "Cooling centers, charging stations, and filtered air for the hot week"
     },
     {
       "type": "section",
-      "title": "Execution Thesis",
-      "subtitle": "Tight scope, visible owners, and measurable progress"
-    },
-    {
-      "type": "content",
-      "variant": "split",
-      "title": "Strategic Focus",
-      "subtitle": "Primary narrative and operator checklist",
-      "bullets": [
-        "Constrain the initial release to one measurable workflow.",
-        "Define success metrics before expanding scope.",
-        "Run weekly review against shipping and QA signals.",
-        "Document every decision that should become default behavior."
-      ],
-      "highlights": [
-        "Publish blockers daily.",
-        "Escalate repeat defects within 24 hours."
-      ],
-      "footer": "Operate with explicit quality gates"
+      "title": "Why Libraries",
+      "subtitle": "Already trusted, distributed, and free to enter"
     },
     {
       "type": "content",
       "variant": "cards-3",
-      "title": "Core Pillars",
-      "subtitle": "What keeps the deck generator trustworthy",
+      "title": "What a Refuge Provides",
+      "subtitle": "Three services that change risk during a heat wave",
       "cards": [
         {
-          "title": "Reliable Builder",
-          "body": "Use deterministic layout logic as the baseline path.",
+          "title": "Cool Air",
+          "body": "Conditioned space for residents without home AC.",
           "accent": "accent_primary"
         },
         {
-          "title": "Strict QA",
-          "body": "Fail on overflow, overlap, weak visual fill, and design rule regressions.",
+          "title": "Power",
+          "body": "Charging for phones and medical devices.",
           "accent": "accent_secondary"
         },
         {
-          "title": "Benchmark Loop",
-          "body": "Re-run multiple synthetic builds before shipping renderer changes.",
+          "title": "Clean Air",
+          "body": "MERV-13 filtration on wildfire smoke days.",
           "accent": "accent_primary"
         }
       ]
+    },
+    {
+      "type": "content",
+      "variant": "split",
+      "title": "What It Takes to Operate",
+      "subtitle": "Coordination beats hardware",
+      "bullets": [
+        "Extend opening hours during heat advisories.",
+        "Train staff on heat-illness recognition.",
+        "Pre-stage water near the entrance."
+      ],
+      "highlights": [
+        "Pair every refuge with a public-health contact."
+      ],
+      "footer": "Operations, not just infrastructure"
+    },
+    {
+      "type": "content",
+      "variant": "timeline",
+      "title": "Setup Timeline",
+      "subtitle": "From building audit to first hot day",
+      "steps": [
+        {
+          "title": "Audit",
+          "body": "Walk each branch with a facilities engineer to score HVAC capacity."
+        },
+        {
+          "title": "Retrofit",
+          "body": "Install or upgrade filtration and verify cooling load with sensors."
+        },
+        {
+          "title": "Train",
+          "body": "Run a one-day tabletop with staff and public health."
+        },
+        {
+          "title": "Publish",
+          "body": "Map refuges on the city's emergency portal and library site."
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "variant": "comparison-2col",
+      "title": "Day-Of vs Pre-Positioned",
+      "subtitle": "Two ways the same heat wave plays out",
+      "left": {
+        "title": "Day-Of Scramble",
+        "bullets": [
+          "Staff find out via the news.",
+          "No filtered air for smoke days.",
+          "Residents wander between buildings.",
+          "First-aid kits checked the morning of."
+        ]
+      },
+      "right": {
+        "title": "Pre-Positioned",
+        "bullets": [
+          "Heads-up at the 48-hour forecast.",
+          "Filtration installed and tested.",
+          "Refuge map published before the heat.",
+          "Staff already trained, supplies staged."
+        ]
+      }
+    },
+    {
+      "type": "section",
+      "title": "What It Costs",
+      "subtitle": "Less than a single emergency room admission for heat stroke"
     }
   ]
 }
