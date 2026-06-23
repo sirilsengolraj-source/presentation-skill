@@ -1,0 +1,7590 @@
+{
+  "schema_version": "style_token_atlas_v1",
+  "source_records_processed": 2183,
+  "atom_type_counts": {
+    "palette": 58,
+    "typography": 40,
+    "layout_motif": 46,
+    "content_treatment": 88,
+    "header_treatment": 4,
+    "decorative_motif": 14,
+    "density": 3,
+    "arc_beat": 33,
+    "rhythm_signature": 12,
+    "chart_treatment": 6,
+    "footer_treatment": 3,
+    "table_treatment": 4
+  },
+  "atoms": {
+    "palette": [
+      {
+        "atom_id": "palette:bold-accent",
+        "atom_type": "palette",
+        "value": "bold accent",
+        "frequency": 635,
+        "distinctiveness_avg": 25.4,
+        "family_origins": {
+          "bold-startup-narrative": 635
+        }
+      },
+      {
+        "atom_id": "palette:high-contrast",
+        "atom_type": "palette",
+        "value": "high contrast",
+        "frequency": 635,
+        "distinctiveness_avg": 25.4,
+        "family_origins": {
+          "bold-startup-narrative": 635
+        }
+      },
+      {
+        "atom_id": "palette:launch-color",
+        "atom_type": "palette",
+        "value": "launch color",
+        "frequency": 635,
+        "distinctiveness_avg": 25.4,
+        "family_origins": {
+          "bold-startup-narrative": 635
+        }
+      },
+      {
+        "atom_id": "palette:black-and-white",
+        "atom_type": "palette",
+        "value": "black and white",
+        "frequency": 444,
+        "distinctiveness_avg": 24.31,
+        "family_origins": {
+          "editorial-minimal": 444
+        }
+      },
+      {
+        "atom_id": "palette:gallery-white",
+        "atom_type": "palette",
+        "value": "gallery white",
+        "frequency": 444,
+        "distinctiveness_avg": 24.31,
+        "family_origins": {
+          "editorial-minimal": 444
+        }
+      },
+      {
+        "atom_id": "palette:single-accent",
+        "atom_type": "palette",
+        "value": "single accent",
+        "frequency": 444,
+        "distinctiveness_avg": 24.31,
+        "family_origins": {
+          "editorial-minimal": 444
+        }
+      },
+      {
+        "atom_id": "palette:amber-status",
+        "atom_type": "palette",
+        "value": "amber status",
+        "frequency": 225,
+        "distinctiveness_avg": 21.13,
+        "family_origins": {
+          "charcoal-safety": 225
+        }
+      },
+      {
+        "atom_id": "palette:charcoal",
+        "atom_type": "palette",
+        "value": "charcoal",
+        "frequency": 225,
+        "distinctiveness_avg": 21.13,
+        "family_origins": {
+          "charcoal-safety": 225
+        }
+      },
+      {
+        "atom_id": "palette:signal-red",
+        "atom_type": "palette",
+        "value": "signal red",
+        "frequency": 225,
+        "distinctiveness_avg": 21.13,
+        "family_origins": {
+          "charcoal-safety": 225
+        }
+      },
+      {
+        "atom_id": "palette:paper",
+        "atom_type": "palette",
+        "value": "paper",
+        "frequency": 199,
+        "distinctiveness_avg": 28.53,
+        "family_origins": {
+          "paper-journal": 166,
+          "lab-report": 18,
+          "forest-research": 15
+        }
+      },
+      {
+        "atom_id": "palette:black-ink",
+        "atom_type": "palette",
+        "value": "black ink",
+        "frequency": 184,
+        "distinctiveness_avg": 27.98,
+        "family_origins": {
+          "paper-journal": 166,
+          "lab-report": 18
+        }
+      },
+      {
+        "atom_id": "palette:subtle-rule",
+        "atom_type": "palette",
+        "value": "subtle rule",
+        "frequency": 184,
+        "distinctiveness_avg": 27.98,
+        "family_origins": {
+          "paper-journal": 166,
+          "lab-report": 18
+        }
+      },
+      {
+        "atom_id": "palette:public-service-accent",
+        "atom_type": "palette",
+        "value": "public-service accent",
+        "frequency": 162,
+        "distinctiveness_avg": 21.05,
+        "family_origins": {
+          "warm-terracotta": 162
+        }
+      },
+      {
+        "atom_id": "palette:terracotta",
+        "atom_type": "palette",
+        "value": "terracotta",
+        "frequency": 162,
+        "distinctiveness_avg": 21.05,
+        "family_origins": {
+          "warm-terracotta": 162
+        }
+      },
+      {
+        "atom_id": "palette:warm-neutral",
+        "atom_type": "palette",
+        "value": "warm neutral",
+        "frequency": 162,
+        "distinctiveness_avg": 21.05,
+        "family_origins": {
+          "warm-terracotta": 162
+        }
+      },
+      {
+        "atom_id": "palette:blue-gray",
+        "atom_type": "palette",
+        "value": "blue-gray",
+        "frequency": 125,
+        "distinctiveness_avg": 25.11,
+        "family_origins": {
+          "data-heavy-boardroom": 125
+        }
+      },
+      {
+        "atom_id": "palette:boardroom-neutral",
+        "atom_type": "palette",
+        "value": "boardroom neutral",
+        "frequency": 125,
+        "distinctiveness_avg": 25.11,
+        "family_origins": {
+          "data-heavy-boardroom": 125
+        }
+      },
+      {
+        "atom_id": "palette:status-color",
+        "atom_type": "palette",
+        "value": "status color",
+        "frequency": 125,
+        "distinctiveness_avg": 25.11,
+        "family_origins": {
+          "data-heavy-boardroom": 125
+        }
+      },
+      {
+        "atom_id": "palette:cool-gray",
+        "atom_type": "palette",
+        "value": "cool gray",
+        "frequency": 124,
+        "distinctiveness_avg": 28.72,
+        "family_origins": {
+          "arctic-minimal": 124
+        }
+      },
+      {
+        "atom_id": "palette:ice-blue",
+        "atom_type": "palette",
+        "value": "ice blue",
+        "frequency": 124,
+        "distinctiveness_avg": 28.72,
+        "family_origins": {
+          "arctic-minimal": 124
+        }
+      },
+      {
+        "atom_id": "palette:white-field",
+        "atom_type": "palette",
+        "value": "white field",
+        "frequency": 124,
+        "distinctiveness_avg": 28.72,
+        "family_origins": {
+          "arctic-minimal": 124
+        }
+      },
+      {
+        "atom_id": "palette:status-accent",
+        "atom_type": "palette",
+        "value": "status accent",
+        "frequency": 59,
+        "distinctiveness_avg": 34.92,
+        "family_origins": {
+          "executive-clinical": 30,
+          "lab-report": 17,
+          "lavender-ops": 12
+        }
+      },
+      {
+        "atom_id": "palette:clinical-blue",
+        "atom_type": "palette",
+        "value": "clinical blue",
+        "frequency": 47,
+        "distinctiveness_avg": 34.17,
+        "family_origins": {
+          "executive-clinical": 30,
+          "lab-report": 17
+        }
+      },
+      {
+        "atom_id": "palette:white",
+        "atom_type": "palette",
+        "value": "white",
+        "frequency": 47,
+        "distinctiveness_avg": 34.17,
+        "family_origins": {
+          "executive-clinical": 30,
+          "lab-report": 17
+        }
+      },
+      {
+        "atom_id": "palette:ink",
+        "atom_type": "palette",
+        "value": "ink",
+        "frequency": 45,
+        "distinctiveness_avg": 36.11,
+        "family_origins": {
+          "lab-report": 15,
+          "forest-research": 15,
+          "executive-clinical": 15
+        }
+      },
+      {
+        "atom_id": "palette:cool-neutral",
+        "atom_type": "palette",
+        "value": "cool neutral",
+        "frequency": 37,
+        "distinctiveness_avg": 26.03,
+        "family_origins": {
+          "lavender-ops": 37
+        }
+      },
+      {
+        "atom_id": "palette:lavender-accent",
+        "atom_type": "palette",
+        "value": "lavender accent",
+        "frequency": 37,
+        "distinctiveness_avg": 26.03,
+        "family_origins": {
+          "lavender-ops": 37
+        }
+      },
+      {
+        "atom_id": "palette:soft-status",
+        "atom_type": "palette",
+        "value": "soft status",
+        "frequency": 37,
+        "distinctiveness_avg": 26.03,
+        "family_origins": {
+          "lavender-ops": 37
+        }
+      },
+      {
+        "atom_id": "palette:dark-canvas",
+        "atom_type": "palette",
+        "value": "dark canvas",
+        "frequency": 32,
+        "distinctiveness_avg": 33.56,
+        "family_origins": {
+          "midnight-neon": 32
+        }
+      },
+      {
+        "atom_id": "palette:neon-cyan",
+        "atom_type": "palette",
+        "value": "neon cyan",
+        "frequency": 32,
+        "distinctiveness_avg": 33.56,
+        "family_origins": {
+          "midnight-neon": 32
+        }
+      },
+      {
+        "atom_id": "palette:violet-accent",
+        "atom_type": "palette",
+        "value": "violet accent",
+        "frequency": 32,
+        "distinctiveness_avg": 33.56,
+        "family_origins": {
+          "midnight-neon": 32
+        }
+      },
+      {
+        "atom_id": "palette:deal-room-highlight",
+        "atom_type": "palette",
+        "value": "deal-room highlight",
+        "frequency": 30,
+        "distinctiveness_avg": 26.2,
+        "family_origins": {
+          "sunset-investor": 30
+        }
+      },
+      {
+        "atom_id": "palette:deep-neutral",
+        "atom_type": "palette",
+        "value": "deep neutral",
+        "frequency": 30,
+        "distinctiveness_avg": 26.2,
+        "family_origins": {
+          "sunset-investor": 30
+        }
+      },
+      {
+        "atom_id": "palette:warm-accent",
+        "atom_type": "palette",
+        "value": "warm accent",
+        "frequency": 30,
+        "distinctiveness_avg": 26.2,
+        "family_origins": {
+          "sunset-investor": 30
+        }
+      },
+      {
+        "atom_id": "palette:earth-neutral",
+        "atom_type": "palette",
+        "value": "earth neutral",
+        "frequency": 28,
+        "distinctiveness_avg": 32.25,
+        "family_origins": {
+          "forest-research": 28
+        }
+      },
+      {
+        "atom_id": "palette:forest-green",
+        "atom_type": "palette",
+        "value": "forest green",
+        "frequency": 18,
+        "distinctiveness_avg": 38.17,
+        "family_origins": {
+          "forest-research": 18
+        }
+      },
+      {
+        "atom_id": "palette:moss-accent",
+        "atom_type": "palette",
+        "value": "moss accent",
+        "frequency": 18,
+        "distinctiveness_avg": 38.17,
+        "family_origins": {
+          "forest-research": 18
+        }
+      },
+      {
+        "atom_id": "palette:bark-brown",
+        "atom_type": "palette",
+        "value": "bark brown",
+        "frequency": 17,
+        "distinctiveness_avg": 37.24,
+        "family_origins": {
+          "forest-research": 17
+        }
+      },
+      {
+        "atom_id": "palette:muted-leaf",
+        "atom_type": "palette",
+        "value": "muted leaf",
+        "frequency": 17,
+        "distinctiveness_avg": 37.24,
+        "family_origins": {
+          "forest-research": 17
+        }
+      },
+      {
+        "atom_id": "palette:sage",
+        "atom_type": "palette",
+        "value": "sage",
+        "frequency": 17,
+        "distinctiveness_avg": 37.24,
+        "family_origins": {
+          "forest-research": 17
+        }
+      },
+      {
+        "atom_id": "palette:clinical-neutral",
+        "atom_type": "palette",
+        "value": "clinical neutral",
+        "frequency": 15,
+        "distinctiveness_avg": 37.67,
+        "family_origins": {
+          "executive-clinical": 15
+        }
+      },
+      {
+        "atom_id": "palette:decisive-accent",
+        "atom_type": "palette",
+        "value": "decisive accent",
+        "frequency": 15,
+        "distinctiveness_avg": 37.67,
+        "family_origins": {
+          "executive-clinical": 15
+        }
+      },
+      {
+        "atom_id": "palette:forest-accent",
+        "atom_type": "palette",
+        "value": "forest accent",
+        "frequency": 15,
+        "distinctiveness_avg": 35.33,
+        "family_origins": {
+          "forest-research": 15
+        }
+      },
+      {
+        "atom_id": "palette:muted-accent",
+        "atom_type": "palette",
+        "value": "muted accent",
+        "frequency": 15,
+        "distinctiveness_avg": 35.33,
+        "family_origins": {
+          "lab-report": 15
+        }
+      },
+      {
+        "atom_id": "palette:navy",
+        "atom_type": "palette",
+        "value": "navy",
+        "frequency": 15,
+        "distinctiveness_avg": 35.33,
+        "family_origins": {
+          "executive-clinical": 15
+        }
+      },
+      {
+        "atom_id": "palette:pale",
+        "atom_type": "palette",
+        "value": "pale",
+        "frequency": 15,
+        "distinctiveness_avg": 35.33,
+        "family_origins": {
+          "executive-clinical": 15
+        }
+      },
+      {
+        "atom_id": "palette:soft-cream",
+        "atom_type": "palette",
+        "value": "soft cream",
+        "frequency": 15,
+        "distinctiveness_avg": 35.33,
+        "family_origins": {
+          "lab-report": 15
+        }
+      },
+      {
+        "atom_id": "palette:warning-accent",
+        "atom_type": "palette",
+        "value": "warning accent",
+        "frequency": 15,
+        "distinctiveness_avg": 35.33,
+        "family_origins": {
+          "executive-clinical": 15
+        }
+      },
+      {
+        "atom_id": "palette:lilac",
+        "atom_type": "palette",
+        "value": "lilac",
+        "frequency": 12,
+        "distinctiveness_avg": 37.83,
+        "family_origins": {
+          "lavender-ops": 12
+        }
+      },
+      {
+        "atom_id": "palette:slate",
+        "atom_type": "palette",
+        "value": "slate",
+        "frequency": 12,
+        "distinctiveness_avg": 37.83,
+        "family_origins": {
+          "lavender-ops": 12
+        }
+      },
+      {
+        "atom_id": "palette:blocker-red",
+        "atom_type": "palette",
+        "value": "blocker red",
+        "frequency": 11,
+        "distinctiveness_avg": 36.73,
+        "family_origins": {
+          "lavender-ops": 11
+        }
+      },
+      {
+        "atom_id": "palette:pale-neutral",
+        "atom_type": "palette",
+        "value": "pale neutral",
+        "frequency": 11,
+        "distinctiveness_avg": 36.73,
+        "family_origins": {
+          "lavender-ops": 11
+        }
+      },
+      {
+        "atom_id": "palette:periwinkle",
+        "atom_type": "palette",
+        "value": "periwinkle",
+        "frequency": 11,
+        "distinctiveness_avg": 36.73,
+        "family_origins": {
+          "lavender-ops": 11
+        }
+      },
+      {
+        "atom_id": "palette:ink-grid",
+        "atom_type": "palette",
+        "value": "ink grid",
+        "frequency": 10,
+        "distinctiveness_avg": 24.5,
+        "family_origins": {
+          "lab-report": 10
+        }
+      },
+      {
+        "atom_id": "palette:muted-cyan-accent",
+        "atom_type": "palette",
+        "value": "muted cyan accent",
+        "frequency": 10,
+        "distinctiveness_avg": 24.5,
+        "family_origins": {
+          "lab-report": 10
+        }
+      },
+      {
+        "atom_id": "palette:paper-white",
+        "atom_type": "palette",
+        "value": "paper white",
+        "frequency": 10,
+        "distinctiveness_avg": 21.6,
+        "family_origins": {
+          "forest-research": 10
+        }
+      },
+      {
+        "atom_id": "palette:soft-green",
+        "atom_type": "palette",
+        "value": "soft green",
+        "frequency": 10,
+        "distinctiveness_avg": 21.6,
+        "family_origins": {
+          "forest-research": 10
+        }
+      },
+      {
+        "atom_id": "palette:white-lab-canvas",
+        "atom_type": "palette",
+        "value": "white lab canvas",
+        "frequency": 10,
+        "distinctiveness_avg": 24.5,
+        "family_origins": {
+          "lab-report": 10
+        }
+      }
+    ],
+    "typography": [
+      {
+        "atom_id": "typography:large-decisive-headings",
+        "atom_type": "typography",
+        "value": "large decisive headings",
+        "frequency": 635,
+        "distinctiveness_avg": 25.4,
+        "family_origins": {
+          "bold-startup-narrative": 635
+        }
+      },
+      {
+        "atom_id": "typography:short-proof-copy",
+        "atom_type": "typography",
+        "value": "short proof copy",
+        "frequency": 635,
+        "distinctiveness_avg": 25.4,
+        "family_origins": {
+          "bold-startup-narrative": 635
+        }
+      },
+      {
+        "atom_id": "typography:measured-body-copy",
+        "atom_type": "typography",
+        "value": "measured body copy",
+        "frequency": 460,
+        "distinctiveness_avg": 24.78,
+        "family_origins": {
+          "editorial-minimal": 444,
+          "lab-report": 16
+        }
+      },
+      {
+        "atom_id": "typography:magazine-like-heading",
+        "atom_type": "typography",
+        "value": "magazine-like heading",
+        "frequency": 444,
+        "distinctiveness_avg": 24.31,
+        "family_origins": {
+          "editorial-minimal": 444
+        }
+      },
+      {
+        "atom_id": "typography:compact-controls",
+        "atom_type": "typography",
+        "value": "compact controls",
+        "frequency": 225,
+        "distinctiveness_avg": 21.13,
+        "family_origins": {
+          "charcoal-safety": 225
+        }
+      },
+      {
+        "atom_id": "typography:risk-memo-labels",
+        "atom_type": "typography",
+        "value": "risk memo labels",
+        "frequency": 225,
+        "distinctiveness_avg": 21.13,
+        "family_origins": {
+          "charcoal-safety": 225
+        }
+      },
+      {
+        "atom_id": "typography:small-references",
+        "atom_type": "typography",
+        "value": "small references",
+        "frequency": 199,
+        "distinctiveness_avg": 28.57,
+        "family_origins": {
+          "paper-journal": 166,
+          "forest-research": 17,
+          "lab-report": 16
+        }
+      },
+      {
+        "atom_id": "typography:plain-language-labels",
+        "atom_type": "typography",
+        "value": "plain language labels",
+        "frequency": 179,
+        "distinctiveness_avg": 22.51,
+        "family_origins": {
+          "warm-terracotta": 162,
+          "forest-research": 17
+        }
+      },
+      {
+        "atom_id": "typography:article-like-section-labels",
+        "atom_type": "typography",
+        "value": "article-like section labels",
+        "frequency": 166,
+        "distinctiveness_avg": 26.87,
+        "family_origins": {
+          "paper-journal": 166
+        }
+      },
+      {
+        "atom_id": "typography:human-scale-headings",
+        "atom_type": "typography",
+        "value": "human-scale headings",
+        "frequency": 162,
+        "distinctiveness_avg": 21.05,
+        "family_origins": {
+          "warm-terracotta": 162
+        }
+      },
+      {
+        "atom_id": "typography:quiet-technical-labels",
+        "atom_type": "typography",
+        "value": "quiet technical labels",
+        "frequency": 141,
+        "distinctiveness_avg": 29.65,
+        "family_origins": {
+          "arctic-minimal": 124,
+          "lab-report": 17
+        }
+      },
+      {
+        "atom_id": "typography:dense-executive-labels",
+        "atom_type": "typography",
+        "value": "dense executive labels",
+        "frequency": 125,
+        "distinctiveness_avg": 25.11,
+        "family_origins": {
+          "data-heavy-boardroom": 125
+        }
+      },
+      {
+        "atom_id": "typography:numeric-hierarchy",
+        "atom_type": "typography",
+        "value": "numeric hierarchy",
+        "frequency": 125,
+        "distinctiveness_avg": 25.11,
+        "family_origins": {
+          "data-heavy-boardroom": 125
+        }
+      },
+      {
+        "atom_id": "typography:low-contrast-metadata",
+        "atom_type": "typography",
+        "value": "low-contrast metadata",
+        "frequency": 124,
+        "distinctiveness_avg": 28.72,
+        "family_origins": {
+          "arctic-minimal": 124
+        }
+      },
+      {
+        "atom_id": "typography:ops-labels",
+        "atom_type": "typography",
+        "value": "ops labels",
+        "frequency": 37,
+        "distinctiveness_avg": 25.84,
+        "family_origins": {
+          "lavender-ops": 37
+        }
+      },
+      {
+        "atom_id": "typography:planning-metadata",
+        "atom_type": "typography",
+        "value": "planning metadata",
+        "frequency": 37,
+        "distinctiveness_avg": 25.84,
+        "family_origins": {
+          "lavender-ops": 37
+        }
+      },
+      {
+        "atom_id": "typography:developer-talk-hierarchy",
+        "atom_type": "typography",
+        "value": "developer talk hierarchy",
+        "frequency": 32,
+        "distinctiveness_avg": 33.56,
+        "family_origins": {
+          "midnight-neon": 32
+        }
+      },
+      {
+        "atom_id": "typography:monospace-labels",
+        "atom_type": "typography",
+        "value": "monospace labels",
+        "frequency": 32,
+        "distinctiveness_avg": 33.56,
+        "family_origins": {
+          "midnight-neon": 32
+        }
+      },
+      {
+        "atom_id": "typography:concise-numbers",
+        "atom_type": "typography",
+        "value": "concise numbers",
+        "frequency": 30,
+        "distinctiveness_avg": 26.2,
+        "family_origins": {
+          "sunset-investor": 30
+        }
+      },
+      {
+        "atom_id": "typography:investor-memo-headings",
+        "atom_type": "typography",
+        "value": "investor memo headings",
+        "frequency": 30,
+        "distinctiveness_avg": 26.2,
+        "family_origins": {
+          "sunset-investor": 30
+        }
+      },
+      {
+        "atom_id": "typography:executive-headings",
+        "atom_type": "typography",
+        "value": "executive headings",
+        "frequency": 28,
+        "distinctiveness_avg": 31.0,
+        "family_origins": {
+          "executive-clinical": 28
+        }
+      },
+      {
+        "atom_id": "typography:readable-metric-labels",
+        "atom_type": "typography",
+        "value": "readable metric labels",
+        "frequency": 28,
+        "distinctiveness_avg": 31.0,
+        "family_origins": {
+          "executive-clinical": 28
+        }
+      },
+      {
+        "atom_id": "typography:caption-rich-evidence",
+        "atom_type": "typography",
+        "value": "caption-rich evidence",
+        "frequency": 27,
+        "distinctiveness_avg": 32.22,
+        "family_origins": {
+          "lab-report": 27
+        }
+      },
+      {
+        "atom_id": "typography:annotated-caption-pairs",
+        "atom_type": "typography",
+        "value": "annotated-caption-pairs",
+        "frequency": 17,
+        "distinctiveness_avg": 36.76,
+        "family_origins": {
+          "forest-research": 17
+        }
+      },
+      {
+        "atom_id": "typography:evidence-caption-pairs",
+        "atom_type": "typography",
+        "value": "evidence-caption-pairs",
+        "frequency": 17,
+        "distinctiveness_avg": 36.41,
+        "family_origins": {
+          "lab-report": 17
+        }
+      },
+      {
+        "atom_id": "typography:field-report-headings",
+        "atom_type": "typography",
+        "value": "field-report-headings",
+        "frequency": 17,
+        "distinctiveness_avg": 36.76,
+        "family_origins": {
+          "forest-research": 17
+        }
+      },
+      {
+        "atom_id": "typography:method-block-headings",
+        "atom_type": "typography",
+        "value": "method-block-headings",
+        "frequency": 17,
+        "distinctiveness_avg": 36.76,
+        "family_origins": {
+          "lab-report": 17
+        }
+      },
+      {
+        "atom_id": "typography:briefing-headings",
+        "atom_type": "typography",
+        "value": "briefing headings",
+        "frequency": 16,
+        "distinctiveness_avg": 37.88,
+        "family_origins": {
+          "executive-clinical": 16
+        }
+      },
+      {
+        "atom_id": "typography:decisive-headings",
+        "atom_type": "typography",
+        "value": "decisive headings",
+        "frequency": 16,
+        "distinctiveness_avg": 37.12,
+        "family_origins": {
+          "executive-clinical": 16
+        }
+      },
+      {
+        "atom_id": "typography:evidence-labels",
+        "atom_type": "typography",
+        "value": "evidence labels",
+        "frequency": 16,
+        "distinctiveness_avg": 37.88,
+        "family_origins": {
+          "executive-clinical": 16
+        }
+      },
+      {
+        "atom_id": "typography:footnoted-method-text",
+        "atom_type": "typography",
+        "value": "footnoted-method-text",
+        "frequency": 16,
+        "distinctiveness_avg": 37.88,
+        "family_origins": {
+          "forest-research": 16
+        }
+      },
+      {
+        "atom_id": "typography:metric-pair-labels",
+        "atom_type": "typography",
+        "value": "metric-pair labels",
+        "frequency": 16,
+        "distinctiveness_avg": 37.12,
+        "family_origins": {
+          "executive-clinical": 16
+        }
+      },
+      {
+        "atom_id": "typography:sober-research-headings",
+        "atom_type": "typography",
+        "value": "sober-research-headings",
+        "frequency": 16,
+        "distinctiveness_avg": 37.88,
+        "family_origins": {
+          "forest-research": 16
+        }
+      },
+      {
+        "atom_id": "typography:operational-labels",
+        "atom_type": "typography",
+        "value": "operational labels",
+        "frequency": 12,
+        "distinctiveness_avg": 37.83,
+        "family_origins": {
+          "lavender-ops": 12
+        }
+      },
+      {
+        "atom_id": "typography:weekly-metadata-text",
+        "atom_type": "typography",
+        "value": "weekly-metadata-text",
+        "frequency": 12,
+        "distinctiveness_avg": 37.83,
+        "family_origins": {
+          "lavender-ops": 12
+        }
+      },
+      {
+        "atom_id": "typography:squad-headings",
+        "atom_type": "typography",
+        "value": "squad headings",
+        "frequency": 11,
+        "distinctiveness_avg": 37.36,
+        "family_origins": {
+          "lavender-ops": 11
+        }
+      },
+      {
+        "atom_id": "typography:status-pair-labels",
+        "atom_type": "typography",
+        "value": "status-pair labels",
+        "frequency": 11,
+        "distinctiveness_avg": 37.36,
+        "family_origins": {
+          "lavender-ops": 11
+        }
+      },
+      {
+        "atom_id": "typography:caption-forward-labels",
+        "atom_type": "typography",
+        "value": "caption-forward labels",
+        "frequency": 10,
+        "distinctiveness_avg": 21.6,
+        "family_origins": {
+          "forest-research": 10
+        }
+      },
+      {
+        "atom_id": "typography:compact-scientific-headings",
+        "atom_type": "typography",
+        "value": "compact scientific headings",
+        "frequency": 10,
+        "distinctiveness_avg": 24.5,
+        "family_origins": {
+          "lab-report": 10
+        }
+      },
+      {
+        "atom_id": "typography:research-report-hierarchy",
+        "atom_type": "typography",
+        "value": "research report hierarchy",
+        "frequency": 10,
+        "distinctiveness_avg": 21.6,
+        "family_origins": {
+          "forest-research": 10
+        }
+      }
+    ],
+    "layout_motif": [
+      {
+        "atom_id": "layout_motif:market-wedge",
+        "atom_type": "layout_motif",
+        "value": "market wedge",
+        "frequency": 635,
+        "distinctiveness_avg": 25.4,
+        "family_origins": {
+          "bold-startup-narrative": 635
+        }
+      },
+      {
+        "atom_id": "layout_motif:narrative-reveal",
+        "atom_type": "layout_motif",
+        "value": "narrative reveal",
+        "frequency": 635,
+        "distinctiveness_avg": 25.4,
+        "family_origins": {
+          "bold-startup-narrative": 635
+        }
+      },
+      {
+        "atom_id": "layout_motif:product-proof",
+        "atom_type": "layout_motif",
+        "value": "product proof",
+        "frequency": 635,
+        "distinctiveness_avg": 25.4,
+        "family_origins": {
+          "bold-startup-narrative": 635
+        }
+      },
+      {
+        "atom_id": "layout_motif:editorial-masthead",
+        "atom_type": "layout_motif",
+        "value": "editorial masthead",
+        "frequency": 444,
+        "distinctiveness_avg": 24.31,
+        "family_origins": {
+          "editorial-minimal": 444
+        }
+      },
+      {
+        "atom_id": "layout_motif:essay-spread",
+        "atom_type": "layout_motif",
+        "value": "essay spread",
+        "frequency": 444,
+        "distinctiveness_avg": 24.31,
+        "family_origins": {
+          "editorial-minimal": 444
+        }
+      },
+      {
+        "atom_id": "layout_motif:large-image-text-contrast",
+        "atom_type": "layout_motif",
+        "value": "large image/text contrast",
+        "frequency": 444,
+        "distinctiveness_avg": 24.31,
+        "family_origins": {
+          "editorial-minimal": 444
+        }
+      },
+      {
+        "atom_id": "layout_motif:control-matrix",
+        "atom_type": "layout_motif",
+        "value": "control matrix",
+        "frequency": 225,
+        "distinctiveness_avg": 21.13,
+        "family_origins": {
+          "charcoal-safety": 225
+        }
+      },
+      {
+        "atom_id": "layout_motif:incident-timeline",
+        "atom_type": "layout_motif",
+        "value": "incident timeline",
+        "frequency": 225,
+        "distinctiveness_avg": 21.13,
+        "family_origins": {
+          "charcoal-safety": 225
+        }
+      },
+      {
+        "atom_id": "layout_motif:risk-register",
+        "atom_type": "layout_motif",
+        "value": "risk register",
+        "frequency": 225,
+        "distinctiveness_avg": 21.13,
+        "family_origins": {
+          "charcoal-safety": 225
+        }
+      },
+      {
+        "atom_id": "layout_motif:citation-rail",
+        "atom_type": "layout_motif",
+        "value": "citation rail",
+        "frequency": 166,
+        "distinctiveness_avg": 26.87,
+        "family_origins": {
+          "paper-journal": 166
+        }
+      },
+      {
+        "atom_id": "layout_motif:equation-or-figure-plate",
+        "atom_type": "layout_motif",
+        "value": "equation or figure plate",
+        "frequency": 166,
+        "distinctiveness_avg": 26.87,
+        "family_origins": {
+          "paper-journal": 166
+        }
+      },
+      {
+        "atom_id": "layout_motif:journal-spread",
+        "atom_type": "layout_motif",
+        "value": "journal spread",
+        "frequency": 166,
+        "distinctiveness_avg": 26.87,
+        "family_origins": {
+          "paper-journal": 166
+        }
+      },
+      {
+        "atom_id": "layout_motif:civic-explainer",
+        "atom_type": "layout_motif",
+        "value": "civic explainer",
+        "frequency": 162,
+        "distinctiveness_avg": 21.05,
+        "family_origins": {
+          "warm-terracotta": 162
+        }
+      },
+      {
+        "atom_id": "layout_motif:field-report",
+        "atom_type": "layout_motif",
+        "value": "field report",
+        "frequency": 162,
+        "distinctiveness_avg": 21.05,
+        "family_origins": {
+          "warm-terracotta": 162
+        }
+      },
+      {
+        "atom_id": "layout_motif:workshop-canvas",
+        "atom_type": "layout_motif",
+        "value": "workshop canvas",
+        "frequency": 162,
+        "distinctiveness_avg": 21.05,
+        "family_origins": {
+          "warm-terracotta": 162
+        }
+      },
+      {
+        "atom_id": "layout_motif:board-memo-table",
+        "atom_type": "layout_motif",
+        "value": "board memo table",
+        "frequency": 125,
+        "distinctiveness_avg": 25.11,
+        "family_origins": {
+          "data-heavy-boardroom": 125
+        }
+      },
+      {
+        "atom_id": "layout_motif:dashboard-grid",
+        "atom_type": "layout_motif",
+        "value": "dashboard grid",
+        "frequency": 125,
+        "distinctiveness_avg": 25.11,
+        "family_origins": {
+          "data-heavy-boardroom": 125
+        }
+      },
+      {
+        "atom_id": "layout_motif:kpi-rail",
+        "atom_type": "layout_motif",
+        "value": "KPI rail",
+        "frequency": 125,
+        "distinctiveness_avg": 25.11,
+        "family_origins": {
+          "data-heavy-boardroom": 125
+        }
+      },
+      {
+        "atom_id": "layout_motif:architecture-frame",
+        "atom_type": "layout_motif",
+        "value": "architecture frame",
+        "frequency": 124,
+        "distinctiveness_avg": 28.72,
+        "family_origins": {
+          "arctic-minimal": 124
+        }
+      },
+      {
+        "atom_id": "layout_motif:sparse-technical-grid",
+        "atom_type": "layout_motif",
+        "value": "sparse technical grid",
+        "frequency": 124,
+        "distinctiveness_avg": 28.72,
+        "family_origins": {
+          "arctic-minimal": 124
+        }
+      },
+      {
+        "atom_id": "layout_motif:thin-rules",
+        "atom_type": "layout_motif",
+        "value": "thin rules",
+        "frequency": 124,
+        "distinctiveness_avg": 28.72,
+        "family_origins": {
+          "arctic-minimal": 124
+        }
+      },
+      {
+        "atom_id": "layout_motif:chart-plus-interpretation",
+        "atom_type": "layout_motif",
+        "value": "chart-plus-interpretation",
+        "frequency": 60,
+        "distinctiveness_avg": 34.43,
+        "family_origins": {
+          "forest-research": 60
+        }
+      },
+      {
+        "atom_id": "layout_motif:decision-readout",
+        "atom_type": "layout_motif",
+        "value": "decision readout",
+        "frequency": 60,
+        "distinctiveness_avg": 34.47,
+        "family_origins": {
+          "executive-clinical": 60
+        }
+      },
+      {
+        "atom_id": "layout_motif:field-note-sidebars",
+        "atom_type": "layout_motif",
+        "value": "field-note sidebars",
+        "frequency": 60,
+        "distinctiveness_avg": 34.43,
+        "family_origins": {
+          "forest-research": 60
+        }
+      },
+      {
+        "atom_id": "layout_motif:result-table",
+        "atom_type": "layout_motif",
+        "value": "result-table",
+        "frequency": 60,
+        "distinctiveness_avg": 34.92,
+        "family_origins": {
+          "lab-report": 60
+        }
+      },
+      {
+        "atom_id": "layout_motif:roadmap-bands",
+        "atom_type": "layout_motif",
+        "value": "roadmap bands",
+        "frequency": 60,
+        "distinctiveness_avg": 30.35,
+        "family_origins": {
+          "lavender-ops": 60
+        }
+      },
+      {
+        "atom_id": "layout_motif:source-footer",
+        "atom_type": "layout_motif",
+        "value": "source-footer",
+        "frequency": 60,
+        "distinctiveness_avg": 34.92,
+        "family_origins": {
+          "lab-report": 60
+        }
+      },
+      {
+        "atom_id": "layout_motif:workflow-board",
+        "atom_type": "layout_motif",
+        "value": "workflow board",
+        "frequency": 60,
+        "distinctiveness_avg": 30.35,
+        "family_origins": {
+          "lavender-ops": 60
+        }
+      },
+      {
+        "atom_id": "layout_motif:operating-cadence",
+        "atom_type": "layout_motif",
+        "value": "operating cadence",
+        "frequency": 52,
+        "distinctiveness_avg": 28.98,
+        "family_origins": {
+          "lavender-ops": 52
+        }
+      },
+      {
+        "atom_id": "layout_motif:figure-first",
+        "atom_type": "layout_motif",
+        "value": "figure-first",
+        "frequency": 46,
+        "distinctiveness_avg": 34.39,
+        "family_origins": {
+          "lab-report": 46
+        }
+      },
+      {
+        "atom_id": "layout_motif:method-readout",
+        "atom_type": "layout_motif",
+        "value": "method-readout",
+        "frequency": 46,
+        "distinctiveness_avg": 34.39,
+        "family_origins": {
+          "lab-report": 46
+        }
+      },
+      {
+        "atom_id": "layout_motif:clinical-kpi-strip",
+        "atom_type": "layout_motif",
+        "value": "clinical KPI strip",
+        "frequency": 39,
+        "distinctiveness_avg": 32.87,
+        "family_origins": {
+          "executive-clinical": 39
+        }
+      },
+      {
+        "atom_id": "layout_motif:executive-evidence-brief",
+        "atom_type": "layout_motif",
+        "value": "executive evidence brief",
+        "frequency": 39,
+        "distinctiveness_avg": 32.87,
+        "family_origins": {
+          "executive-clinical": 39
+        }
+      },
+      {
+        "atom_id": "layout_motif:evidence-plates",
+        "atom_type": "layout_motif",
+        "value": "evidence plates",
+        "frequency": 37,
+        "distinctiveness_avg": 32.76,
+        "family_origins": {
+          "forest-research": 37
+        }
+      },
+      {
+        "atom_id": "layout_motif:code-demo-spread",
+        "atom_type": "layout_motif",
+        "value": "code-demo spread",
+        "frequency": 32,
+        "distinctiveness_avg": 33.56,
+        "family_origins": {
+          "midnight-neon": 32
+        }
+      },
+      {
+        "atom_id": "layout_motif:dark-console",
+        "atom_type": "layout_motif",
+        "value": "dark console",
+        "frequency": 32,
+        "distinctiveness_avg": 33.56,
+        "family_origins": {
+          "midnight-neon": 32
+        }
+      },
+      {
+        "atom_id": "layout_motif:neon-metric-strip",
+        "atom_type": "layout_motif",
+        "value": "neon metric strip",
+        "frequency": 32,
+        "distinctiveness_avg": 33.56,
+        "family_origins": {
+          "midnight-neon": 32
+        }
+      },
+      {
+        "atom_id": "layout_motif:financial-bridge",
+        "atom_type": "layout_motif",
+        "value": "financial bridge",
+        "frequency": 30,
+        "distinctiveness_avg": 26.2,
+        "family_origins": {
+          "sunset-investor": 30
+        }
+      },
+      {
+        "atom_id": "layout_motif:investor-storyline",
+        "atom_type": "layout_motif",
+        "value": "investor storyline",
+        "frequency": 30,
+        "distinctiveness_avg": 26.2,
+        "family_origins": {
+          "sunset-investor": 30
+        }
+      },
+      {
+        "atom_id": "layout_motif:market-sizing",
+        "atom_type": "layout_motif",
+        "value": "market sizing",
+        "frequency": 30,
+        "distinctiveness_avg": 26.2,
+        "family_origins": {
+          "sunset-investor": 30
+        }
+      },
+      {
+        "atom_id": "layout_motif:longitudinal-monitoring-strip",
+        "atom_type": "layout_motif",
+        "value": "longitudinal-monitoring-strip",
+        "frequency": 23,
+        "distinctiveness_avg": 37.13,
+        "family_origins": {
+          "forest-research": 23
+        }
+      },
+      {
+        "atom_id": "layout_motif:cohort-strip",
+        "atom_type": "layout_motif",
+        "value": "cohort-strip",
+        "frequency": 21,
+        "distinctiveness_avg": 37.43,
+        "family_origins": {
+          "executive-clinical": 21
+        }
+      },
+      {
+        "atom_id": "layout_motif:safety-focused-band",
+        "atom_type": "layout_motif",
+        "value": "safety-focused band",
+        "frequency": 21,
+        "distinctiveness_avg": 37.43,
+        "family_origins": {
+          "executive-clinical": 21
+        }
+      },
+      {
+        "atom_id": "layout_motif:longitudinal-run-strip",
+        "atom_type": "layout_motif",
+        "value": "longitudinal-run-strip",
+        "frequency": 14,
+        "distinctiveness_avg": 36.64,
+        "family_origins": {
+          "lab-report": 14
+        }
+      },
+      {
+        "atom_id": "layout_motif:method-block",
+        "atom_type": "layout_motif",
+        "value": "method-block",
+        "frequency": 14,
+        "distinctiveness_avg": 36.64,
+        "family_origins": {
+          "lab-report": 14
+        }
+      },
+      {
+        "atom_id": "layout_motif:status-rail-dominant",
+        "atom_type": "layout_motif",
+        "value": "status-rail dominant",
+        "frequency": 8,
+        "distinctiveness_avg": 39.25,
+        "family_origins": {
+          "lavender-ops": 8
+        }
+      }
+    ],
+    "content_treatment": [
+      {
+        "atom_id": "content_treatment:ai-workflow",
+        "atom_type": "content_treatment",
+        "value": "AI workflow",
+        "frequency": 758,
+        "distinctiveness_avg": 25.57,
+        "family_origins": {
+          "bold-startup-narrative": 292,
+          "warm-terracotta": 162,
+          "editorial-minimal": 89,
+          "data-heavy-boardroom": 80,
+          "paper-journal": 34,
+          "midnight-neon": 32,
+          "charcoal-safety": 26,
+          "arctic-minimal": 11,
+          "sunset-investor": 8,
+          "forest-research": 8,
+          "lab-report": 8,
+          "lavender-ops": 5,
+          "executive-clinical": 3
+        }
+      },
+      {
+        "atom_id": "content_treatment:agent-tooling-comparison",
+        "atom_type": "content_treatment",
+        "value": "agent/tooling comparison",
+        "frequency": 754,
+        "distinctiveness_avg": 25.55,
+        "family_origins": {
+          "bold-startup-narrative": 292,
+          "warm-terracotta": 162,
+          "editorial-minimal": 89,
+          "data-heavy-boardroom": 80,
+          "paper-journal": 34,
+          "midnight-neon": 28,
+          "charcoal-safety": 26,
+          "arctic-minimal": 11,
+          "sunset-investor": 8,
+          "forest-research": 8,
+          "lab-report": 8,
+          "lavender-ops": 5,
+          "executive-clinical": 3
+        }
+      },
+      {
+        "atom_id": "content_treatment:growth-loops",
+        "atom_type": "content_treatment",
+        "value": "growth loops",
+        "frequency": 635,
+        "distinctiveness_avg": 25.4,
+        "family_origins": {
+          "bold-startup-narrative": 635
+        }
+      },
+      {
+        "atom_id": "content_treatment:problem-solution",
+        "atom_type": "content_treatment",
+        "value": "problem/solution",
+        "frequency": 635,
+        "distinctiveness_avg": 25.4,
+        "family_origins": {
+          "bold-startup-narrative": 635
+        }
+      },
+      {
+        "atom_id": "content_treatment:product-screenshots",
+        "atom_type": "content_treatment",
+        "value": "product screenshots",
+        "frequency": 635,
+        "distinctiveness_avg": 25.4,
+        "family_origins": {
+          "bold-startup-narrative": 635
+        }
+      },
+      {
+        "atom_id": "content_treatment:traction-proof",
+        "atom_type": "content_treatment",
+        "value": "traction proof",
+        "frequency": 635,
+        "distinctiveness_avg": 25.4,
+        "family_origins": {
+          "bold-startup-narrative": 635
+        }
+      },
+      {
+        "atom_id": "content_treatment:annotated-examples",
+        "atom_type": "content_treatment",
+        "value": "annotated examples",
+        "frequency": 444,
+        "distinctiveness_avg": 24.31,
+        "family_origins": {
+          "editorial-minimal": 444
+        }
+      },
+      {
+        "atom_id": "content_treatment:image-led-spreads",
+        "atom_type": "content_treatment",
+        "value": "image-led spreads",
+        "frequency": 444,
+        "distinctiveness_avg": 24.31,
+        "family_origins": {
+          "editorial-minimal": 444
+        }
+      },
+      {
+        "atom_id": "content_treatment:narrative-sections",
+        "atom_type": "content_treatment",
+        "value": "narrative sections",
+        "frequency": 444,
+        "distinctiveness_avg": 24.31,
+        "family_origins": {
+          "editorial-minimal": 444
+        }
+      },
+      {
+        "atom_id": "content_treatment:quotes",
+        "atom_type": "content_treatment",
+        "value": "quotes",
+        "frequency": 444,
+        "distinctiveness_avg": 24.31,
+        "family_origins": {
+          "editorial-minimal": 444
+        }
+      },
+      {
+        "atom_id": "content_treatment:control-tables",
+        "atom_type": "content_treatment",
+        "value": "control tables",
+        "frequency": 225,
+        "distinctiveness_avg": 21.13,
+        "family_origins": {
+          "charcoal-safety": 225
+        }
+      },
+      {
+        "atom_id": "content_treatment:incident-summaries",
+        "atom_type": "content_treatment",
+        "value": "incident summaries",
+        "frequency": 225,
+        "distinctiveness_avg": 21.13,
+        "family_origins": {
+          "charcoal-safety": 225
+        }
+      },
+      {
+        "atom_id": "content_treatment:mitigation-plans",
+        "atom_type": "content_treatment",
+        "value": "mitigation plans",
+        "frequency": 225,
+        "distinctiveness_avg": 21.13,
+        "family_origins": {
+          "charcoal-safety": 225
+        }
+      },
+      {
+        "atom_id": "content_treatment:risk-matrix",
+        "atom_type": "content_treatment",
+        "value": "risk matrix",
+        "frequency": 225,
+        "distinctiveness_avg": 21.13,
+        "family_origins": {
+          "charcoal-safety": 225
+        }
+      },
+      {
+        "atom_id": "content_treatment:method-comparison",
+        "atom_type": "content_treatment",
+        "value": "method comparison",
+        "frequency": 171,
+        "distinctiveness_avg": 27.14,
+        "family_origins": {
+          "paper-journal": 166,
+          "lab-report": 5
+        }
+      },
+      {
+        "atom_id": "content_treatment:bibliography",
+        "atom_type": "content_treatment",
+        "value": "bibliography",
+        "frequency": 166,
+        "distinctiveness_avg": 26.87,
+        "family_origins": {
+          "paper-journal": 166
+        }
+      },
+      {
+        "atom_id": "content_treatment:equations",
+        "atom_type": "content_treatment",
+        "value": "equations",
+        "frequency": 166,
+        "distinctiveness_avg": 26.87,
+        "family_origins": {
+          "paper-journal": 166
+        }
+      },
+      {
+        "atom_id": "content_treatment:paper-summary",
+        "atom_type": "content_treatment",
+        "value": "paper summary",
+        "frequency": 166,
+        "distinctiveness_avg": 26.87,
+        "family_origins": {
+          "paper-journal": 166
+        }
+      },
+      {
+        "atom_id": "content_treatment:community-findings",
+        "atom_type": "content_treatment",
+        "value": "community findings",
+        "frequency": 162,
+        "distinctiveness_avg": 21.05,
+        "family_origins": {
+          "warm-terracotta": 162
+        }
+      },
+      {
+        "atom_id": "content_treatment:policy-summaries",
+        "atom_type": "content_treatment",
+        "value": "policy summaries",
+        "frequency": 162,
+        "distinctiveness_avg": 21.05,
+        "family_origins": {
+          "warm-terracotta": 162
+        }
+      },
+      {
+        "atom_id": "content_treatment:training-steps",
+        "atom_type": "content_treatment",
+        "value": "training steps",
+        "frequency": 162,
+        "distinctiveness_avg": 21.05,
+        "family_origins": {
+          "warm-terracotta": 162
+        }
+      },
+      {
+        "atom_id": "content_treatment:workshop-prompts",
+        "atom_type": "content_treatment",
+        "value": "workshop prompts",
+        "frequency": 162,
+        "distinctiveness_avg": 21.05,
+        "family_origins": {
+          "warm-terracotta": 162
+        }
+      },
+      {
+        "atom_id": "content_treatment:dashboards",
+        "atom_type": "content_treatment",
+        "value": "dashboards",
+        "frequency": 125,
+        "distinctiveness_avg": 25.11,
+        "family_origins": {
+          "data-heavy-boardroom": 125
+        }
+      },
+      {
+        "atom_id": "content_treatment:kpi-cards",
+        "atom_type": "content_treatment",
+        "value": "KPI cards",
+        "frequency": 125,
+        "distinctiveness_avg": 25.11,
+        "family_origins": {
+          "data-heavy-boardroom": 125
+        }
+      },
+      {
+        "atom_id": "content_treatment:architecture-diagrams",
+        "atom_type": "content_treatment",
+        "value": "architecture diagrams",
+        "frequency": 124,
+        "distinctiveness_avg": 28.72,
+        "family_origins": {
+          "arctic-minimal": 124
+        }
+      },
+      {
+        "atom_id": "content_treatment:minimal-charts",
+        "atom_type": "content_treatment",
+        "value": "minimal charts",
+        "frequency": 124,
+        "distinctiveness_avg": 28.72,
+        "family_origins": {
+          "arctic-minimal": 124
+        }
+      },
+      {
+        "atom_id": "content_treatment:spec-tables",
+        "atom_type": "content_treatment",
+        "value": "spec tables",
+        "frequency": 124,
+        "distinctiveness_avg": 28.72,
+        "family_origins": {
+          "arctic-minimal": 124
+        }
+      },
+      {
+        "atom_id": "content_treatment:technical-summaries",
+        "atom_type": "content_treatment",
+        "value": "technical summaries",
+        "frequency": 124,
+        "distinctiveness_avg": 28.72,
+        "family_origins": {
+          "arctic-minimal": 124
+        }
+      },
+      {
+        "atom_id": "content_treatment:trend-charts",
+        "atom_type": "content_treatment",
+        "value": "trend charts",
+        "frequency": 120,
+        "distinctiveness_avg": 25.03,
+        "family_origins": {
+          "data-heavy-boardroom": 120
+        }
+      },
+      {
+        "atom_id": "content_treatment:variance-tables",
+        "atom_type": "content_treatment",
+        "value": "variance tables",
+        "frequency": 120,
+        "distinctiveness_avg": 25.03,
+        "family_origins": {
+          "data-heavy-boardroom": 120
+        }
+      },
+      {
+        "atom_id": "content_treatment:plots",
+        "atom_type": "content_treatment",
+        "value": "plots",
+        "frequency": 60,
+        "distinctiveness_avg": 34.43,
+        "family_origins": {
+          "forest-research": 60
+        }
+      },
+      {
+        "atom_id": "content_treatment:references",
+        "atom_type": "content_treatment",
+        "value": "references",
+        "frequency": 60,
+        "distinctiveness_avg": 34.92,
+        "family_origins": {
+          "lab-report": 60
+        }
+      },
+      {
+        "atom_id": "content_treatment:roadmaps",
+        "atom_type": "content_treatment",
+        "value": "roadmaps",
+        "frequency": 60,
+        "distinctiveness_avg": 30.35,
+        "family_origins": {
+          "lavender-ops": 60
+        }
+      },
+      {
+        "atom_id": "content_treatment:scientific-figures",
+        "atom_type": "content_treatment",
+        "value": "scientific figures",
+        "frequency": 60,
+        "distinctiveness_avg": 34.92,
+        "family_origins": {
+          "lab-report": 60
+        }
+      },
+      {
+        "atom_id": "content_treatment:assay-tables",
+        "atom_type": "content_treatment",
+        "value": "assay tables",
+        "frequency": 55,
+        "distinctiveness_avg": 34.82,
+        "family_origins": {
+          "lab-report": 55
+        }
+      },
+      {
+        "atom_id": "content_treatment:decision-tables",
+        "atom_type": "content_treatment",
+        "value": "decision tables",
+        "frequency": 51,
+        "distinctiveness_avg": 34.2,
+        "family_origins": {
+          "executive-clinical": 51
+        }
+      },
+      {
+        "atom_id": "content_treatment:risk-benefit",
+        "atom_type": "content_treatment",
+        "value": "risk/benefit",
+        "frequency": 51,
+        "distinctiveness_avg": 34.2,
+        "family_origins": {
+          "executive-clinical": 51
+        }
+      },
+      {
+        "atom_id": "content_treatment:team-status",
+        "atom_type": "content_treatment",
+        "value": "team status",
+        "frequency": 51,
+        "distinctiveness_avg": 29.2,
+        "family_origins": {
+          "lavender-ops": 51
+        }
+      },
+      {
+        "atom_id": "content_treatment:patient-cohorts",
+        "atom_type": "content_treatment",
+        "value": "patient cohorts",
+        "frequency": 48,
+        "distinctiveness_avg": 33.81,
+        "family_origins": {
+          "executive-clinical": 48
+        }
+      },
+      {
+        "atom_id": "content_treatment:study-design",
+        "atom_type": "content_treatment",
+        "value": "study design",
+        "frequency": 46,
+        "distinctiveness_avg": 33.76,
+        "family_origins": {
+          "forest-research": 46
+        }
+      },
+      {
+        "atom_id": "content_treatment:operating-metrics",
+        "atom_type": "content_treatment",
+        "value": "operating metrics",
+        "frequency": 43,
+        "distinctiveness_avg": 27.51,
+        "family_origins": {
+          "lavender-ops": 43
+        }
+      },
+      {
+        "atom_id": "content_treatment:workflow-diagrams",
+        "atom_type": "content_treatment",
+        "value": "workflow diagrams",
+        "frequency": 43,
+        "distinctiveness_avg": 27.33,
+        "family_origins": {
+          "lavender-ops": 43
+        }
+      },
+      {
+        "atom_id": "content_treatment:field-observations",
+        "atom_type": "content_treatment",
+        "value": "field observations",
+        "frequency": 42,
+        "distinctiveness_avg": 33.17,
+        "family_origins": {
+          "forest-research": 42
+        }
+      },
+      {
+        "atom_id": "content_treatment:method-caveats",
+        "atom_type": "content_treatment",
+        "value": "method caveats",
+        "frequency": 33,
+        "distinctiveness_avg": 32.64,
+        "family_origins": {
+          "forest-research": 33
+        }
+      },
+      {
+        "atom_id": "content_treatment:code-demos",
+        "atom_type": "content_treatment",
+        "value": "code demos",
+        "frequency": 32,
+        "distinctiveness_avg": 33.56,
+        "family_origins": {
+          "midnight-neon": 32
+        }
+      },
+      {
+        "atom_id": "content_treatment:model-charts",
+        "atom_type": "content_treatment",
+        "value": "model charts",
+        "frequency": 32,
+        "distinctiveness_avg": 33.56,
+        "family_origins": {
+          "midnight-neon": 32
+        }
+      },
+      {
+        "atom_id": "content_treatment:security-readouts",
+        "atom_type": "content_treatment",
+        "value": "security readouts",
+        "frequency": 32,
+        "distinctiveness_avg": 33.56,
+        "family_origins": {
+          "midnight-neon": 32
+        }
+      },
+      {
+        "atom_id": "content_treatment:ask-use-of-funds",
+        "atom_type": "content_treatment",
+        "value": "ask/use of funds",
+        "frequency": 30,
+        "distinctiveness_avg": 26.2,
+        "family_origins": {
+          "sunset-investor": 30
+        }
+      },
+      {
+        "atom_id": "content_treatment:business-model",
+        "atom_type": "content_treatment",
+        "value": "business model",
+        "frequency": 30,
+        "distinctiveness_avg": 26.2,
+        "family_origins": {
+          "sunset-investor": 30
+        }
+      },
+      {
+        "atom_id": "content_treatment:financial-chart",
+        "atom_type": "content_treatment",
+        "value": "financial chart",
+        "frequency": 30,
+        "distinctiveness_avg": 26.2,
+        "family_origins": {
+          "sunset-investor": 30
+        }
+      },
+      {
+        "atom_id": "content_treatment:market-map",
+        "atom_type": "content_treatment",
+        "value": "market map",
+        "frequency": 30,
+        "distinctiveness_avg": 26.2,
+        "family_origins": {
+          "sunset-investor": 30
+        }
+      },
+      {
+        "atom_id": "content_treatment:dashboard-grid",
+        "atom_type": "content_treatment",
+        "value": "dashboard grid",
+        "frequency": 29,
+        "distinctiveness_avg": 24.52,
+        "family_origins": {
+          "data-heavy-boardroom": 20,
+          "lavender-ops": 3,
+          "bold-startup-narrative": 2,
+          "charcoal-safety": 2,
+          "forest-research": 1,
+          "lab-report": 1
+        }
+      },
+      {
+        "atom_id": "content_treatment:kpi-summary",
+        "atom_type": "content_treatment",
+        "value": "KPI summary",
+        "frequency": 29,
+        "distinctiveness_avg": 24.52,
+        "family_origins": {
+          "data-heavy-boardroom": 20,
+          "lavender-ops": 3,
+          "bold-startup-narrative": 2,
+          "charcoal-safety": 2,
+          "forest-research": 1,
+          "lab-report": 1
+        }
+      },
+      {
+        "atom_id": "content_treatment:decision-matrix",
+        "atom_type": "content_treatment",
+        "value": "decision matrix",
+        "frequency": 28,
+        "distinctiveness_avg": 25.5,
+        "family_origins": {
+          "data-heavy-boardroom": 20,
+          "paper-journal": 3,
+          "lavender-ops": 2,
+          "bold-startup-narrative": 1,
+          "forest-research": 1,
+          "warm-terracotta": 1
+        }
+      },
+      {
+        "atom_id": "content_treatment:editable-tables",
+        "atom_type": "content_treatment",
+        "value": "editable tables",
+        "frequency": 28,
+        "distinctiveness_avg": 25.5,
+        "family_origins": {
+          "data-heavy-boardroom": 20,
+          "paper-journal": 3,
+          "lavender-ops": 2,
+          "bold-startup-narrative": 1,
+          "forest-research": 1,
+          "warm-terracotta": 1
+        }
+      },
+      {
+        "atom_id": "content_treatment:clinical-outcomes",
+        "atom_type": "content_treatment",
+        "value": "clinical outcomes",
+        "frequency": 21,
+        "distinctiveness_avg": 29.81,
+        "family_origins": {
+          "executive-clinical": 21
+        }
+      },
+      {
+        "atom_id": "content_treatment:annotated-charts",
+        "atom_type": "content_treatment",
+        "value": "annotated charts",
+        "frequency": 20,
+        "distinctiveness_avg": 23.8,
+        "family_origins": {
+          "paper-journal": 12,
+          "bold-startup-narrative": 2,
+          "charcoal-safety": 1,
+          "midnight-neon": 1,
+          "forest-research": 1,
+          "arctic-minimal": 1,
+          "editorial-minimal": 1,
+          "warm-terracotta": 1
+        }
+      },
+      {
+        "atom_id": "content_treatment:trend-readout",
+        "atom_type": "content_treatment",
+        "value": "trend readout",
+        "frequency": 20,
+        "distinctiveness_avg": 23.8,
+        "family_origins": {
+          "paper-journal": 12,
+          "bold-startup-narrative": 2,
+          "charcoal-safety": 1,
+          "midnight-neon": 1,
+          "forest-research": 1,
+          "arctic-minimal": 1,
+          "editorial-minimal": 1,
+          "warm-terracotta": 1
+        }
+      },
+      {
+        "atom_id": "content_treatment:captioned-visual",
+        "atom_type": "content_treatment",
+        "value": "captioned visual",
+        "frequency": 19,
+        "distinctiveness_avg": 24.11,
+        "family_origins": {
+          "editorial-minimal": 7,
+          "data-heavy-boardroom": 4,
+          "arctic-minimal": 3,
+          "bold-startup-narrative": 2,
+          "charcoal-safety": 2,
+          "warm-terracotta": 1
+        }
+      },
+      {
+        "atom_id": "content_treatment:figure-plate",
+        "atom_type": "content_treatment",
+        "value": "figure plate",
+        "frequency": 19,
+        "distinctiveness_avg": 24.11,
+        "family_origins": {
+          "editorial-minimal": 7,
+          "data-heavy-boardroom": 4,
+          "arctic-minimal": 3,
+          "bold-startup-narrative": 2,
+          "charcoal-safety": 2,
+          "warm-terracotta": 1
+        }
+      },
+      {
+        "atom_id": "content_treatment:run-metadata",
+        "atom_type": "content_treatment",
+        "value": "run metadata",
+        "frequency": 19,
+        "distinctiveness_avg": 30.79,
+        "family_origins": {
+          "lab-report": 19
+        }
+      },
+      {
+        "atom_id": "content_treatment:qc-passes",
+        "atom_type": "content_treatment",
+        "value": "qc passes",
+        "frequency": 14,
+        "distinctiveness_avg": 36.64,
+        "family_origins": {
+          "lab-report": 14
+        }
+      },
+      {
+        "atom_id": "content_treatment:annotated-photos",
+        "atom_type": "content_treatment",
+        "value": "annotated photos",
+        "frequency": 9,
+        "distinctiveness_avg": 37.0,
+        "family_origins": {
+          "forest-research": 9
+        }
+      },
+      {
+        "atom_id": "content_treatment:cadence-summary",
+        "atom_type": "content_treatment",
+        "value": "cadence summary",
+        "frequency": 9,
+        "distinctiveness_avg": 36.89,
+        "family_origins": {
+          "lavender-ops": 9
+        }
+      },
+      {
+        "atom_id": "content_treatment:cohort-breakdown",
+        "atom_type": "content_treatment",
+        "value": "cohort breakdown",
+        "frequency": 9,
+        "distinctiveness_avg": 36.89,
+        "family_origins": {
+          "lab-report": 9
+        }
+      },
+      {
+        "atom_id": "content_treatment:cohort-comparison",
+        "atom_type": "content_treatment",
+        "value": "cohort-comparison",
+        "frequency": 9,
+        "distinctiveness_avg": 37.0,
+        "family_origins": {
+          "executive-clinical": 9
+        }
+      },
+      {
+        "atom_id": "content_treatment:dataset-breakdown",
+        "atom_type": "content_treatment",
+        "value": "dataset breakdown",
+        "frequency": 9,
+        "distinctiveness_avg": 36.0,
+        "family_origins": {
+          "forest-research": 9
+        }
+      },
+      {
+        "atom_id": "content_treatment:decision-strip",
+        "atom_type": "content_treatment",
+        "value": "decision strip",
+        "frequency": 9,
+        "distinctiveness_avg": 36.0,
+        "family_origins": {
+          "executive-clinical": 9
+        }
+      },
+      {
+        "atom_id": "content_treatment:demographic-notes",
+        "atom_type": "content_treatment",
+        "value": "demographic notes",
+        "frequency": 9,
+        "distinctiveness_avg": 36.89,
+        "family_origins": {
+          "lab-report": 9
+        }
+      },
+      {
+        "atom_id": "content_treatment:dependencies",
+        "atom_type": "content_treatment",
+        "value": "dependencies",
+        "frequency": 9,
+        "distinctiveness_avg": 36.0,
+        "family_origins": {
+          "lavender-ops": 9
+        }
+      },
+      {
+        "atom_id": "content_treatment:footnotes",
+        "atom_type": "content_treatment",
+        "value": "footnotes",
+        "frequency": 9,
+        "distinctiveness_avg": 36.0,
+        "family_origins": {
+          "lab-report": 9
+        }
+      },
+      {
+        "atom_id": "content_treatment:instrument-calibration",
+        "atom_type": "content_treatment",
+        "value": "instrument calibration",
+        "frequency": 9,
+        "distinctiveness_avg": 37.89,
+        "family_origins": {
+          "lab-report": 9
+        }
+      },
+      {
+        "atom_id": "content_treatment:longitudinal-observations",
+        "atom_type": "content_treatment",
+        "value": "longitudinal observations",
+        "frequency": 9,
+        "distinctiveness_avg": 37.89,
+        "family_origins": {
+          "forest-research": 9
+        }
+      },
+      {
+        "atom_id": "content_treatment:longitudinal-run-summary",
+        "atom_type": "content_treatment",
+        "value": "longitudinal run summary",
+        "frequency": 9,
+        "distinctiveness_avg": 37.0,
+        "family_origins": {
+          "lab-report": 9
+        }
+      },
+      {
+        "atom_id": "content_treatment:method-comparisons",
+        "atom_type": "content_treatment",
+        "value": "method comparisons",
+        "frequency": 9,
+        "distinctiveness_avg": 36.89,
+        "family_origins": {
+          "forest-research": 9
+        }
+      },
+      {
+        "atom_id": "content_treatment:outcomes-by-arm",
+        "atom_type": "content_treatment",
+        "value": "outcomes by arm",
+        "frequency": 9,
+        "distinctiveness_avg": 37.0,
+        "family_origins": {
+          "executive-clinical": 9
+        }
+      },
+      {
+        "atom_id": "content_treatment:outcomes-summary",
+        "atom_type": "content_treatment",
+        "value": "outcomes summary",
+        "frequency": 9,
+        "distinctiveness_avg": 36.0,
+        "family_origins": {
+          "executive-clinical": 9
+        }
+      },
+      {
+        "atom_id": "content_treatment:phenology-notes",
+        "atom_type": "content_treatment",
+        "value": "phenology notes",
+        "frequency": 9,
+        "distinctiveness_avg": 37.89,
+        "family_origins": {
+          "forest-research": 9
+        }
+      },
+      {
+        "atom_id": "content_treatment:primary-endpoint-highlight",
+        "atom_type": "content_treatment",
+        "value": "primary endpoint highlight",
+        "frequency": 9,
+        "distinctiveness_avg": 36.89,
+        "family_origins": {
+          "executive-clinical": 9
+        }
+      },
+      {
+        "atom_id": "content_treatment:safety-endpoints",
+        "atom_type": "content_treatment",
+        "value": "safety endpoints",
+        "frequency": 9,
+        "distinctiveness_avg": 37.89,
+        "family_origins": {
+          "executive-clinical": 9
+        }
+      },
+      {
+        "atom_id": "content_treatment:site-narrative",
+        "atom_type": "content_treatment",
+        "value": "site narrative",
+        "frequency": 9,
+        "distinctiveness_avg": 37.0,
+        "family_origins": {
+          "forest-research": 9
+        }
+      },
+      {
+        "atom_id": "content_treatment:uncertainty-notes",
+        "atom_type": "content_treatment",
+        "value": "uncertainty notes",
+        "frequency": 9,
+        "distinctiveness_avg": 36.89,
+        "family_origins": {
+          "forest-research": 9
+        }
+      },
+      {
+        "atom_id": "content_treatment:blocker-list",
+        "atom_type": "content_treatment",
+        "value": "blocker list",
+        "frequency": 8,
+        "distinctiveness_avg": 39.25,
+        "family_origins": {
+          "lavender-ops": 8
+        }
+      },
+      {
+        "atom_id": "content_treatment:status-updates",
+        "atom_type": "content_treatment",
+        "value": "status updates",
+        "frequency": 8,
+        "distinctiveness_avg": 39.25,
+        "family_origins": {
+          "lavender-ops": 8
+        }
+      },
+      {
+        "atom_id": "content_treatment:protocol-summary",
+        "atom_type": "content_treatment",
+        "value": "protocol summary",
+        "frequency": 5,
+        "distinctiveness_avg": 36.0,
+        "family_origins": {
+          "lab-report": 5
+        }
+      },
+      {
+        "atom_id": "content_treatment:site-map",
+        "atom_type": "content_treatment",
+        "value": "site map",
+        "frequency": 5,
+        "distinctiveness_avg": 36.0,
+        "family_origins": {
+          "forest-research": 5
+        }
+      },
+      {
+        "atom_id": "content_treatment:endpoint-readout",
+        "atom_type": "content_treatment",
+        "value": "endpoint readout",
+        "frequency": 3,
+        "distinctiveness_avg": 37.33,
+        "family_origins": {
+          "executive-clinical": 3
+        }
+      },
+      {
+        "atom_id": "content_treatment:timeline-of-evidence",
+        "atom_type": "content_treatment",
+        "value": "timeline of evidence",
+        "frequency": 3,
+        "distinctiveness_avg": 37.33,
+        "family_origins": {
+          "executive-clinical": 3
+        }
+      }
+    ],
+    "header_treatment": [
+      {
+        "atom_id": "header_treatment:eyebrow",
+        "atom_type": "header_treatment",
+        "value": "eyebrow",
+        "frequency": 1241,
+        "distinctiveness_avg": 24.45,
+        "family_origins": {
+          "bold-startup-narrative": 635,
+          "editorial-minimal": 444,
+          "warm-terracotta": 162
+        }
+      },
+      {
+        "atom_id": "header_treatment:bar",
+        "atom_type": "header_treatment",
+        "value": "bar",
+        "frequency": 1233,
+        "distinctiveness_avg": 25.4,
+        "family_origins": {
+          "bold-startup-narrative": 635,
+          "charcoal-safety": 225,
+          "data-heavy-boardroom": 125,
+          "arctic-minimal": 124,
+          "lavender-ops": 60,
+          "midnight-neon": 32,
+          "sunset-investor": 30,
+          "forest-research": 1,
+          "lab-report": 1
+        }
+      },
+      {
+        "atom_id": "header_treatment:stack",
+        "atom_type": "header_treatment",
+        "value": "stack",
+        "frequency": 328,
+        "distinctiveness_avg": 24.0,
+        "family_origins": {
+          "paper-journal": 166,
+          "warm-terracotta": 162
+        }
+      },
+      {
+        "atom_id": "header_treatment:lab-clean",
+        "atom_type": "header_treatment",
+        "value": "lab-clean",
+        "frequency": 99,
+        "distinctiveness_avg": 34.11,
+        "family_origins": {
+          "lab-report": 60,
+          "executive-clinical": 39
+        }
+      }
+    ],
+    "decorative_motif": [
+      {
+        "atom_id": "decorative_motif:bold-call-to-action-strip",
+        "atom_type": "decorative_motif",
+        "value": "bold-call-to-action-strip",
+        "frequency": 635,
+        "distinctiveness_avg": 25.4,
+        "family_origins": {
+          "bold-startup-narrative": 635
+        }
+      },
+      {
+        "atom_id": "decorative_motif:punchy-pull-quote",
+        "atom_type": "decorative_motif",
+        "value": "punchy-pull-quote",
+        "frequency": 635,
+        "distinctiveness_avg": 25.4,
+        "family_origins": {
+          "bold-startup-narrative": 635
+        }
+      },
+      {
+        "atom_id": "decorative_motif:wide-margin-quiet-page",
+        "atom_type": "decorative_motif",
+        "value": "wide-margin-quiet-page",
+        "frequency": 568,
+        "distinctiveness_avg": 25.27,
+        "family_origins": {
+          "editorial-minimal": 444,
+          "arctic-minimal": 124
+        }
+      },
+      {
+        "atom_id": "decorative_motif:eyebrow-tag-above-title",
+        "atom_type": "decorative_motif",
+        "value": "eyebrow-tag-above-title",
+        "frequency": 444,
+        "distinctiveness_avg": 24.31,
+        "family_origins": {
+          "editorial-minimal": 444
+        }
+      },
+      {
+        "atom_id": "decorative_motif:timeline-axis-bottom",
+        "atom_type": "decorative_motif",
+        "value": "timeline-axis-bottom",
+        "frequency": 277,
+        "distinctiveness_avg": 22.6,
+        "family_origins": {
+          "charcoal-safety": 225,
+          "lavender-ops": 52
+        }
+      },
+      {
+        "atom_id": "decorative_motif:side-rail-citations",
+        "atom_type": "decorative_motif",
+        "value": "side-rail-citations",
+        "frequency": 226,
+        "distinctiveness_avg": 28.88,
+        "family_origins": {
+          "paper-journal": 166,
+          "forest-research": 60
+        }
+      },
+      {
+        "atom_id": "decorative_motif:matrix-grid-overlay",
+        "atom_type": "decorative_motif",
+        "value": "matrix-grid-overlay",
+        "frequency": 225,
+        "distinctiveness_avg": 21.13,
+        "family_origins": {
+          "charcoal-safety": 225
+        }
+      },
+      {
+        "atom_id": "decorative_motif:figure-plate-with-caption",
+        "atom_type": "decorative_motif",
+        "value": "figure-plate-with-caption",
+        "frequency": 203,
+        "distinctiveness_avg": 27.95,
+        "family_origins": {
+          "paper-journal": 166,
+          "forest-research": 37
+        }
+      },
+      {
+        "atom_id": "decorative_motif:soft-edge-card-cluster",
+        "atom_type": "decorative_motif",
+        "value": "soft-edge-card-cluster",
+        "frequency": 162,
+        "distinctiveness_avg": 21.05,
+        "family_origins": {
+          "warm-terracotta": 162
+        }
+      },
+      {
+        "atom_id": "decorative_motif:accent-strip-along-top",
+        "atom_type": "decorative_motif",
+        "value": "accent-strip-along-top",
+        "frequency": 157,
+        "distinctiveness_avg": 26.83,
+        "family_origins": {
+          "data-heavy-boardroom": 125,
+          "midnight-neon": 32
+        }
+      },
+      {
+        "atom_id": "decorative_motif:thin-frame-around-canvas",
+        "atom_type": "decorative_motif",
+        "value": "thin-frame-around-canvas",
+        "frequency": 124,
+        "distinctiveness_avg": 28.72,
+        "family_origins": {
+          "arctic-minimal": 124
+        }
+      },
+      {
+        "atom_id": "decorative_motif:thin-rule-under-title",
+        "atom_type": "decorative_motif",
+        "value": "thin-rule-under-title",
+        "frequency": 124,
+        "distinctiveness_avg": 28.72,
+        "family_origins": {
+          "arctic-minimal": 124
+        }
+      },
+      {
+        "atom_id": "decorative_motif:focus-box-right",
+        "atom_type": "decorative_motif",
+        "value": "focus-box-right",
+        "frequency": 60,
+        "distinctiveness_avg": 34.47,
+        "family_origins": {
+          "executive-clinical": 60
+        }
+      },
+      {
+        "atom_id": "decorative_motif:code-block-band",
+        "atom_type": "decorative_motif",
+        "value": "code-block-band",
+        "frequency": 32,
+        "distinctiveness_avg": 33.56,
+        "family_origins": {
+          "midnight-neon": 32
+        }
+      }
+    ],
+    "density": [
+      {
+        "atom_id": "density:medium",
+        "atom_type": "density",
+        "value": "medium",
+        "frequency": 1647,
+        "distinctiveness_avg": 26.02,
+        "family_origins": {
+          "bold-startup-narrative": 635,
+          "editorial-minimal": 444,
+          "paper-journal": 166,
+          "warm-terracotta": 162,
+          "executive-clinical": 60,
+          "lavender-ops": 60,
+          "forest-research": 60,
+          "lab-report": 60
+        }
+      },
+      {
+        "atom_id": "density:low",
+        "atom_type": "density",
+        "value": "low",
+        "frequency": 568,
+        "distinctiveness_avg": 25.27,
+        "family_origins": {
+          "editorial-minimal": 444,
+          "arctic-minimal": 124
+        }
+      },
+      {
+        "atom_id": "density:high",
+        "atom_type": "density",
+        "value": "high",
+        "frequency": 371,
+        "distinctiveness_avg": 23.12,
+        "family_origins": {
+          "charcoal-safety": 225,
+          "data-heavy-boardroom": 125,
+          "lab-report": 15,
+          "lavender-ops": 3,
+          "bold-startup-narrative": 2,
+          "forest-research": 1
+        }
+      }
+    ],
+    "arc_beat": [
+      {
+        "atom_id": "arc_beat:market",
+        "atom_type": "arc_beat",
+        "value": "market",
+        "frequency": 665,
+        "distinctiveness_avg": 25.44,
+        "family_origins": {
+          "bold-startup-narrative": 635,
+          "sunset-investor": 30
+        }
+      },
+      {
+        "atom_id": "arc_beat:problem",
+        "atom_type": "arc_beat",
+        "value": "problem",
+        "frequency": 635,
+        "distinctiveness_avg": 25.4,
+        "family_origins": {
+          "bold-startup-narrative": 635
+        }
+      },
+      {
+        "atom_id": "arc_beat:solution",
+        "atom_type": "arc_beat",
+        "value": "solution",
+        "frequency": 635,
+        "distinctiveness_avg": 25.4,
+        "family_origins": {
+          "bold-startup-narrative": 635
+        }
+      },
+      {
+        "atom_id": "arc_beat:traction",
+        "atom_type": "arc_beat",
+        "value": "traction",
+        "frequency": 635,
+        "distinctiveness_avg": 25.4,
+        "family_origins": {
+          "bold-startup-narrative": 635
+        }
+      },
+      {
+        "atom_id": "arc_beat:annotated",
+        "atom_type": "arc_beat",
+        "value": "annotated",
+        "frequency": 444,
+        "distinctiveness_avg": 24.31,
+        "family_origins": {
+          "editorial-minimal": 444
+        }
+      },
+      {
+        "atom_id": "arc_beat:voice",
+        "atom_type": "arc_beat",
+        "value": "voice",
+        "frequency": 444,
+        "distinctiveness_avg": 24.31,
+        "family_origins": {
+          "editorial-minimal": 444
+        }
+      },
+      {
+        "atom_id": "arc_beat:method",
+        "atom_type": "arc_beat",
+        "value": "method",
+        "frequency": 277,
+        "distinctiveness_avg": 29.92,
+        "family_origins": {
+          "paper-journal": 166,
+          "lab-report": 60,
+          "forest-research": 51
+        }
+      },
+      {
+        "atom_id": "arc_beat:references",
+        "atom_type": "arc_beat",
+        "value": "references",
+        "frequency": 226,
+        "distinctiveness_avg": 29.01,
+        "family_origins": {
+          "paper-journal": 166,
+          "lab-report": 60
+        }
+      },
+      {
+        "atom_id": "arc_beat:controls",
+        "atom_type": "arc_beat",
+        "value": "controls",
+        "frequency": 225,
+        "distinctiveness_avg": 21.13,
+        "family_origins": {
+          "charcoal-safety": 225
+        }
+      },
+      {
+        "atom_id": "arc_beat:mitigation",
+        "atom_type": "arc_beat",
+        "value": "mitigation",
+        "frequency": 225,
+        "distinctiveness_avg": 21.13,
+        "family_origins": {
+          "charcoal-safety": 225
+        }
+      },
+      {
+        "atom_id": "arc_beat:risk",
+        "atom_type": "arc_beat",
+        "value": "risk",
+        "frequency": 225,
+        "distinctiveness_avg": 21.13,
+        "family_origins": {
+          "charcoal-safety": 225
+        }
+      },
+      {
+        "atom_id": "arc_beat:field-findings",
+        "atom_type": "arc_beat",
+        "value": "field-findings",
+        "frequency": 204,
+        "distinctiveness_avg": 23.54,
+        "family_origins": {
+          "warm-terracotta": 162,
+          "forest-research": 42
+        }
+      },
+      {
+        "atom_id": "arc_beat:training",
+        "atom_type": "arc_beat",
+        "value": "training",
+        "frequency": 162,
+        "distinctiveness_avg": 21.05,
+        "family_origins": {
+          "warm-terracotta": 162
+        }
+      },
+      {
+        "atom_id": "arc_beat:workshop",
+        "atom_type": "arc_beat",
+        "value": "workshop",
+        "frequency": 162,
+        "distinctiveness_avg": 21.05,
+        "family_origins": {
+          "warm-terracotta": 162
+        }
+      },
+      {
+        "atom_id": "arc_beat:results",
+        "atom_type": "arc_beat",
+        "value": "results",
+        "frequency": 139,
+        "distinctiveness_avg": 33.14,
+        "family_origins": {
+          "forest-research": 60,
+          "lab-report": 60,
+          "paper-journal": 12,
+          "bold-startup-narrative": 2,
+          "charcoal-safety": 1,
+          "midnight-neon": 1,
+          "arctic-minimal": 1,
+          "editorial-minimal": 1,
+          "warm-terracotta": 1
+        }
+      },
+      {
+        "atom_id": "arc_beat:kpi-summary",
+        "atom_type": "arc_beat",
+        "value": "kpi-summary",
+        "frequency": 125,
+        "distinctiveness_avg": 25.11,
+        "family_origins": {
+          "data-heavy-boardroom": 125
+        }
+      },
+      {
+        "atom_id": "arc_beat:architecture",
+        "atom_type": "arc_beat",
+        "value": "architecture",
+        "frequency": 124,
+        "distinctiveness_avg": 28.72,
+        "family_origins": {
+          "arctic-minimal": 124
+        }
+      },
+      {
+        "atom_id": "arc_beat:trend",
+        "atom_type": "arc_beat",
+        "value": "trend",
+        "frequency": 120,
+        "distinctiveness_avg": 25.03,
+        "family_origins": {
+          "data-heavy-boardroom": 120
+        }
+      },
+      {
+        "atom_id": "arc_beat:variance",
+        "atom_type": "arc_beat",
+        "value": "variance",
+        "frequency": 120,
+        "distinctiveness_avg": 25.03,
+        "family_origins": {
+          "data-heavy-boardroom": 120
+        }
+      },
+      {
+        "atom_id": "arc_beat:decision",
+        "atom_type": "arc_beat",
+        "value": "decision",
+        "frequency": 60,
+        "distinctiveness_avg": 34.47,
+        "family_origins": {
+          "executive-clinical": 60
+        }
+      },
+      {
+        "atom_id": "arc_beat:roadmap",
+        "atom_type": "arc_beat",
+        "value": "roadmap",
+        "frequency": 60,
+        "distinctiveness_avg": 30.35,
+        "family_origins": {
+          "lavender-ops": 60
+        }
+      },
+      {
+        "atom_id": "arc_beat:workflow",
+        "atom_type": "arc_beat",
+        "value": "workflow",
+        "frequency": 60,
+        "distinctiveness_avg": 30.35,
+        "family_origins": {
+          "lavender-ops": 60
+        }
+      },
+      {
+        "atom_id": "arc_beat:risk-benefit",
+        "atom_type": "arc_beat",
+        "value": "risk-benefit",
+        "frequency": 51,
+        "distinctiveness_avg": 34.2,
+        "family_origins": {
+          "executive-clinical": 51
+        }
+      },
+      {
+        "atom_id": "arc_beat:status",
+        "atom_type": "arc_beat",
+        "value": "status",
+        "frequency": 51,
+        "distinctiveness_avg": 29.2,
+        "family_origins": {
+          "lavender-ops": 51
+        }
+      },
+      {
+        "atom_id": "arc_beat:cohort",
+        "atom_type": "arc_beat",
+        "value": "cohort",
+        "frequency": 48,
+        "distinctiveness_avg": 33.81,
+        "family_origins": {
+          "executive-clinical": 48
+        }
+      },
+      {
+        "atom_id": "arc_beat:operations",
+        "atom_type": "arc_beat",
+        "value": "operations",
+        "frequency": 43,
+        "distinctiveness_avg": 27.51,
+        "family_origins": {
+          "lavender-ops": 43
+        }
+      },
+      {
+        "atom_id": "arc_beat:demo",
+        "atom_type": "arc_beat",
+        "value": "demo",
+        "frequency": 32,
+        "distinctiveness_avg": 33.56,
+        "family_origins": {
+          "midnight-neon": 32
+        }
+      },
+      {
+        "atom_id": "arc_beat:model-card",
+        "atom_type": "arc_beat",
+        "value": "model-card",
+        "frequency": 32,
+        "distinctiveness_avg": 33.56,
+        "family_origins": {
+          "midnight-neon": 32
+        }
+      },
+      {
+        "atom_id": "arc_beat:security",
+        "atom_type": "arc_beat",
+        "value": "security",
+        "frequency": 32,
+        "distinctiveness_avg": 33.56,
+        "family_origins": {
+          "midnight-neon": 32
+        }
+      },
+      {
+        "atom_id": "arc_beat:ask",
+        "atom_type": "arc_beat",
+        "value": "ask",
+        "frequency": 30,
+        "distinctiveness_avg": 26.2,
+        "family_origins": {
+          "sunset-investor": 30
+        }
+      },
+      {
+        "atom_id": "arc_beat:financials",
+        "atom_type": "arc_beat",
+        "value": "financials",
+        "frequency": 30,
+        "distinctiveness_avg": 26.2,
+        "family_origins": {
+          "sunset-investor": 30
+        }
+      },
+      {
+        "atom_id": "arc_beat:model",
+        "atom_type": "arc_beat",
+        "value": "model",
+        "frequency": 30,
+        "distinctiveness_avg": 26.2,
+        "family_origins": {
+          "sunset-investor": 30
+        }
+      },
+      {
+        "atom_id": "arc_beat:outcomes",
+        "atom_type": "arc_beat",
+        "value": "outcomes",
+        "frequency": 21,
+        "distinctiveness_avg": 29.81,
+        "family_origins": {
+          "executive-clinical": 21
+        }
+      }
+    ],
+    "rhythm_signature": [
+      {
+        "atom_id": "rhythm_signature:punchy-claim-visual-proof",
+        "atom_type": "rhythm_signature",
+        "value": "punchy-claim+visual-proof",
+        "frequency": 635,
+        "distinctiveness_avg": 25.4,
+        "family_origins": {
+          "bold-startup-narrative": 635
+        }
+      },
+      {
+        "atom_id": "rhythm_signature:essay-spread-with-pauses",
+        "atom_type": "rhythm_signature",
+        "value": "essay-spread-with-pauses",
+        "frequency": 444,
+        "distinctiveness_avg": 24.31,
+        "family_origins": {
+          "editorial-minimal": 444
+        }
+      },
+      {
+        "atom_id": "rhythm_signature:method-then-results",
+        "atom_type": "rhythm_signature",
+        "value": "method-then-results",
+        "frequency": 226,
+        "distinctiveness_avg": 29.01,
+        "family_origins": {
+          "paper-journal": 166,
+          "lab-report": 60
+        }
+      },
+      {
+        "atom_id": "rhythm_signature:risk-then-control",
+        "atom_type": "rhythm_signature",
+        "value": "risk-then-control",
+        "frequency": 225,
+        "distinctiveness_avg": 21.13,
+        "family_origins": {
+          "charcoal-safety": 225
+        }
+      },
+      {
+        "atom_id": "rhythm_signature:human-scale-narrative",
+        "atom_type": "rhythm_signature",
+        "value": "human-scale-narrative",
+        "frequency": 162,
+        "distinctiveness_avg": 21.05,
+        "family_origins": {
+          "warm-terracotta": 162
+        }
+      },
+      {
+        "atom_id": "rhythm_signature:metric-driven-board-memo",
+        "atom_type": "rhythm_signature",
+        "value": "metric-driven-board-memo",
+        "frequency": 134,
+        "distinctiveness_avg": 24.99,
+        "family_origins": {
+          "data-heavy-boardroom": 125,
+          "lavender-ops": 3,
+          "bold-startup-narrative": 2,
+          "charcoal-safety": 2,
+          "forest-research": 1,
+          "lab-report": 1
+        }
+      },
+      {
+        "atom_id": "rhythm_signature:thin-rules-quiet-grid",
+        "atom_type": "rhythm_signature",
+        "value": "thin-rules-quiet-grid",
+        "frequency": 124,
+        "distinctiveness_avg": 28.72,
+        "family_origins": {
+          "arctic-minimal": 124
+        }
+      },
+      {
+        "atom_id": "rhythm_signature:chart-plus-interpretation",
+        "atom_type": "rhythm_signature",
+        "value": "chart-plus-interpretation",
+        "frequency": 60,
+        "distinctiveness_avg": 34.43,
+        "family_origins": {
+          "forest-research": 60
+        }
+      },
+      {
+        "atom_id": "rhythm_signature:evidence-brief-with-decision-strip",
+        "atom_type": "rhythm_signature",
+        "value": "evidence-brief-with-decision-strip",
+        "frequency": 60,
+        "distinctiveness_avg": 34.47,
+        "family_origins": {
+          "executive-clinical": 60
+        }
+      },
+      {
+        "atom_id": "rhythm_signature:operating-cadence-with-status-color",
+        "atom_type": "rhythm_signature",
+        "value": "operating-cadence-with-status-color",
+        "frequency": 60,
+        "distinctiveness_avg": 30.35,
+        "family_origins": {
+          "lavender-ops": 60
+        }
+      },
+      {
+        "atom_id": "rhythm_signature:console-with-headline-stat",
+        "atom_type": "rhythm_signature",
+        "value": "console-with-headline-stat",
+        "frequency": 32,
+        "distinctiveness_avg": 33.56,
+        "family_origins": {
+          "midnight-neon": 32
+        }
+      },
+      {
+        "atom_id": "rhythm_signature:investor-story-with-financial-spine",
+        "atom_type": "rhythm_signature",
+        "value": "investor-story-with-financial-spine",
+        "frequency": 30,
+        "distinctiveness_avg": 26.2,
+        "family_origins": {
+          "sunset-investor": 30
+        }
+      }
+    ],
+    "chart_treatment": [
+      {
+        "atom_id": "chart_treatment:sparse-wide",
+        "atom_type": "chart_treatment",
+        "value": "sparse-wide",
+        "frequency": 568,
+        "distinctiveness_avg": 25.27,
+        "family_origins": {
+          "editorial-minimal": 444,
+          "arctic-minimal": 124
+        }
+      },
+      {
+        "atom_id": "chart_treatment:threshold-band",
+        "atom_type": "chart_treatment",
+        "value": "threshold-band",
+        "frequency": 296,
+        "distinctiveness_avg": 24.02,
+        "family_origins": {
+          "charcoal-safety": 225,
+          "executive-clinical": 39,
+          "midnight-neon": 32
+        }
+      },
+      {
+        "atom_id": "chart_treatment:hero-stat",
+        "atom_type": "chart_treatment",
+        "value": "hero-stat",
+        "frequency": 173,
+        "distinctiveness_avg": 26.76,
+        "family_origins": {
+          "data-heavy-boardroom": 125,
+          "executive-clinical": 39,
+          "lavender-ops": 3,
+          "bold-startup-narrative": 2,
+          "charcoal-safety": 2,
+          "forest-research": 1,
+          "lab-report": 1
+        }
+      },
+      {
+        "atom_id": "chart_treatment:facts-right",
+        "atom_type": "chart_treatment",
+        "value": "facts-right",
+        "frequency": 166,
+        "distinctiveness_avg": 26.64,
+        "family_origins": {
+          "data-heavy-boardroom": 125,
+          "midnight-neon": 32,
+          "lavender-ops": 3,
+          "bold-startup-narrative": 2,
+          "charcoal-safety": 2,
+          "forest-research": 1,
+          "lab-report": 1
+        }
+      },
+      {
+        "atom_id": "chart_treatment:minimal",
+        "atom_type": "chart_treatment",
+        "value": "minimal",
+        "frequency": 124,
+        "distinctiveness_avg": 28.72,
+        "family_origins": {
+          "arctic-minimal": 124
+        }
+      },
+      {
+        "atom_id": "chart_treatment:facts-below",
+        "atom_type": "chart_treatment",
+        "value": "facts-below",
+        "frequency": 30,
+        "distinctiveness_avg": 26.2,
+        "family_origins": {
+          "sunset-investor": 30
+        }
+      }
+    ],
+    "footer_treatment": [
+      {
+        "atom_id": "footer_treatment:source-line",
+        "atom_type": "footer_treatment",
+        "value": "source-line",
+        "frequency": 694,
+        "distinctiveness_avg": 24.81,
+        "family_origins": {
+          "charcoal-safety": 225,
+          "paper-journal": 166,
+          "warm-terracotta": 162,
+          "forest-research": 60,
+          "executive-clinical": 51,
+          "sunset-investor": 30
+        }
+      },
+      {
+        "atom_id": "footer_treatment:standard",
+        "atom_type": "footer_treatment",
+        "value": "standard",
+        "frequency": 287,
+        "distinctiveness_avg": 22.82,
+        "family_origins": {
+          "warm-terracotta": 162,
+          "data-heavy-boardroom": 125
+        }
+      },
+      {
+        "atom_id": "footer_treatment:none",
+        "atom_type": "footer_treatment",
+        "value": "none",
+        "frequency": 32,
+        "distinctiveness_avg": 33.56,
+        "family_origins": {
+          "midnight-neon": 32
+        }
+      }
+    ],
+    "table_treatment": [
+      {
+        "atom_id": "table_treatment:journal-grid",
+        "atom_type": "table_treatment",
+        "value": "journal-grid",
+        "frequency": 290,
+        "distinctiveness_avg": 27.66,
+        "family_origins": {
+          "paper-journal": 166,
+          "arctic-minimal": 124
+        }
+      },
+      {
+        "atom_id": "table_treatment:decision-matrix",
+        "atom_type": "table_treatment",
+        "value": "decision-matrix",
+        "frequency": 225,
+        "distinctiveness_avg": 21.13,
+        "family_origins": {
+          "charcoal-safety": 225
+        }
+      },
+      {
+        "atom_id": "table_treatment:compact-ledger",
+        "atom_type": "table_treatment",
+        "value": "compact-ledger",
+        "frequency": 125,
+        "distinctiveness_avg": 25.11,
+        "family_origins": {
+          "data-heavy-boardroom": 125
+        }
+      },
+      {
+        "atom_id": "table_treatment:readout-sidecar",
+        "atom_type": "table_treatment",
+        "value": "readout-sidecar",
+        "frequency": 106,
+        "distinctiveness_avg": 34.16,
+        "family_origins": {
+          "executive-clinical": 60,
+          "forest-research": 37,
+          "lab-report": 9
+        }
+      }
+    ]
+  },
+  "indexes": {
+    "by_family": {
+      "bold-startup-narrative": {
+        "palette": {
+          "bold-accent": 635,
+          "high-contrast": 635,
+          "launch-color": 635
+        },
+        "typography": {
+          "large-decisive-headings": 635,
+          "short-proof-copy": 635
+        },
+        "layout_motif": {
+          "narrative-reveal": 635,
+          "product-proof": 635,
+          "market-wedge": 635
+        },
+        "content_treatment": {
+          "growth-loops": 635,
+          "problem-solution": 635,
+          "product-screenshots": 635,
+          "traction-proof": 635,
+          "ai-workflow": 292,
+          "agent-tooling-comparison": 292,
+          "kpi-summary": 2,
+          "dashboard-grid": 2,
+          "captioned-visual": 2,
+          "figure-plate": 2,
+          "annotated-charts": 2,
+          "trend-readout": 2,
+          "decision-matrix": 1,
+          "editable-tables": 1
+        },
+        "header_treatment": {
+          "bar": 635,
+          "eyebrow": 635
+        },
+        "decorative_motif": {
+          "bold-call-to-action-strip": 635,
+          "punchy-pull-quote": 635
+        },
+        "density": {
+          "medium": 635,
+          "high": 2
+        },
+        "arc_beat": {
+          "market": 635,
+          "problem": 635,
+          "solution": 635,
+          "traction": 635,
+          "results": 2
+        },
+        "rhythm_signature": {
+          "punchy-claim-visual-proof": 635,
+          "metric-driven-board-memo": 2
+        },
+        "chart_treatment": {
+          "facts-right": 2,
+          "hero-stat": 2
+        }
+      },
+      "editorial-minimal": {
+        "palette": {
+          "black-and-white": 444,
+          "single-accent": 444,
+          "gallery-white": 444
+        },
+        "typography": {
+          "magazine-like-heading": 444,
+          "measured-body-copy": 444
+        },
+        "layout_motif": {
+          "editorial-masthead": 444,
+          "large-image-text-contrast": 444,
+          "essay-spread": 444
+        },
+        "content_treatment": {
+          "annotated-examples": 444,
+          "image-led-spreads": 444,
+          "narrative-sections": 444,
+          "quotes": 444,
+          "ai-workflow": 89,
+          "agent-tooling-comparison": 89,
+          "captioned-visual": 7,
+          "figure-plate": 7,
+          "annotated-charts": 1,
+          "trend-readout": 1
+        },
+        "chart_treatment": {
+          "sparse-wide": 444
+        },
+        "header_treatment": {
+          "eyebrow": 444
+        },
+        "decorative_motif": {
+          "eyebrow-tag-above-title": 444,
+          "wide-margin-quiet-page": 444
+        },
+        "density": {
+          "low": 444,
+          "medium": 444
+        },
+        "arc_beat": {
+          "annotated": 444,
+          "voice": 444,
+          "results": 1
+        },
+        "rhythm_signature": {
+          "essay-spread-with-pauses": 444
+        }
+      },
+      "midnight-neon": {
+        "palette": {
+          "dark-canvas": 32,
+          "neon-cyan": 32,
+          "violet-accent": 32
+        },
+        "typography": {
+          "developer-talk-hierarchy": 32,
+          "monospace-labels": 32
+        },
+        "layout_motif": {
+          "dark-console": 32,
+          "code-demo-spread": 32,
+          "neon-metric-strip": 32
+        },
+        "content_treatment": {
+          "ai-workflow": 32,
+          "code-demos": 32,
+          "model-charts": 32,
+          "security-readouts": 32,
+          "agent-tooling-comparison": 28,
+          "annotated-charts": 1,
+          "trend-readout": 1
+        },
+        "chart_treatment": {
+          "facts-right": 32,
+          "threshold-band": 32
+        },
+        "header_treatment": {
+          "bar": 32
+        },
+        "footer_treatment": {
+          "none": 32
+        },
+        "decorative_motif": {
+          "accent-strip-along-top": 32,
+          "code-block-band": 32
+        },
+        "arc_beat": {
+          "demo": 32,
+          "model-card": 32,
+          "security": 32,
+          "results": 1
+        },
+        "rhythm_signature": {
+          "console-with-headline-stat": 32
+        }
+      },
+      "paper-journal": {
+        "palette": {
+          "paper": 166,
+          "black-ink": 166,
+          "subtle-rule": 166
+        },
+        "typography": {
+          "article-like-section-labels": 166,
+          "small-references": 166
+        },
+        "layout_motif": {
+          "journal-spread": 166,
+          "citation-rail": 166,
+          "equation-or-figure-plate": 166
+        },
+        "content_treatment": {
+          "bibliography": 166,
+          "equations": 166,
+          "method-comparison": 166,
+          "paper-summary": 166,
+          "ai-workflow": 34,
+          "agent-tooling-comparison": 34,
+          "annotated-charts": 12,
+          "trend-readout": 12,
+          "decision-matrix": 3,
+          "editable-tables": 3
+        },
+        "table_treatment": {
+          "journal-grid": 166
+        },
+        "header_treatment": {
+          "stack": 166
+        },
+        "footer_treatment": {
+          "source-line": 166
+        },
+        "decorative_motif": {
+          "figure-plate-with-caption": 166,
+          "side-rail-citations": 166
+        },
+        "density": {
+          "medium": 166
+        },
+        "arc_beat": {
+          "method": 166,
+          "references": 166,
+          "results": 12
+        },
+        "rhythm_signature": {
+          "method-then-results": 166
+        }
+      },
+      "arctic-minimal": {
+        "palette": {
+          "cool-gray": 124,
+          "ice-blue": 124,
+          "white-field": 124
+        },
+        "typography": {
+          "quiet-technical-labels": 124,
+          "low-contrast-metadata": 124
+        },
+        "layout_motif": {
+          "sparse-technical-grid": 124,
+          "thin-rules": 124,
+          "architecture-frame": 124
+        },
+        "content_treatment": {
+          "architecture-diagrams": 124,
+          "minimal-charts": 124,
+          "spec-tables": 124,
+          "technical-summaries": 124,
+          "ai-workflow": 11,
+          "agent-tooling-comparison": 11,
+          "captioned-visual": 3,
+          "figure-plate": 3,
+          "annotated-charts": 1,
+          "trend-readout": 1
+        },
+        "chart_treatment": {
+          "minimal": 124,
+          "sparse-wide": 124
+        },
+        "table_treatment": {
+          "journal-grid": 124
+        },
+        "header_treatment": {
+          "bar": 124
+        },
+        "decorative_motif": {
+          "thin-frame-around-canvas": 124,
+          "thin-rule-under-title": 124,
+          "wide-margin-quiet-page": 124
+        },
+        "density": {
+          "low": 124
+        },
+        "arc_beat": {
+          "architecture": 124,
+          "results": 1
+        },
+        "rhythm_signature": {
+          "thin-rules-quiet-grid": 124
+        }
+      },
+      "data-heavy-boardroom": {
+        "palette": {
+          "boardroom-neutral": 125,
+          "blue-gray": 125,
+          "status-color": 125
+        },
+        "typography": {
+          "dense-executive-labels": 125,
+          "numeric-hierarchy": 125
+        },
+        "layout_motif": {
+          "dashboard-grid": 125,
+          "kpi-rail": 125,
+          "board-memo-table": 125
+        },
+        "content_treatment": {
+          "kpi-cards": 125,
+          "dashboards": 125,
+          "trend-charts": 120,
+          "variance-tables": 120,
+          "ai-workflow": 80,
+          "agent-tooling-comparison": 80,
+          "kpi-summary": 20,
+          "dashboard-grid": 20,
+          "decision-matrix": 20,
+          "editable-tables": 20,
+          "captioned-visual": 4,
+          "figure-plate": 4
+        },
+        "chart_treatment": {
+          "facts-right": 125,
+          "hero-stat": 125
+        },
+        "table_treatment": {
+          "compact-ledger": 125
+        },
+        "header_treatment": {
+          "bar": 125
+        },
+        "footer_treatment": {
+          "standard": 125
+        },
+        "decorative_motif": {
+          "accent-strip-along-top": 125
+        },
+        "density": {
+          "high": 125
+        },
+        "arc_beat": {
+          "kpi-summary": 125,
+          "trend": 120,
+          "variance": 120
+        },
+        "rhythm_signature": {
+          "metric-driven-board-memo": 125
+        }
+      },
+      "executive-clinical": {
+        "palette": {
+          "clinical-blue": 30,
+          "white": 30,
+          "status-accent": 30,
+          "ink": 15,
+          "clinical-neutral": 15,
+          "decisive-accent": 15,
+          "navy": 15,
+          "pale": 15,
+          "warning-accent": 15
+        },
+        "typography": {
+          "executive-headings": 28,
+          "readable-metric-labels": 28,
+          "decisive-headings": 16,
+          "metric-pair-labels": 16,
+          "briefing-headings": 16,
+          "evidence-labels": 16
+        },
+        "layout_motif": {
+          "decision-readout": 60,
+          "executive-evidence-brief": 39,
+          "clinical-kpi-strip": 39,
+          "safety-focused-band": 21,
+          "cohort-strip": 21
+        },
+        "content_treatment": {
+          "decision-tables": 51,
+          "risk-benefit": 51,
+          "patient-cohorts": 48,
+          "clinical-outcomes": 21,
+          "primary-endpoint-highlight": 9,
+          "decision-strip": 9,
+          "outcomes-summary": 9,
+          "safety-endpoints": 9,
+          "cohort-comparison": 9,
+          "outcomes-by-arm": 9,
+          "ai-workflow": 3,
+          "agent-tooling-comparison": 3,
+          "timeline-of-evidence": 3,
+          "endpoint-readout": 3
+        },
+        "chart_treatment": {
+          "hero-stat": 39,
+          "threshold-band": 39
+        },
+        "table_treatment": {
+          "readout-sidecar": 60
+        },
+        "header_treatment": {
+          "lab-clean": 39
+        },
+        "footer_treatment": {
+          "source-line": 51
+        },
+        "decorative_motif": {
+          "focus-box-right": 60
+        },
+        "density": {
+          "medium": 60
+        },
+        "arc_beat": {
+          "decision": 60,
+          "risk-benefit": 51,
+          "cohort": 48,
+          "outcomes": 21
+        },
+        "rhythm_signature": {
+          "evidence-brief-with-decision-strip": 60
+        }
+      },
+      "sunset-investor": {
+        "palette": {
+          "warm-accent": 30,
+          "deep-neutral": 30,
+          "deal-room-highlight": 30
+        },
+        "typography": {
+          "investor-memo-headings": 30,
+          "concise-numbers": 30
+        },
+        "layout_motif": {
+          "investor-storyline": 30,
+          "market-sizing": 30,
+          "financial-bridge": 30
+        },
+        "content_treatment": {
+          "ask-use-of-funds": 30,
+          "business-model": 30,
+          "financial-chart": 30,
+          "market-map": 30,
+          "ai-workflow": 8,
+          "agent-tooling-comparison": 8
+        },
+        "chart_treatment": {
+          "facts-below": 30
+        },
+        "header_treatment": {
+          "bar": 30
+        },
+        "footer_treatment": {
+          "source-line": 30
+        },
+        "arc_beat": {
+          "ask": 30,
+          "financials": 30,
+          "market": 30,
+          "model": 30
+        },
+        "rhythm_signature": {
+          "investor-story-with-financial-spine": 30
+        }
+      },
+      "charcoal-safety": {
+        "palette": {
+          "charcoal": 225,
+          "signal-red": 225,
+          "amber-status": 225
+        },
+        "typography": {
+          "risk-memo-labels": 225,
+          "compact-controls": 225
+        },
+        "layout_motif": {
+          "risk-register": 225,
+          "incident-timeline": 225,
+          "control-matrix": 225
+        },
+        "content_treatment": {
+          "control-tables": 225,
+          "incident-summaries": 225,
+          "mitigation-plans": 225,
+          "risk-matrix": 225,
+          "ai-workflow": 26,
+          "agent-tooling-comparison": 26,
+          "kpi-summary": 2,
+          "dashboard-grid": 2,
+          "captioned-visual": 2,
+          "figure-plate": 2,
+          "annotated-charts": 1,
+          "trend-readout": 1
+        },
+        "chart_treatment": {
+          "threshold-band": 225,
+          "facts-right": 2,
+          "hero-stat": 2
+        },
+        "table_treatment": {
+          "decision-matrix": 225
+        },
+        "header_treatment": {
+          "bar": 225
+        },
+        "footer_treatment": {
+          "source-line": 225
+        },
+        "decorative_motif": {
+          "matrix-grid-overlay": 225,
+          "timeline-axis-bottom": 225
+        },
+        "density": {
+          "high": 225
+        },
+        "arc_beat": {
+          "controls": 225,
+          "mitigation": 225,
+          "risk": 225,
+          "results": 1
+        },
+        "rhythm_signature": {
+          "risk-then-control": 225,
+          "metric-driven-board-memo": 2
+        }
+      },
+      "lavender-ops": {
+        "palette": {
+          "lavender-accent": 37,
+          "cool-neutral": 37,
+          "soft-status": 37,
+          "lilac": 12,
+          "slate": 12,
+          "status-accent": 12,
+          "periwinkle": 11,
+          "pale-neutral": 11,
+          "blocker-red": 11
+        },
+        "typography": {
+          "ops-labels": 37,
+          "planning-metadata": 37,
+          "operational-labels": 12,
+          "weekly-metadata-text": 12,
+          "squad-headings": 11,
+          "status-pair-labels": 11
+        },
+        "layout_motif": {
+          "workflow-board": 60,
+          "roadmap-bands": 60,
+          "operating-cadence": 52,
+          "status-rail-dominant": 8
+        },
+        "content_treatment": {
+          "roadmaps": 60,
+          "team-status": 51,
+          "operating-metrics": 43,
+          "workflow-diagrams": 43,
+          "cadence-summary": 9,
+          "dependencies": 9,
+          "status-updates": 8,
+          "blocker-list": 8,
+          "ai-workflow": 5,
+          "agent-tooling-comparison": 5,
+          "kpi-summary": 3,
+          "dashboard-grid": 3,
+          "decision-matrix": 2,
+          "editable-tables": 2
+        },
+        "header_treatment": {
+          "bar": 60
+        },
+        "decorative_motif": {
+          "timeline-axis-bottom": 52
+        },
+        "density": {
+          "medium": 60,
+          "high": 3
+        },
+        "arc_beat": {
+          "roadmap": 60,
+          "workflow": 60,
+          "status": 51,
+          "operations": 43
+        },
+        "rhythm_signature": {
+          "operating-cadence-with-status-color": 60,
+          "metric-driven-board-memo": 3
+        },
+        "chart_treatment": {
+          "facts-right": 3,
+          "hero-stat": 3
+        }
+      },
+      "warm-terracotta": {
+        "palette": {
+          "terracotta": 162,
+          "warm-neutral": 162,
+          "public-service-accent": 162
+        },
+        "typography": {
+          "human-scale-headings": 162,
+          "plain-language-labels": 162
+        },
+        "layout_motif": {
+          "workshop-canvas": 162,
+          "civic-explainer": 162,
+          "field-report": 162
+        },
+        "content_treatment": {
+          "ai-workflow": 162,
+          "agent-tooling-comparison": 162,
+          "community-findings": 162,
+          "policy-summaries": 162,
+          "training-steps": 162,
+          "workshop-prompts": 162,
+          "annotated-charts": 1,
+          "trend-readout": 1,
+          "captioned-visual": 1,
+          "figure-plate": 1,
+          "decision-matrix": 1,
+          "editable-tables": 1
+        },
+        "header_treatment": {
+          "eyebrow": 162,
+          "stack": 162
+        },
+        "footer_treatment": {
+          "source-line": 162,
+          "standard": 162
+        },
+        "decorative_motif": {
+          "soft-edge-card-cluster": 162
+        },
+        "density": {
+          "medium": 162
+        },
+        "arc_beat": {
+          "field-findings": 162,
+          "training": 162,
+          "workshop": 162,
+          "results": 1
+        },
+        "rhythm_signature": {
+          "human-scale-narrative": 162
+        }
+      },
+      "forest-research": {
+        "palette": {
+          "earth-neutral": 28,
+          "forest-green": 18,
+          "moss-accent": 18,
+          "bark-brown": 17,
+          "sage": 17,
+          "muted-leaf": 17,
+          "paper": 15,
+          "ink": 15,
+          "forest-accent": 15,
+          "soft-green": 10,
+          "paper-white": 10
+        },
+        "typography": {
+          "field-report-headings": 17,
+          "annotated-caption-pairs": 17,
+          "plain-language-labels": 17,
+          "small-references": 17,
+          "sober-research-headings": 16,
+          "footnoted-method-text": 16,
+          "research-report-hierarchy": 10,
+          "caption-forward-labels": 10
+        },
+        "layout_motif": {
+          "field-note-sidebars": 60,
+          "chart-plus-interpretation": 60,
+          "evidence-plates": 37,
+          "longitudinal-monitoring-strip": 23
+        },
+        "content_treatment": {
+          "plots": 60,
+          "study-design": 46,
+          "field-observations": 42,
+          "method-caveats": 33,
+          "uncertainty-notes": 9,
+          "method-comparisons": 9,
+          "dataset-breakdown": 9,
+          "longitudinal-observations": 9,
+          "phenology-notes": 9,
+          "annotated-photos": 9,
+          "site-narrative": 9,
+          "ai-workflow": 8,
+          "agent-tooling-comparison": 8,
+          "site-map": 5,
+          "annotated-charts": 1,
+          "trend-readout": 1,
+          "kpi-summary": 1,
+          "dashboard-grid": 1,
+          "decision-matrix": 1,
+          "editable-tables": 1
+        },
+        "table_treatment": {
+          "readout-sidecar": 37
+        },
+        "footer_treatment": {
+          "source-line": 60
+        },
+        "decorative_motif": {
+          "side-rail-citations": 60,
+          "figure-plate-with-caption": 37
+        },
+        "density": {
+          "medium": 60,
+          "high": 1
+        },
+        "arc_beat": {
+          "results": 60,
+          "method": 51,
+          "field-findings": 42
+        },
+        "rhythm_signature": {
+          "chart-plus-interpretation": 60,
+          "metric-driven-board-memo": 1
+        },
+        "chart_treatment": {
+          "facts-right": 1,
+          "hero-stat": 1
+        },
+        "header_treatment": {
+          "bar": 1
+        }
+      },
+      "lab-report": {
+        "palette": {
+          "paper": 18,
+          "black-ink": 18,
+          "subtle-rule": 18,
+          "clinical-blue": 17,
+          "white": 17,
+          "status-accent": 17,
+          "ink": 15,
+          "soft-cream": 15,
+          "muted-accent": 15,
+          "white-lab-canvas": 10,
+          "muted-cyan-accent": 10,
+          "ink-grid": 10
+        },
+        "typography": {
+          "caption-rich-evidence": 27,
+          "method-block-headings": 17,
+          "quiet-technical-labels": 17,
+          "evidence-caption-pairs": 17,
+          "measured-body-copy": 16,
+          "small-references": 16,
+          "compact-scientific-headings": 10
+        },
+        "layout_motif": {
+          "result-table": 60,
+          "source-footer": 60,
+          "figure-first": 46,
+          "method-readout": 46,
+          "longitudinal-run-strip": 14,
+          "method-block": 14
+        },
+        "content_treatment": {
+          "references": 60,
+          "scientific-figures": 60,
+          "assay-tables": 55,
+          "run-metadata": 19,
+          "qc-passes": 14,
+          "cohort-breakdown": 9,
+          "demographic-notes": 9,
+          "footnotes": 9,
+          "instrument-calibration": 9,
+          "longitudinal-run-summary": 9,
+          "ai-workflow": 8,
+          "agent-tooling-comparison": 8,
+          "protocol-summary": 5,
+          "method-comparison": 5,
+          "kpi-summary": 1,
+          "dashboard-grid": 1
+        },
+        "header_treatment": {
+          "lab-clean": 60,
+          "bar": 1
+        },
+        "density": {
+          "medium": 60,
+          "high": 15
+        },
+        "arc_beat": {
+          "method": 60,
+          "references": 60,
+          "results": 60
+        },
+        "rhythm_signature": {
+          "method-then-results": 60,
+          "metric-driven-board-memo": 1
+        },
+        "chart_treatment": {
+          "facts-right": 1,
+          "hero-stat": 1
+        },
+        "table_treatment": {
+          "readout-sidecar": 9
+        }
+      }
+    }
+  },
+  "co_occurrence_top": [
+    {
+      "pair": [
+        "density:medium",
+        "header_treatment:eyebrow"
+      ],
+      "count": 1241
+    },
+    {
+      "pair": [
+        "content_treatment:agent-tooling-comparison",
+        "content_treatment:ai-workflow"
+      ],
+      "count": 754
+    },
+    {
+      "pair": [
+        "density:medium",
+        "header_treatment:bar"
+      ],
+      "count": 697
+    },
+    {
+      "pair": [
+        "arc_beat:market",
+        "header_treatment:bar"
+      ],
+      "count": 665
+    },
+    {
+      "pair": [
+        "palette:bold-accent",
+        "palette:high-contrast"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "palette:bold-accent",
+        "palette:launch-color"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "palette:bold-accent",
+        "typography:large-decisive-headings"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "palette:bold-accent",
+        "typography:short-proof-copy"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "layout_motif:narrative-reveal",
+        "palette:bold-accent"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "layout_motif:product-proof",
+        "palette:bold-accent"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "layout_motif:market-wedge",
+        "palette:bold-accent"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:growth-loops",
+        "palette:bold-accent"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:problem-solution",
+        "palette:bold-accent"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:product-screenshots",
+        "palette:bold-accent"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:traction-proof",
+        "palette:bold-accent"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "header_treatment:bar",
+        "palette:bold-accent"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "header_treatment:eyebrow",
+        "palette:bold-accent"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "decorative_motif:bold-call-to-action-strip",
+        "palette:bold-accent"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "decorative_motif:punchy-pull-quote",
+        "palette:bold-accent"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "density:medium",
+        "palette:bold-accent"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:market",
+        "palette:bold-accent"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:problem",
+        "palette:bold-accent"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:solution",
+        "palette:bold-accent"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:traction",
+        "palette:bold-accent"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "palette:bold-accent",
+        "rhythm_signature:punchy-claim-visual-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "palette:high-contrast",
+        "palette:launch-color"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "palette:high-contrast",
+        "typography:large-decisive-headings"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "palette:high-contrast",
+        "typography:short-proof-copy"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "layout_motif:narrative-reveal",
+        "palette:high-contrast"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "layout_motif:product-proof",
+        "palette:high-contrast"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "layout_motif:market-wedge",
+        "palette:high-contrast"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:growth-loops",
+        "palette:high-contrast"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:problem-solution",
+        "palette:high-contrast"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:product-screenshots",
+        "palette:high-contrast"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:traction-proof",
+        "palette:high-contrast"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "header_treatment:bar",
+        "palette:high-contrast"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "header_treatment:eyebrow",
+        "palette:high-contrast"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "decorative_motif:bold-call-to-action-strip",
+        "palette:high-contrast"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "decorative_motif:punchy-pull-quote",
+        "palette:high-contrast"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "density:medium",
+        "palette:high-contrast"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:market",
+        "palette:high-contrast"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:problem",
+        "palette:high-contrast"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:solution",
+        "palette:high-contrast"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:traction",
+        "palette:high-contrast"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "palette:high-contrast",
+        "rhythm_signature:punchy-claim-visual-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "palette:launch-color",
+        "typography:large-decisive-headings"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "palette:launch-color",
+        "typography:short-proof-copy"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "layout_motif:narrative-reveal",
+        "palette:launch-color"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "layout_motif:product-proof",
+        "palette:launch-color"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "layout_motif:market-wedge",
+        "palette:launch-color"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:growth-loops",
+        "palette:launch-color"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:problem-solution",
+        "palette:launch-color"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:product-screenshots",
+        "palette:launch-color"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:traction-proof",
+        "palette:launch-color"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "header_treatment:bar",
+        "palette:launch-color"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "header_treatment:eyebrow",
+        "palette:launch-color"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "decorative_motif:bold-call-to-action-strip",
+        "palette:launch-color"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "decorative_motif:punchy-pull-quote",
+        "palette:launch-color"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "density:medium",
+        "palette:launch-color"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:market",
+        "palette:launch-color"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:problem",
+        "palette:launch-color"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:solution",
+        "palette:launch-color"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:traction",
+        "palette:launch-color"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "palette:launch-color",
+        "rhythm_signature:punchy-claim-visual-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "typography:large-decisive-headings",
+        "typography:short-proof-copy"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "layout_motif:narrative-reveal",
+        "typography:large-decisive-headings"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "layout_motif:product-proof",
+        "typography:large-decisive-headings"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "layout_motif:market-wedge",
+        "typography:large-decisive-headings"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:growth-loops",
+        "typography:large-decisive-headings"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:problem-solution",
+        "typography:large-decisive-headings"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:product-screenshots",
+        "typography:large-decisive-headings"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:traction-proof",
+        "typography:large-decisive-headings"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "header_treatment:bar",
+        "typography:large-decisive-headings"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "header_treatment:eyebrow",
+        "typography:large-decisive-headings"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "decorative_motif:bold-call-to-action-strip",
+        "typography:large-decisive-headings"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "decorative_motif:punchy-pull-quote",
+        "typography:large-decisive-headings"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "density:medium",
+        "typography:large-decisive-headings"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:market",
+        "typography:large-decisive-headings"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:problem",
+        "typography:large-decisive-headings"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:solution",
+        "typography:large-decisive-headings"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:traction",
+        "typography:large-decisive-headings"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "rhythm_signature:punchy-claim-visual-proof",
+        "typography:large-decisive-headings"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "layout_motif:narrative-reveal",
+        "typography:short-proof-copy"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "layout_motif:product-proof",
+        "typography:short-proof-copy"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "layout_motif:market-wedge",
+        "typography:short-proof-copy"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:growth-loops",
+        "typography:short-proof-copy"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:problem-solution",
+        "typography:short-proof-copy"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:product-screenshots",
+        "typography:short-proof-copy"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:traction-proof",
+        "typography:short-proof-copy"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "header_treatment:bar",
+        "typography:short-proof-copy"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "header_treatment:eyebrow",
+        "typography:short-proof-copy"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "decorative_motif:bold-call-to-action-strip",
+        "typography:short-proof-copy"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "decorative_motif:punchy-pull-quote",
+        "typography:short-proof-copy"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "density:medium",
+        "typography:short-proof-copy"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:market",
+        "typography:short-proof-copy"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:problem",
+        "typography:short-proof-copy"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:solution",
+        "typography:short-proof-copy"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:traction",
+        "typography:short-proof-copy"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "rhythm_signature:punchy-claim-visual-proof",
+        "typography:short-proof-copy"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "layout_motif:narrative-reveal",
+        "layout_motif:product-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "layout_motif:market-wedge",
+        "layout_motif:narrative-reveal"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:growth-loops",
+        "layout_motif:narrative-reveal"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:problem-solution",
+        "layout_motif:narrative-reveal"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:product-screenshots",
+        "layout_motif:narrative-reveal"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:traction-proof",
+        "layout_motif:narrative-reveal"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "header_treatment:bar",
+        "layout_motif:narrative-reveal"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "header_treatment:eyebrow",
+        "layout_motif:narrative-reveal"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "decorative_motif:bold-call-to-action-strip",
+        "layout_motif:narrative-reveal"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "decorative_motif:punchy-pull-quote",
+        "layout_motif:narrative-reveal"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "density:medium",
+        "layout_motif:narrative-reveal"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:market",
+        "layout_motif:narrative-reveal"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:problem",
+        "layout_motif:narrative-reveal"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:solution",
+        "layout_motif:narrative-reveal"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:traction",
+        "layout_motif:narrative-reveal"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "layout_motif:narrative-reveal",
+        "rhythm_signature:punchy-claim-visual-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "layout_motif:market-wedge",
+        "layout_motif:product-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:growth-loops",
+        "layout_motif:product-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:problem-solution",
+        "layout_motif:product-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:product-screenshots",
+        "layout_motif:product-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:traction-proof",
+        "layout_motif:product-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "header_treatment:bar",
+        "layout_motif:product-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "header_treatment:eyebrow",
+        "layout_motif:product-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "decorative_motif:bold-call-to-action-strip",
+        "layout_motif:product-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "decorative_motif:punchy-pull-quote",
+        "layout_motif:product-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "density:medium",
+        "layout_motif:product-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:market",
+        "layout_motif:product-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:problem",
+        "layout_motif:product-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:solution",
+        "layout_motif:product-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:traction",
+        "layout_motif:product-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "layout_motif:product-proof",
+        "rhythm_signature:punchy-claim-visual-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:growth-loops",
+        "layout_motif:market-wedge"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:problem-solution",
+        "layout_motif:market-wedge"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:product-screenshots",
+        "layout_motif:market-wedge"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:traction-proof",
+        "layout_motif:market-wedge"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "header_treatment:bar",
+        "layout_motif:market-wedge"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "header_treatment:eyebrow",
+        "layout_motif:market-wedge"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "decorative_motif:bold-call-to-action-strip",
+        "layout_motif:market-wedge"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "decorative_motif:punchy-pull-quote",
+        "layout_motif:market-wedge"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "density:medium",
+        "layout_motif:market-wedge"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:market",
+        "layout_motif:market-wedge"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:problem",
+        "layout_motif:market-wedge"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:solution",
+        "layout_motif:market-wedge"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:traction",
+        "layout_motif:market-wedge"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "layout_motif:market-wedge",
+        "rhythm_signature:punchy-claim-visual-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:growth-loops",
+        "content_treatment:problem-solution"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:growth-loops",
+        "content_treatment:product-screenshots"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:growth-loops",
+        "content_treatment:traction-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:growth-loops",
+        "header_treatment:bar"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:growth-loops",
+        "header_treatment:eyebrow"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:growth-loops",
+        "decorative_motif:bold-call-to-action-strip"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:growth-loops",
+        "decorative_motif:punchy-pull-quote"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:growth-loops",
+        "density:medium"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:market",
+        "content_treatment:growth-loops"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:problem",
+        "content_treatment:growth-loops"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:solution",
+        "content_treatment:growth-loops"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:traction",
+        "content_treatment:growth-loops"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:growth-loops",
+        "rhythm_signature:punchy-claim-visual-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:problem-solution",
+        "content_treatment:product-screenshots"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:problem-solution",
+        "content_treatment:traction-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:problem-solution",
+        "header_treatment:bar"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:problem-solution",
+        "header_treatment:eyebrow"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:problem-solution",
+        "decorative_motif:bold-call-to-action-strip"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:problem-solution",
+        "decorative_motif:punchy-pull-quote"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:problem-solution",
+        "density:medium"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:market",
+        "content_treatment:problem-solution"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:problem",
+        "content_treatment:problem-solution"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:solution",
+        "content_treatment:problem-solution"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:traction",
+        "content_treatment:problem-solution"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:problem-solution",
+        "rhythm_signature:punchy-claim-visual-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:product-screenshots",
+        "content_treatment:traction-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:product-screenshots",
+        "header_treatment:bar"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:product-screenshots",
+        "header_treatment:eyebrow"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:product-screenshots",
+        "decorative_motif:bold-call-to-action-strip"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:product-screenshots",
+        "decorative_motif:punchy-pull-quote"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:product-screenshots",
+        "density:medium"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:market",
+        "content_treatment:product-screenshots"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:problem",
+        "content_treatment:product-screenshots"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:solution",
+        "content_treatment:product-screenshots"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:traction",
+        "content_treatment:product-screenshots"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:product-screenshots",
+        "rhythm_signature:punchy-claim-visual-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:traction-proof",
+        "header_treatment:bar"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:traction-proof",
+        "header_treatment:eyebrow"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:traction-proof",
+        "decorative_motif:bold-call-to-action-strip"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:traction-proof",
+        "decorative_motif:punchy-pull-quote"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:traction-proof",
+        "density:medium"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:market",
+        "content_treatment:traction-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:problem",
+        "content_treatment:traction-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:solution",
+        "content_treatment:traction-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:traction",
+        "content_treatment:traction-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:traction-proof",
+        "rhythm_signature:punchy-claim-visual-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "header_treatment:bar",
+        "header_treatment:eyebrow"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "decorative_motif:bold-call-to-action-strip",
+        "header_treatment:bar"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "decorative_motif:punchy-pull-quote",
+        "header_treatment:bar"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:problem",
+        "header_treatment:bar"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:solution",
+        "header_treatment:bar"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:traction",
+        "header_treatment:bar"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "header_treatment:bar",
+        "rhythm_signature:punchy-claim-visual-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "decorative_motif:bold-call-to-action-strip",
+        "header_treatment:eyebrow"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "decorative_motif:punchy-pull-quote",
+        "header_treatment:eyebrow"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:market",
+        "header_treatment:eyebrow"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:problem",
+        "header_treatment:eyebrow"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:solution",
+        "header_treatment:eyebrow"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:traction",
+        "header_treatment:eyebrow"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "header_treatment:eyebrow",
+        "rhythm_signature:punchy-claim-visual-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "decorative_motif:bold-call-to-action-strip",
+        "decorative_motif:punchy-pull-quote"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "decorative_motif:bold-call-to-action-strip",
+        "density:medium"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:market",
+        "decorative_motif:bold-call-to-action-strip"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:problem",
+        "decorative_motif:bold-call-to-action-strip"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:solution",
+        "decorative_motif:bold-call-to-action-strip"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:traction",
+        "decorative_motif:bold-call-to-action-strip"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "decorative_motif:bold-call-to-action-strip",
+        "rhythm_signature:punchy-claim-visual-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "decorative_motif:punchy-pull-quote",
+        "density:medium"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:market",
+        "decorative_motif:punchy-pull-quote"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:problem",
+        "decorative_motif:punchy-pull-quote"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:solution",
+        "decorative_motif:punchy-pull-quote"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:traction",
+        "decorative_motif:punchy-pull-quote"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "decorative_motif:punchy-pull-quote",
+        "rhythm_signature:punchy-claim-visual-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:market",
+        "density:medium"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:problem",
+        "density:medium"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:solution",
+        "density:medium"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:traction",
+        "density:medium"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "density:medium",
+        "rhythm_signature:punchy-claim-visual-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:market",
+        "arc_beat:problem"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:market",
+        "arc_beat:solution"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:market",
+        "arc_beat:traction"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:market",
+        "rhythm_signature:punchy-claim-visual-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:problem",
+        "arc_beat:solution"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:problem",
+        "arc_beat:traction"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:problem",
+        "rhythm_signature:punchy-claim-visual-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:solution",
+        "arc_beat:traction"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:solution",
+        "rhythm_signature:punchy-claim-visual-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "arc_beat:traction",
+        "rhythm_signature:punchy-claim-visual-proof"
+      ],
+      "count": 635
+    },
+    {
+      "pair": [
+        "content_treatment:ai-workflow",
+        "density:medium"
+      ],
+      "count": 601
+    },
+    {
+      "pair": [
+        "content_treatment:agent-tooling-comparison",
+        "density:medium"
+      ],
+      "count": 601
+    },
+    {
+      "pair": [
+        "chart_treatment:sparse-wide",
+        "decorative_motif:wide-margin-quiet-page"
+      ],
+      "count": 568
+    },
+    {
+      "pair": [
+        "chart_treatment:sparse-wide",
+        "density:low"
+      ],
+      "count": 568
+    },
+    {
+      "pair": [
+        "decorative_motif:wide-margin-quiet-page",
+        "density:low"
+      ],
+      "count": 568
+    },
+    {
+      "pair": [
+        "content_treatment:ai-workflow",
+        "header_treatment:eyebrow"
+      ],
+      "count": 543
+    },
+    {
+      "pair": [
+        "content_treatment:agent-tooling-comparison",
+        "header_treatment:eyebrow"
+      ],
+      "count": 543
+    },
+    {
+      "pair": [
+        "density:medium",
+        "typography:measured-body-copy"
+      ],
+      "count": 460
+    },
+    {
+      "pair": [
+        "content_treatment:ai-workflow",
+        "header_treatment:bar"
+      ],
+      "count": 454
+    },
+    {
+      "pair": [
+        "content_treatment:agent-tooling-comparison",
+        "header_treatment:bar"
+      ],
+      "count": 450
+    },
+    {
+      "pair": [
+        "palette:black-and-white",
+        "palette:single-accent"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "palette:black-and-white",
+        "palette:gallery-white"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "palette:black-and-white",
+        "typography:magazine-like-heading"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "palette:black-and-white",
+        "typography:measured-body-copy"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "layout_motif:editorial-masthead",
+        "palette:black-and-white"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "layout_motif:large-image-text-contrast",
+        "palette:black-and-white"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "layout_motif:essay-spread",
+        "palette:black-and-white"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:annotated-examples",
+        "palette:black-and-white"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:image-led-spreads",
+        "palette:black-and-white"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:narrative-sections",
+        "palette:black-and-white"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:quotes",
+        "palette:black-and-white"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "chart_treatment:sparse-wide",
+        "palette:black-and-white"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "header_treatment:eyebrow",
+        "palette:black-and-white"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "decorative_motif:eyebrow-tag-above-title",
+        "palette:black-and-white"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "decorative_motif:wide-margin-quiet-page",
+        "palette:black-and-white"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "density:low",
+        "palette:black-and-white"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "density:medium",
+        "palette:black-and-white"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:annotated",
+        "palette:black-and-white"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:voice",
+        "palette:black-and-white"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "palette:black-and-white",
+        "rhythm_signature:essay-spread-with-pauses"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "palette:gallery-white",
+        "palette:single-accent"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "palette:single-accent",
+        "typography:magazine-like-heading"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "palette:single-accent",
+        "typography:measured-body-copy"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "layout_motif:editorial-masthead",
+        "palette:single-accent"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "layout_motif:large-image-text-contrast",
+        "palette:single-accent"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "layout_motif:essay-spread",
+        "palette:single-accent"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:annotated-examples",
+        "palette:single-accent"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:image-led-spreads",
+        "palette:single-accent"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:narrative-sections",
+        "palette:single-accent"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:quotes",
+        "palette:single-accent"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "chart_treatment:sparse-wide",
+        "palette:single-accent"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "header_treatment:eyebrow",
+        "palette:single-accent"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "decorative_motif:eyebrow-tag-above-title",
+        "palette:single-accent"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "decorative_motif:wide-margin-quiet-page",
+        "palette:single-accent"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "density:low",
+        "palette:single-accent"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "density:medium",
+        "palette:single-accent"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:annotated",
+        "palette:single-accent"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:voice",
+        "palette:single-accent"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "palette:single-accent",
+        "rhythm_signature:essay-spread-with-pauses"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "palette:gallery-white",
+        "typography:magazine-like-heading"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "palette:gallery-white",
+        "typography:measured-body-copy"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "layout_motif:editorial-masthead",
+        "palette:gallery-white"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "layout_motif:large-image-text-contrast",
+        "palette:gallery-white"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "layout_motif:essay-spread",
+        "palette:gallery-white"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:annotated-examples",
+        "palette:gallery-white"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:image-led-spreads",
+        "palette:gallery-white"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:narrative-sections",
+        "palette:gallery-white"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:quotes",
+        "palette:gallery-white"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "chart_treatment:sparse-wide",
+        "palette:gallery-white"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "header_treatment:eyebrow",
+        "palette:gallery-white"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "decorative_motif:eyebrow-tag-above-title",
+        "palette:gallery-white"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "decorative_motif:wide-margin-quiet-page",
+        "palette:gallery-white"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "density:low",
+        "palette:gallery-white"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "density:medium",
+        "palette:gallery-white"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:annotated",
+        "palette:gallery-white"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:voice",
+        "palette:gallery-white"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "palette:gallery-white",
+        "rhythm_signature:essay-spread-with-pauses"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "typography:magazine-like-heading",
+        "typography:measured-body-copy"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "layout_motif:editorial-masthead",
+        "typography:magazine-like-heading"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "layout_motif:large-image-text-contrast",
+        "typography:magazine-like-heading"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "layout_motif:essay-spread",
+        "typography:magazine-like-heading"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:annotated-examples",
+        "typography:magazine-like-heading"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:image-led-spreads",
+        "typography:magazine-like-heading"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:narrative-sections",
+        "typography:magazine-like-heading"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:quotes",
+        "typography:magazine-like-heading"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "chart_treatment:sparse-wide",
+        "typography:magazine-like-heading"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "header_treatment:eyebrow",
+        "typography:magazine-like-heading"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "decorative_motif:eyebrow-tag-above-title",
+        "typography:magazine-like-heading"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "decorative_motif:wide-margin-quiet-page",
+        "typography:magazine-like-heading"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "density:low",
+        "typography:magazine-like-heading"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "density:medium",
+        "typography:magazine-like-heading"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:annotated",
+        "typography:magazine-like-heading"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:voice",
+        "typography:magazine-like-heading"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "rhythm_signature:essay-spread-with-pauses",
+        "typography:magazine-like-heading"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "layout_motif:editorial-masthead",
+        "typography:measured-body-copy"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "layout_motif:large-image-text-contrast",
+        "typography:measured-body-copy"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "layout_motif:essay-spread",
+        "typography:measured-body-copy"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:annotated-examples",
+        "typography:measured-body-copy"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:image-led-spreads",
+        "typography:measured-body-copy"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:narrative-sections",
+        "typography:measured-body-copy"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:quotes",
+        "typography:measured-body-copy"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "chart_treatment:sparse-wide",
+        "typography:measured-body-copy"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "header_treatment:eyebrow",
+        "typography:measured-body-copy"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "decorative_motif:eyebrow-tag-above-title",
+        "typography:measured-body-copy"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "decorative_motif:wide-margin-quiet-page",
+        "typography:measured-body-copy"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "density:low",
+        "typography:measured-body-copy"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:annotated",
+        "typography:measured-body-copy"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:voice",
+        "typography:measured-body-copy"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "rhythm_signature:essay-spread-with-pauses",
+        "typography:measured-body-copy"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "layout_motif:editorial-masthead",
+        "layout_motif:large-image-text-contrast"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "layout_motif:editorial-masthead",
+        "layout_motif:essay-spread"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:annotated-examples",
+        "layout_motif:editorial-masthead"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:image-led-spreads",
+        "layout_motif:editorial-masthead"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:narrative-sections",
+        "layout_motif:editorial-masthead"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:quotes",
+        "layout_motif:editorial-masthead"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "chart_treatment:sparse-wide",
+        "layout_motif:editorial-masthead"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "header_treatment:eyebrow",
+        "layout_motif:editorial-masthead"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "decorative_motif:eyebrow-tag-above-title",
+        "layout_motif:editorial-masthead"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "decorative_motif:wide-margin-quiet-page",
+        "layout_motif:editorial-masthead"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "density:low",
+        "layout_motif:editorial-masthead"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "density:medium",
+        "layout_motif:editorial-masthead"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:annotated",
+        "layout_motif:editorial-masthead"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:voice",
+        "layout_motif:editorial-masthead"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "layout_motif:editorial-masthead",
+        "rhythm_signature:essay-spread-with-pauses"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "layout_motif:essay-spread",
+        "layout_motif:large-image-text-contrast"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:annotated-examples",
+        "layout_motif:large-image-text-contrast"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:image-led-spreads",
+        "layout_motif:large-image-text-contrast"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:narrative-sections",
+        "layout_motif:large-image-text-contrast"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:quotes",
+        "layout_motif:large-image-text-contrast"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "chart_treatment:sparse-wide",
+        "layout_motif:large-image-text-contrast"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "header_treatment:eyebrow",
+        "layout_motif:large-image-text-contrast"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "decorative_motif:eyebrow-tag-above-title",
+        "layout_motif:large-image-text-contrast"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "decorative_motif:wide-margin-quiet-page",
+        "layout_motif:large-image-text-contrast"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "density:low",
+        "layout_motif:large-image-text-contrast"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "density:medium",
+        "layout_motif:large-image-text-contrast"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:annotated",
+        "layout_motif:large-image-text-contrast"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:voice",
+        "layout_motif:large-image-text-contrast"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "layout_motif:large-image-text-contrast",
+        "rhythm_signature:essay-spread-with-pauses"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:annotated-examples",
+        "layout_motif:essay-spread"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:image-led-spreads",
+        "layout_motif:essay-spread"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:narrative-sections",
+        "layout_motif:essay-spread"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:quotes",
+        "layout_motif:essay-spread"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "chart_treatment:sparse-wide",
+        "layout_motif:essay-spread"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "header_treatment:eyebrow",
+        "layout_motif:essay-spread"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "decorative_motif:eyebrow-tag-above-title",
+        "layout_motif:essay-spread"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "decorative_motif:wide-margin-quiet-page",
+        "layout_motif:essay-spread"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "density:low",
+        "layout_motif:essay-spread"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "density:medium",
+        "layout_motif:essay-spread"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:annotated",
+        "layout_motif:essay-spread"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:voice",
+        "layout_motif:essay-spread"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "layout_motif:essay-spread",
+        "rhythm_signature:essay-spread-with-pauses"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:annotated-examples",
+        "content_treatment:image-led-spreads"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:annotated-examples",
+        "content_treatment:narrative-sections"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:annotated-examples",
+        "content_treatment:quotes"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "chart_treatment:sparse-wide",
+        "content_treatment:annotated-examples"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:annotated-examples",
+        "header_treatment:eyebrow"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:annotated-examples",
+        "decorative_motif:eyebrow-tag-above-title"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:annotated-examples",
+        "decorative_motif:wide-margin-quiet-page"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:annotated-examples",
+        "density:low"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:annotated-examples",
+        "density:medium"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:annotated",
+        "content_treatment:annotated-examples"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:voice",
+        "content_treatment:annotated-examples"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:annotated-examples",
+        "rhythm_signature:essay-spread-with-pauses"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:image-led-spreads",
+        "content_treatment:narrative-sections"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:image-led-spreads",
+        "content_treatment:quotes"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "chart_treatment:sparse-wide",
+        "content_treatment:image-led-spreads"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:image-led-spreads",
+        "header_treatment:eyebrow"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:image-led-spreads",
+        "decorative_motif:eyebrow-tag-above-title"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:image-led-spreads",
+        "decorative_motif:wide-margin-quiet-page"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:image-led-spreads",
+        "density:low"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:image-led-spreads",
+        "density:medium"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:annotated",
+        "content_treatment:image-led-spreads"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:voice",
+        "content_treatment:image-led-spreads"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:image-led-spreads",
+        "rhythm_signature:essay-spread-with-pauses"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:narrative-sections",
+        "content_treatment:quotes"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "chart_treatment:sparse-wide",
+        "content_treatment:narrative-sections"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:narrative-sections",
+        "header_treatment:eyebrow"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:narrative-sections",
+        "decorative_motif:eyebrow-tag-above-title"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:narrative-sections",
+        "decorative_motif:wide-margin-quiet-page"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:narrative-sections",
+        "density:low"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:narrative-sections",
+        "density:medium"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:annotated",
+        "content_treatment:narrative-sections"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:voice",
+        "content_treatment:narrative-sections"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:narrative-sections",
+        "rhythm_signature:essay-spread-with-pauses"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "chart_treatment:sparse-wide",
+        "content_treatment:quotes"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:quotes",
+        "header_treatment:eyebrow"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:quotes",
+        "decorative_motif:eyebrow-tag-above-title"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:quotes",
+        "decorative_motif:wide-margin-quiet-page"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:quotes",
+        "density:low"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:quotes",
+        "density:medium"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:annotated",
+        "content_treatment:quotes"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:voice",
+        "content_treatment:quotes"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "content_treatment:quotes",
+        "rhythm_signature:essay-spread-with-pauses"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "chart_treatment:sparse-wide",
+        "header_treatment:eyebrow"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "chart_treatment:sparse-wide",
+        "decorative_motif:eyebrow-tag-above-title"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "chart_treatment:sparse-wide",
+        "density:medium"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:annotated",
+        "chart_treatment:sparse-wide"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:voice",
+        "chart_treatment:sparse-wide"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "chart_treatment:sparse-wide",
+        "rhythm_signature:essay-spread-with-pauses"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "decorative_motif:eyebrow-tag-above-title",
+        "header_treatment:eyebrow"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "decorative_motif:wide-margin-quiet-page",
+        "header_treatment:eyebrow"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "density:low",
+        "header_treatment:eyebrow"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:annotated",
+        "header_treatment:eyebrow"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:voice",
+        "header_treatment:eyebrow"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "header_treatment:eyebrow",
+        "rhythm_signature:essay-spread-with-pauses"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "decorative_motif:eyebrow-tag-above-title",
+        "decorative_motif:wide-margin-quiet-page"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "decorative_motif:eyebrow-tag-above-title",
+        "density:low"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "decorative_motif:eyebrow-tag-above-title",
+        "density:medium"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:annotated",
+        "decorative_motif:eyebrow-tag-above-title"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:voice",
+        "decorative_motif:eyebrow-tag-above-title"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "decorative_motif:eyebrow-tag-above-title",
+        "rhythm_signature:essay-spread-with-pauses"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "decorative_motif:wide-margin-quiet-page",
+        "density:medium"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:annotated",
+        "decorative_motif:wide-margin-quiet-page"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:voice",
+        "decorative_motif:wide-margin-quiet-page"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "decorative_motif:wide-margin-quiet-page",
+        "rhythm_signature:essay-spread-with-pauses"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "density:low",
+        "density:medium"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:annotated",
+        "density:low"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:voice",
+        "density:low"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "density:low",
+        "rhythm_signature:essay-spread-with-pauses"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:annotated",
+        "density:medium"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:voice",
+        "density:medium"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "density:medium",
+        "rhythm_signature:essay-spread-with-pauses"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:annotated",
+        "arc_beat:voice"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:annotated",
+        "rhythm_signature:essay-spread-with-pauses"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "arc_beat:voice",
+        "rhythm_signature:essay-spread-with-pauses"
+      ],
+      "count": 444
+    },
+    {
+      "pair": [
+        "density:medium",
+        "footer_treatment:source-line"
+      ],
+      "count": 439
+    },
+    {
+      "pair": [
+        "density:high",
+        "header_treatment:bar"
+      ],
+      "count": 357
+    },
+    {
+      "pair": [
+        "footer_treatment:source-line",
+        "header_treatment:stack"
+      ],
+      "count": 328
+    },
+    {
+      "pair": [
+        "density:medium",
+        "header_treatment:stack"
+      ],
+      "count": 328
+    },
+    {
+      "pair": [
+        "arc_beat:market",
+        "content_treatment:ai-workflow"
+      ],
+      "count": 300
+    },
+    {
+      "pair": [
+        "arc_beat:market",
+        "content_treatment:agent-tooling-comparison"
+      ],
+      "count": 300
+    },
+    {
+      "pair": [
+        "content_treatment:ai-workflow",
+        "palette:bold-accent"
+      ],
+      "count": 292
+    },
+    {
+      "pair": [
+        "content_treatment:agent-tooling-comparison",
+        "palette:bold-accent"
+      ],
+      "count": 292
+    },
+    {
+      "pair": [
+        "content_treatment:ai-workflow",
+        "palette:high-contrast"
+      ],
+      "count": 292
+    },
+    {
+      "pair": [
+        "content_treatment:agent-tooling-comparison",
+        "palette:high-contrast"
+      ],
+      "count": 292
+    },
+    {
+      "pair": [
+        "content_treatment:ai-workflow",
+        "palette:launch-color"
+      ],
+      "count": 292
+    },
+    {
+      "pair": [
+        "content_treatment:agent-tooling-comparison",
+        "palette:launch-color"
+      ],
+      "count": 292
+    },
+    {
+      "pair": [
+        "content_treatment:ai-workflow",
+        "typography:large-decisive-headings"
+      ],
+      "count": 292
+    },
+    {
+      "pair": [
+        "content_treatment:agent-tooling-comparison",
+        "typography:large-decisive-headings"
+      ],
+      "count": 292
+    },
+    {
+      "pair": [
+        "content_treatment:ai-workflow",
+        "typography:short-proof-copy"
+      ],
+      "count": 292
+    },
+    {
+      "pair": [
+        "content_treatment:agent-tooling-comparison",
+        "typography:short-proof-copy"
+      ],
+      "count": 292
+    },
+    {
+      "pair": [
+        "content_treatment:ai-workflow",
+        "layout_motif:narrative-reveal"
+      ],
+      "count": 292
+    },
+    {
+      "pair": [
+        "content_treatment:agent-tooling-comparison",
+        "layout_motif:narrative-reveal"
+      ],
+      "count": 292
+    },
+    {
+      "pair": [
+        "content_treatment:ai-workflow",
+        "layout_motif:product-proof"
+      ],
+      "count": 292
+    },
+    {
+      "pair": [
+        "content_treatment:agent-tooling-comparison",
+        "layout_motif:product-proof"
+      ],
+      "count": 292
+    },
+    {
+      "pair": [
+        "content_treatment:ai-workflow",
+        "layout_motif:market-wedge"
+      ],
+      "count": 292
+    },
+    {
+      "pair": [
+        "content_treatment:agent-tooling-comparison",
+        "layout_motif:market-wedge"
+      ],
+      "count": 292
+    },
+    {
+      "pair": [
+        "content_treatment:ai-workflow",
+        "content_treatment:growth-loops"
+      ],
+      "count": 292
+    },
+    {
+      "pair": [
+        "content_treatment:ai-workflow",
+        "content_treatment:problem-solution"
+      ],
+      "count": 292
+    },
+    {
+      "pair": [
+        "content_treatment:ai-workflow",
+        "content_treatment:product-screenshots"
+      ],
+      "count": 292
+    },
+    {
+      "pair": [
+        "content_treatment:ai-workflow",
+        "content_treatment:traction-proof"
+      ],
+      "count": 292
+    },
+    {
+      "pair": [
+        "content_treatment:ai-workflow",
+        "decorative_motif:bold-call-to-action-strip"
+      ],
+      "count": 292
+    },
+    {
+      "pair": [
+        "content_treatment:ai-workflow",
+        "decorative_motif:punchy-pull-quote"
+      ],
+      "count": 292
+    },
+    {
+      "pair": [
+        "arc_beat:problem",
+        "content_treatment:ai-workflow"
+      ],
+      "count": 292
+    },
+    {
+      "pair": [
+        "arc_beat:solution",
+        "content_treatment:ai-workflow"
+      ],
+      "count": 292
+    },
+    {
+      "pair": [
+        "arc_beat:traction",
+        "content_treatment:ai-workflow"
+      ],
+      "count": 292
+    },
+    {
+      "pair": [
+        "content_treatment:ai-workflow",
+        "rhythm_signature:punchy-claim-visual-proof"
+      ],
+      "count": 292
+    },
+    {
+      "pair": [
+        "content_treatment:agent-tooling-comparison",
+        "content_treatment:growth-loops"
+      ],
+      "count": 292
+    },
+    {
+      "pair": [
+        "content_treatment:agent-tooling-comparison",
+        "content_treatment:problem-solution"
+      ],
+      "count": 292
+    },
+    {
+      "pair": [
+        "content_treatment:agent-tooling-comparison",
+        "content_treatment:product-screenshots"
+      ],
+      "count": 292
+    },
+    {
+      "pair": [
+        "content_treatment:agent-tooling-comparison",
+        "content_treatment:traction-proof"
+      ],
+      "count": 292
+    },
+    {
+      "pair": [
+        "content_treatment:agent-tooling-comparison",
+        "decorative_motif:bold-call-to-action-strip"
+      ],
+      "count": 292
+    },
+    {
+      "pair": [
+        "content_treatment:agent-tooling-comparison",
+        "decorative_motif:punchy-pull-quote"
+      ],
+      "count": 292
+    },
+    {
+      "pair": [
+        "arc_beat:problem",
+        "content_treatment:agent-tooling-comparison"
+      ],
+      "count": 292
+    },
+    {
+      "pair": [
+        "arc_beat:solution",
+        "content_treatment:agent-tooling-comparison"
+      ],
+      "count": 292
+    },
+    {
+      "pair": [
+        "arc_beat:traction",
+        "content_treatment:agent-tooling-comparison"
+      ],
+      "count": 292
+    },
+    {
+      "pair": [
+        "content_treatment:agent-tooling-comparison",
+        "rhythm_signature:punchy-claim-visual-proof"
+      ],
+      "count": 292
+    },
+    {
+      "pair": [
+        "arc_beat:method",
+        "density:medium"
+      ],
+      "count": 277
+    },
+    {
+      "pair": [
+        "decorative_motif:timeline-axis-bottom",
+        "header_treatment:bar"
+      ],
+      "count": 277
+    },
+    {
+      "pair": [
+        "chart_treatment:threshold-band",
+        "header_treatment:bar"
+      ],
+      "count": 257
+    },
+    {
+      "pair": [
+        "footer_treatment:source-line",
+        "header_treatment:bar"
+      ],
+      "count": 256
+    },
+    {
+      "pair": [
+        "chart_treatment:threshold-band",
+        "footer_treatment:source-line"
+      ],
+      "count": 255
+    },
+    {
+      "pair": [
+        "content_treatment:ai-workflow",
+        "footer_treatment:standard"
+      ],
+      "count": 242
+    },
+    {
+      "pair": [
+        "content_treatment:agent-tooling-comparison",
+        "footer_treatment:standard"
+      ],
+      "count": 242
+    },
+    {
+      "pair": [
+        "content_treatment:ai-workflow",
+        "footer_treatment:source-line"
+      ],
+      "count": 241
+    },
+    {
+      "pair": [
+        "content_treatment:agent-tooling-comparison",
+        "footer_treatment:source-line"
+      ],
+      "count": 241
+    },
+    {
+      "pair": [
+        "decorative_motif:timeline-axis-bottom",
+        "density:high"
+      ],
+      "count": 228
+    },
+    {
+      "pair": [
+        "decorative_motif:side-rail-citations",
+        "footer_treatment:source-line"
+      ],
+      "count": 226
+    }
+  ],
+  "source_corpus": "large_style_corpus_catalog_enriched.json"
+}

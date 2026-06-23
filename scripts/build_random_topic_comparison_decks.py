@@ -30,6 +30,8 @@ from design_catalog_selector import (
     design_catalog_summary,
 )
 from large_style_corpus import compact_large_style_corpus_context
+from style_atom_router import deterministic_composition
+from apply_atom_composition import apply_composition
 
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -207,36 +209,31 @@ def _base_deck_style(topic: dict[str, Any], *, mode: str) -> dict[str, Any]:
             "style_seed": f"{topic['slug']}-baseline",
             "footer_page_numbers": True,
         }
-    chart_treatments = {
-        "forest-research": "sparse-wide",
-        "data-heavy-boardroom": "facts-right",
-        "charcoal-safety": "threshold-band",
-        "executive-clinical": "minimal",
-        "sunset-investor": "facts-right",
-        "paper-journal": "minimal",
-    }
-    table_treatments = {
-        "lab-report": "compact-ledger",
-        "midnight-neon": "decision-matrix",
-        "forest-research": "decision-matrix",
-        "charcoal-safety": "readout-sidecar",
-        "data-heavy-boardroom": "compact-ledger",
-        "executive-clinical": "readout-sidecar",
-        "sunset-investor": "decision-matrix",
-        "paper-journal": "journal-grid",
-    }
-    return {
-        "visual_density": "medium",
-        "style_seed": f"{topic['slug']}-large-corpus",
-        "header_mode": "lab-clean" if topic["corpus_family"] == "lab-report" else "eyebrow",
-        "header_variant": "auto",
-        "footer_mode": "source-line",
-        "footer_page_numbers": True,
-        "chart_treatment": chart_treatments.get(topic["corpus_family"], "minimal"),
-        "table_treatment": table_treatments.get(topic["corpus_family"], "decision-matrix"),
-        "figure_table_treatment": "figure-first",
-        "summary_callout_mode": "lab-box" if topic["corpus_family"] == "lab-report" else "default",
-    }
+
+    # Corpus arm: pull the deck_style from the LEGO atom composer rather
+    # than a hardcoded per-family map. The composer queries the token atlas
+    # built from all 2,183 enriched records and returns atoms ranked by
+    # family-specific frequency. This is what makes "corpus changes slide
+    # grammar" a real claim instead of scaffolding.
+    composition = deterministic_composition(
+        target_family=topic["corpus_family"],
+        slide_count=topic.get("slide_count_target", 10),
+    )
+    applied = apply_composition(composition)
+    deck_style = dict(applied["deck_style"])
+    deck_style.update(
+        {
+            "style_seed": f"{topic['slug']}-large-corpus",
+            "header_variant": "auto",
+            "footer_page_numbers": True,
+            "figure_table_treatment": "figure-first",
+            "summary_callout_mode": (
+                "lab-box" if topic["corpus_family"] == "lab-report" else "default"
+            ),
+        }
+    )
+    deck_style.setdefault("visual_density", "medium")
+    return deck_style
 
 
 def _baseline_outline(topic: dict[str, Any], figure_path: str) -> dict[str, Any]:
