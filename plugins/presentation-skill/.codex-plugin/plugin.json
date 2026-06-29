@@ -1,0 +1,52 @@
+{
+  "name": "presentation-skill",
+  "version": "0.8.0",
+  "description": "Source-first PowerPoint/PPTX generation for Codex and ChatGPT agents.",
+  "author": {
+    "name": "Sirilsengolraj",
+    "url": "https://github.com/sirilsengolraj-source"
+  },
+  "homepage": "https://github.com/sirilsengolraj-source/presentation-skill#readme",
+  "repository": "https://github.com/sirilsengolraj-source/presentation-skill",
+  "license": "MIT",
+  "keywords": [
+    "codex-skill",
+    "chatgpt-skill",
+    "openai-agents",
+    "powerpoint",
+    "pptx",
+    "presentation",
+    "slide-deck",
+    "deck-builder",
+    "pptxgenjs",
+    "deck-qa",
+    "lab-report-deck",
+    "scientific-figure-slides"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "presentation-skill",
+    "shortDescription": "Build editable PowerPoint decks from JSON with style routing, artifacts, and QA.",
+    "longDescription": "A source-first PowerPoint/PPTX workflow for Codex and ChatGPT agents. The bundled skill writes outline.json, builds editable pptxgenjs decks, routes topics through 13 style families and 13 slide variants, creates chart/table/figure artifacts, and runs QA for geometry, readability, visual review, placeholder text, and reproducibility.",
+    "developerName": "Sirilsengolraj",
+    "category": "Productivity",
+    "capabilities": [
+      "Write",
+      "Files",
+      "Presentations",
+      "Quality assurance"
+    ],
+    "websiteURL": "https://github.com/sirilsengolraj-source/presentation-skill",
+    "defaultPrompt": [
+      "Build a 7-slide editable PowerPoint deck.",
+      "Turn this CSV into a lab-style PPTX report.",
+      "Redesign this deck and run slide QA."
+    ],
+    "brandColor": "#2563EB",
+    "screenshots": [
+      "./assets/presentation_skill_variant_proof.png",
+      "./assets/presentation_skill_style_family_proof.png",
+      "./assets/codex_native_vs_updated_clean_three_topics.png"
+    ]
+  }
+}

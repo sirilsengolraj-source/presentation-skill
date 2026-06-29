@@ -1,0 +1,1046 @@
+{
+  "corpus_version": "style_inspiration_corpus_v1",
+  "checked_date": "2026-06-20",
+  "policy": {
+    "storage_rule": "descriptor_only_no_raw_decks",
+    "scale_strategy": "Index thousands of public or user-provided decks as normalized descriptors, palette/layout metrics, and synthetic reconstruction notes; do not store raw PPTX files, screenshots, logos, proprietary text, or distinctive copied geometry in the skill repo.",
+    "allowed_record_types": [
+      "source_index",
+      "deck_metadata",
+      "style_descriptor",
+      "layout_metric_profile",
+      "synthetic_reconstruction",
+      "contact_sheet_pointer"
+    ],
+    "forbidden_materials": [
+      "raw third-party PPTX files",
+      "raw screenshots from proprietary decks",
+      "third-party logos or brand marks",
+      "private or customer data",
+      "distinctive copied slide geometry",
+      "non-relicensed template assets"
+    ],
+    "agent_use_rule": "Use descriptors as broad design memory. Recreate with generic content and the local renderer, then record chosen source ids, preset route, style seed, and treatment mix in the design contract."
+  },
+  "descriptor_schema": {
+    "required_fields": [
+      "source_id",
+      "source_url",
+      "rights_posture",
+      "allowed_extractions",
+      "forbidden_materials",
+      "descriptor_tags",
+      "preset_affinity",
+      "visual_dna",
+      "layout_families",
+      "palette_tokens",
+      "typography_tokens",
+      "content_treatments",
+      "mixing_affordances",
+      "extraction_limits"
+    ],
+    "normalization_metrics": [
+      "safe-area ratios",
+      "title/body/footer zone positions",
+      "object count",
+      "text density",
+      "color role count",
+      "chart/table/figure incidence",
+      "footer/source posture",
+      "title hierarchy"
+    ]
+  },
+  "source_classes": [
+    {
+      "source_id": "google_material_design_3",
+      "source_name": "Google Material Design 3",
+      "source_url": "https://m3.material.io/",
+      "rights_posture": "public_design_guidance_descriptor_only",
+      "license_summary": "Public design guidance; use as descriptor-level inspiration, not copied UI images or brand assets.",
+      "allowed_extractions": [
+        "role-based color relationships",
+        "surface/elevation language",
+        "component spacing principles",
+        "state and hierarchy vocabulary"
+      ],
+      "forbidden_materials": [
+        "Google logos",
+        "copied screenshots",
+        "exact component art",
+        "brand-specific templates"
+      ],
+      "descriptor_tags": [
+        "systematic",
+        "surface_roles",
+        "accessible_hierarchy",
+        "component_grid",
+        "clean_ui"
+      ],
+      "preset_affinity": [
+        "arctic-minimal",
+        "lavender-ops",
+        "data-heavy-boardroom",
+        "executive-clinical"
+      ],
+      "visual_dna": "Layered surfaces, explicit role colors, accessible hierarchy, and restrained interaction-state vocabulary.",
+      "layout_families": [
+        "surface-stack",
+        "dashboard-grid",
+        "summary-list",
+        "status-card"
+      ],
+      "palette_tokens": [
+        "primary/accent roles",
+        "neutral surfaces",
+        "semantic status accents"
+      ],
+      "typography_tokens": [
+        "clear type scale",
+        "short labels",
+        "dense metadata captions"
+      ],
+      "content_treatments": [
+        "dashboard",
+        "decision",
+        "comparison",
+        "table"
+      ],
+      "mixing_affordances": [
+        "Use with ops, policy, clinical, and minimal presets when the slide needs software-like scanability.",
+        "Pair role-color system with local preset palette rather than importing Material colors directly."
+      ],
+      "extraction_limits": "Descriptor-level only; recreate slides through local renderer and synthetic content.",
+      "source_verification": {
+        "checked_date": "2026-06-20",
+        "evidence_summary": "Public Material Design site used as general design-system reference for color roles, typography, hierarchy, and surface behavior."
+      }
+    },
+    {
+      "source_id": "google_material_color_typography",
+      "source_name": "Material color and typography guidance",
+      "source_url": "https://m3.material.io/styles/color/overview",
+      "rights_posture": "public_design_guidance_descriptor_only",
+      "license_summary": "Public guidance; use abstract color and type role descriptors only.",
+      "allowed_extractions": [
+        "color role taxonomy",
+        "contrast-aware palettes",
+        "type hierarchy descriptors",
+        "semantic color mapping"
+      ],
+      "forbidden_materials": [
+        "screenshots",
+        "brand imagery",
+        "copied diagrams",
+        "verbatim long text"
+      ],
+      "descriptor_tags": [
+        "palette_system",
+        "typography_scale",
+        "semantic_roles",
+        "contrast"
+      ],
+      "preset_affinity": [
+        "arctic-minimal",
+        "editorial-minimal",
+        "lavender-ops",
+        "warm-terracotta"
+      ],
+      "visual_dna": "A reusable color-role and type-scale grammar that can make otherwise similar presets behave differently.",
+      "layout_families": [
+        "typographic-title",
+        "semantic-status-grid",
+        "captioned-evidence"
+      ],
+      "palette_tokens": [
+        "primary",
+        "secondary",
+        "surface",
+        "outline",
+        "error/status"
+      ],
+      "typography_tokens": [
+        "display/title/body/label roles",
+        "consistent caption floors"
+      ],
+      "content_treatments": [
+        "title",
+        "chart",
+        "references"
+      ],
+      "mixing_affordances": [
+        "Use to tune title/body/caption hierarchy without changing the whole preset.",
+        "Use semantic colors sparingly on dense evidence slides."
+      ],
+      "extraction_limits": "No copied examples; store only role names and metrics.",
+      "source_verification": {
+        "checked_date": "2026-06-20",
+        "evidence_summary": "Material color and type pages used as role-system references for palette and typography descriptors."
+      }
+    },
+    {
+      "source_id": "slidev_open_source_presentations",
+      "source_name": "Slidev presentation framework",
+      "source_url": "https://github.com/slidevjs/slidev",
+      "rights_posture": "open_source_framework_descriptor_only",
+      "license_summary": "Open-source presentation framework; use layout concepts and markdown-to-slide workflow descriptors, not third-party example content.",
+      "allowed_extractions": [
+        "source-first deck workflow",
+        "componentized layout families",
+        "code/demo slide patterns",
+        "theme metadata vocabulary"
+      ],
+      "forbidden_materials": [
+        "third-party example assets",
+        "copied theme screenshots",
+        "project logos unless explicitly permitted"
+      ],
+      "descriptor_tags": [
+        "source_first",
+        "developer_slides",
+        "code_demo",
+        "component_layouts",
+        "themeable"
+      ],
+      "preset_affinity": [
+        "midnight-neon",
+        "bold-startup-narrative",
+        "data-heavy-boardroom",
+        "editorial-minimal"
+      ],
+      "visual_dna": "Source-first, themeable slide systems with code-friendly layouts, live-demo rhythm, and clear authoring structure.",
+      "layout_families": [
+        "code-plus-explanation",
+        "chapter-break",
+        "demo-sequence",
+        "callout-panel"
+      ],
+      "palette_tokens": [
+        "dark surface",
+        "terminal accent",
+        "syntax highlight roles"
+      ],
+      "typography_tokens": [
+        "monospace blocks",
+        "compact title labels",
+        "callout text"
+      ],
+      "content_treatments": [
+        "figure",
+        "decision",
+        "title",
+        "comparison"
+      ],
+      "mixing_affordances": [
+        "Borrow source-first/developer rhythm for technical decks while keeping PPTX output editable.",
+        "Mix code/demo structure with dark or startup presets only when the user prompt has a developer audience."
+      ],
+      "extraction_limits": "Descriptor-level only unless a specific example asset has its own compatible license and attribution path.",
+      "source_verification": {
+        "checked_date": "2026-06-20",
+        "evidence_summary": "GitHub repository used as an open-source framework reference for source-first and themeable presentation workflows."
+      }
+    },
+    {
+      "source_id": "open_design_slides",
+      "source_name": "Open Design slides",
+      "source_url": "https://open-design.ai/solutions/slides/",
+      "rights_posture": "public_product_descriptor_only",
+      "license_summary": "Public product/gallery reference; use high-level slide-structure descriptors and avoid copied visuals.",
+      "allowed_extractions": [
+        "AI-assisted slide system vocabulary",
+        "template taxonomy",
+        "multi-format export workflow descriptors"
+      ],
+      "forbidden_materials": [
+        "copied gallery images",
+        "brand marks",
+        "template files",
+        "customer examples"
+      ],
+      "descriptor_tags": [
+        "ai_slide_workflow",
+        "template_taxonomy",
+        "automation",
+        "gallery_reference"
+      ],
+      "preset_affinity": [
+        "bold-startup-narrative",
+        "sunset-investor",
+        "editorial-minimal",
+        "lavender-ops"
+      ],
+      "visual_dna": "Gallery-driven deck generation patterns, reusable style families, and export-ready slide systems.",
+      "layout_families": [
+        "template-gallery",
+        "pitch-sequence",
+        "visual-summary",
+        "section-system"
+      ],
+      "palette_tokens": [
+        "brandable accent",
+        "neutral base",
+        "high-contrast callout"
+      ],
+      "typography_tokens": [
+        "large title",
+        "short supporting copy",
+        "label chips"
+      ],
+      "content_treatments": [
+        "title",
+        "dashboard",
+        "comparison",
+        "decision"
+      ],
+      "mixing_affordances": [
+        "Use to steer startup, investor, and editorial decks toward a coherent generated style system.",
+        "Keep only taxonomy and structure descriptors; render all examples synthetically."
+      ],
+      "extraction_limits": "No copied gallery images or proprietary templates.",
+      "source_verification": {
+        "checked_date": "2026-06-20",
+        "evidence_summary": "Public slide-product page used as a descriptor source for gallery-style deck systems and AI-assisted slide workflows."
+      }
+    },
+    {
+      "source_id": "primer_presentations_metadata",
+      "source_name": "Primer presentations",
+      "source_url": "https://primer.style/presentations/",
+      "rights_posture": "brand_guidance_metadata_only",
+      "license_summary": "Brand guidance intended for GitHub presentation use; store only metadata-level observations and do not reuse brand assets.",
+      "allowed_extractions": [
+        "presentation hygiene checklist",
+        "source-to-export workflow notes",
+        "metadata-only accessibility signals"
+      ],
+      "forbidden_materials": [
+        "Primer templates",
+        "GitHub logos",
+        "brand color copying",
+        "presentation screenshots"
+      ],
+      "descriptor_tags": [
+        "brand_governance",
+        "developer_communication",
+        "template_hygiene",
+        "metadata_only"
+      ],
+      "preset_affinity": [
+        "midnight-neon",
+        "data-heavy-boardroom",
+        "editorial-minimal"
+      ],
+      "visual_dna": "Disciplined developer-facing decks with reusable hygiene and accessibility expectations.",
+      "layout_families": [
+        "talk-outline",
+        "code-demo",
+        "accessibility-check",
+        "speaker-ready-export"
+      ],
+      "palette_tokens": [
+        "metadata-only",
+        "do-not-copy-brand"
+      ],
+      "typography_tokens": [
+        "readable talk size",
+        "minimal body copy"
+      ],
+      "content_treatments": [
+        "title",
+        "figure",
+        "references"
+      ],
+      "mixing_affordances": [
+        "Use only as governance memory for developer decks and accessibility checks.",
+        "Never import GitHub visual identity into generated decks."
+      ],
+      "extraction_limits": "Metadata-only route because brand assets and templates are not reusable in this skill.",
+      "source_verification": {
+        "checked_date": "2026-06-20",
+        "evidence_summary": "Primer presentations page used only for metadata-level presentation-governance ideas, not visual copying."
+      }
+    },
+    {
+      "source_id": "gbif_ppt_template_metadata",
+      "source_name": "GBIF PowerPoint template repository",
+      "source_url": "https://github.com/gbif/ppt-template",
+      "rights_posture": "public_template_metadata_only",
+      "license_summary": "Public template repository; avoid logos and branded template files unless a compatible license and attribution path is confirmed.",
+      "allowed_extractions": [
+        "template packaging metadata",
+        "scientific organization deck structure",
+        "biodiversity/science report posture"
+      ],
+      "forbidden_materials": [
+        "logos",
+        "template files",
+        "brand palette copying",
+        "branded screenshots"
+      ],
+      "descriptor_tags": [
+        "science_org",
+        "report_template",
+        "metadata_only",
+        "field_research"
+      ],
+      "preset_affinity": [
+        "forest-research",
+        "lab-report",
+        "paper-journal"
+      ],
+      "visual_dna": "Science-organization deck posture with structured title, context, method, results, and references sequence.",
+      "layout_families": [
+        "scientific-report",
+        "field-summary",
+        "method-results",
+        "reference-table"
+      ],
+      "palette_tokens": [
+        "nature accent descriptor",
+        "neutral report surface"
+      ],
+      "typography_tokens": [
+        "report title",
+        "figure caption",
+        "source rows"
+      ],
+      "content_treatments": [
+        "figure",
+        "table",
+        "references",
+        "chart"
+      ],
+      "mixing_affordances": [
+        "Use as metadata memory for science-report route ordering.",
+        "Recreate generic field/research content with synthetic assets."
+      ],
+      "extraction_limits": "Metadata-only unless explicit compatible reuse rights are verified for a specific non-brand asset.",
+      "source_verification": {
+        "checked_date": "2026-06-20",
+        "evidence_summary": "Public repository used as metadata reference for scientific template packaging and report structure."
+      }
+    },
+    {
+      "source_id": "ppt_master_template_guide",
+      "source_name": "ppt-master templates guide",
+      "source_url": "https://github.com/hugohe3/ppt-master/blob/main/docs/templates-guide.md",
+      "rights_posture": "public_repo_docs_descriptor_only",
+      "license_summary": "Public repository documentation; use template taxonomy descriptors, not copied templates or screenshots.",
+      "allowed_extractions": [
+        "template taxonomy",
+        "layout slot naming",
+        "PPTX generation workflow concepts",
+        "placeholder hygiene patterns"
+      ],
+      "forbidden_materials": [
+        "template files",
+        "screenshots",
+        "copied placeholder geometry",
+        "third-party assets"
+      ],
+      "descriptor_tags": [
+        "template_engine",
+        "placeholder_slots",
+        "pptx_generation",
+        "structure_first"
+      ],
+      "preset_affinity": [
+        "data-heavy-boardroom",
+        "lavender-ops",
+        "lab-report",
+        "charcoal-safety"
+      ],
+      "visual_dna": "Template-as-structured-slots thinking that maps cleanly to deterministic PPTX generation.",
+      "layout_families": [
+        "slot-grid",
+        "placeholder-contract",
+        "section-template",
+        "data-region"
+      ],
+      "palette_tokens": [
+        "renderer-owned palette"
+      ],
+      "typography_tokens": [
+        "slot-specific type roles"
+      ],
+      "content_treatments": [
+        "table",
+        "chart",
+        "dashboard",
+        "references"
+      ],
+      "mixing_affordances": [
+        "Use to improve reproducible source-to-layout contracts.",
+        "Combine with any preset when structure, not brand expression, is the main need."
+      ],
+      "extraction_limits": "Descriptor-only; do not copy template geometry.",
+      "source_verification": {
+        "checked_date": "2026-06-20",
+        "evidence_summary": "Template guide used as public documentation reference for structured PPTX template workflows."
+      }
+    },
+    {
+      "source_id": "awesome_presentation_indexes",
+      "source_name": "Awesome presentation tool indexes",
+      "source_url": "https://github.com/runablehq/Awesome-presentation-tools",
+      "rights_posture": "public_index_descriptor_only",
+      "license_summary": "Public index of tools and resources; use as a discovery index and store only normalized descriptors for individually verified sources.",
+      "allowed_extractions": [
+        "tool taxonomy",
+        "resource discovery metadata",
+        "workflow categories",
+        "candidate source queue"
+      ],
+      "forbidden_materials": [
+        "unverified linked assets",
+        "copied screenshots",
+        "raw downloaded decks",
+        "license-unknown templates"
+      ],
+      "descriptor_tags": [
+        "source_discovery",
+        "tool_index",
+        "corpus_queue",
+        "metadata_only"
+      ],
+      "preset_affinity": [
+        "bold-startup-narrative",
+        "sunset-investor",
+        "editorial-minimal",
+        "midnight-neon"
+      ],
+      "visual_dna": "A discovery layer for future large-corpus ingestion, with verification before descriptors enter the catalog.",
+      "layout_families": [
+        "source-index",
+        "workflow-taxonomy",
+        "candidate-queue"
+      ],
+      "palette_tokens": [
+        "none"
+      ],
+      "typography_tokens": [
+        "none"
+      ],
+      "content_treatments": [
+        "title",
+        "comparison",
+        "decision"
+      ],
+      "mixing_affordances": [
+        "Use as a queue for future scraping/descriptor extraction, not as direct style evidence.",
+        "Every discovered source must pass rights and descriptor validation before routing to a preset."
+      ],
+      "extraction_limits": "Index only. Verify linked sources independently before extracting descriptors.",
+      "source_verification": {
+        "checked_date": "2026-06-20",
+        "evidence_summary": "Public GitHub index used as a candidate discovery queue for future large-scale style descriptor extraction."
+      }
+    },
+    {
+      "source_id": "aspose_presentation_index",
+      "source_name": "Aspose Awesome Presentations",
+      "source_url": "https://github.com/aspose-slides/Awesome-Presentations",
+      "rights_posture": "public_index_descriptor_only",
+      "license_summary": "Public index; use only to discover candidate sources and workflow categories.",
+      "allowed_extractions": [
+        "tool category metadata",
+        "library workflow references",
+        "candidate source queue"
+      ],
+      "forbidden_materials": [
+        "unverified templates",
+        "linked assets",
+        "screenshots",
+        "raw deck downloads"
+      ],
+      "descriptor_tags": [
+        "automation_tools",
+        "pptx_libraries",
+        "source_discovery",
+        "metadata_only"
+      ],
+      "preset_affinity": [
+        "data-heavy-boardroom",
+        "lavender-ops",
+        "charcoal-safety"
+      ],
+      "visual_dna": "Automation and library workflow taxonomy for scalable deck analysis pipelines.",
+      "layout_families": [
+        "automation-workflow",
+        "library-comparison",
+        "candidate-queue"
+      ],
+      "palette_tokens": [
+        "none"
+      ],
+      "typography_tokens": [
+        "none"
+      ],
+      "content_treatments": [
+        "comparison",
+        "decision",
+        "references"
+      ],
+      "mixing_affordances": [
+        "Use to guide extractor tooling choices and comparison decks.",
+        "Do not treat linked resources as reusable until verified."
+      ],
+      "extraction_limits": "Index only; linked sources require independent license checks.",
+      "source_verification": {
+        "checked_date": "2026-06-20",
+        "evidence_summary": "Public GitHub index used as metadata for presentation tooling and candidate corpus expansion."
+      }
+    },
+    {
+      "source_id": "zach_holman_slide_design",
+      "source_name": "Slide Design for Developers",
+      "source_url": "https://zachholman.com/posts/slide-design-for-developers/",
+      "rights_posture": "public_article_descriptor_only",
+      "license_summary": "Public article; summarize design heuristics without copying prose, images, or slide examples.",
+      "allowed_extractions": [
+        "developer talk heuristics",
+        "visual reduction principles",
+        "large-type talk rhythm",
+        "audience scanability rules"
+      ],
+      "forbidden_materials": [
+        "long quoted prose",
+        "copied images",
+        "distinctive example slide geometry",
+        "verbatim slide examples"
+      ],
+      "descriptor_tags": [
+        "developer_talk",
+        "large_type",
+        "visual_reduction",
+        "speaker_rhythm"
+      ],
+      "preset_affinity": [
+        "midnight-neon",
+        "bold-startup-narrative",
+        "editorial-minimal",
+        "sunset-investor"
+      ],
+      "visual_dna": "Talk-first slide craft: fewer objects, stronger contrast, and one point per slide when the deck is presented live.",
+      "layout_families": [
+        "one-point-slide",
+        "large-type-quote",
+        "demo-caption",
+        "chapter-break"
+      ],
+      "palette_tokens": [
+        "high contrast",
+        "single strong accent"
+      ],
+      "typography_tokens": [
+        "large display text",
+        "minimal body copy",
+        "speaker-friendly labels"
+      ],
+      "content_treatments": [
+        "title",
+        "figure",
+        "decision"
+      ],
+      "mixing_affordances": [
+        "Use for live talks, developer demos, and startup narratives.",
+        "Do not apply low-density talk rules to dense lab reports or leave-behinds unless explicitly requested."
+      ],
+      "extraction_limits": "Heuristic descriptors only; no copied examples.",
+      "source_verification": {
+        "checked_date": "2026-06-20",
+        "evidence_summary": "Public article used as descriptor-level heuristic reference for developer-oriented live presentation design."
+      }
+    }
+  ],
+  "preset_routes": {
+    "arctic-minimal": {
+      "query_intents": [
+        "minimal report",
+        "quiet analysis",
+        "clean technical brief"
+      ],
+      "source_ids": [
+        "google_material_design_3",
+        "google_material_color_typography"
+      ],
+      "preferred_descriptor_tags": [
+        "clean_ui",
+        "surface_roles",
+        "contrast"
+      ],
+      "mixing_knobs": {
+        "density": "medium-low",
+        "accent": "thin semantic rules",
+        "background": "open white or very pale field"
+      },
+      "contact_collection_use_cases": [
+        "overview",
+        "data_evidence",
+        "decision_sources"
+      ]
+    },
+    "bold-startup-narrative": {
+      "query_intents": [
+        "startup pitch",
+        "product story",
+        "launch narrative"
+      ],
+      "source_ids": [
+        "open_design_slides",
+        "zach_holman_slide_design",
+        "awesome_presentation_indexes"
+      ],
+      "preferred_descriptor_tags": [
+        "template_taxonomy",
+        "large_type",
+        "gallery_reference"
+      ],
+      "mixing_knobs": {
+        "density": "low-medium",
+        "accent": "bold moments only",
+        "background": "high contrast hero plus clean body"
+      },
+      "contact_collection_use_cases": [
+        "overview",
+        "data_evidence",
+        "decision_sources"
+      ]
+    },
+    "charcoal-safety": {
+      "query_intents": [
+        "risk memo",
+        "safety control",
+        "incident review"
+      ],
+      "source_ids": [
+        "ppt_master_template_guide",
+        "google_material_design_3",
+        "aspose_presentation_index"
+      ],
+      "preferred_descriptor_tags": [
+        "structure_first",
+        "semantic_roles",
+        "automation_tools"
+      ],
+      "mixing_knobs": {
+        "density": "medium-high",
+        "accent": "severity and control states",
+        "background": "dark header or controlled charcoal panels"
+      },
+      "contact_collection_use_cases": [
+        "overview",
+        "data_evidence",
+        "decision_sources"
+      ]
+    },
+    "data-heavy-boardroom": {
+      "query_intents": [
+        "board memo",
+        "ops dashboard",
+        "metrics review"
+      ],
+      "source_ids": [
+        "google_material_design_3",
+        "ppt_master_template_guide",
+        "aspose_presentation_index"
+      ],
+      "preferred_descriptor_tags": [
+        "dashboard-grid",
+        "placeholder_slots",
+        "palette_system"
+      ],
+      "mixing_knobs": {
+        "density": "medium-high",
+        "accent": "chart status colors",
+        "background": "white/neutral grid"
+      },
+      "contact_collection_use_cases": [
+        "overview",
+        "data_evidence",
+        "decision_sources"
+      ]
+    },
+    "editorial-minimal": {
+      "query_intents": [
+        "editorial explainer",
+        "essay deck",
+        "public narrative"
+      ],
+      "source_ids": [
+        "google_material_color_typography",
+        "open_design_slides",
+        "zach_holman_slide_design"
+      ],
+      "preferred_descriptor_tags": [
+        "typography_scale",
+        "visual_reduction",
+        "template_taxonomy"
+      ],
+      "mixing_knobs": {
+        "density": "low-medium",
+        "accent": "typographic emphasis",
+        "background": "quiet editorial pages"
+      },
+      "contact_collection_use_cases": [
+        "overview",
+        "data_evidence",
+        "decision_sources"
+      ]
+    },
+    "executive-clinical": {
+      "query_intents": [
+        "clinical executive",
+        "healthcare decision",
+        "medical operations"
+      ],
+      "source_ids": [
+        "google_material_design_3",
+        "ppt_master_template_guide",
+        "google_material_color_typography"
+      ],
+      "preferred_descriptor_tags": [
+        "accessible_hierarchy",
+        "semantic_roles",
+        "slot-grid"
+      ],
+      "mixing_knobs": {
+        "density": "medium",
+        "accent": "clinical status and confidence",
+        "background": "calm clinical surface"
+      },
+      "contact_collection_use_cases": [
+        "overview",
+        "data_evidence",
+        "decision_sources"
+      ]
+    },
+    "forest-research": {
+      "query_intents": [
+        "field research",
+        "ecology report",
+        "environmental science"
+      ],
+      "source_ids": [
+        "gbif_ppt_template_metadata",
+        "google_material_color_typography"
+      ],
+      "preferred_descriptor_tags": [
+        "science_org",
+        "field_research",
+        "contrast"
+      ],
+      "mixing_knobs": {
+        "density": "medium",
+        "accent": "earth/science semantic accents",
+        "background": "light report field"
+      },
+      "contact_collection_use_cases": [
+        "overview",
+        "data_evidence",
+        "decision_sources"
+      ]
+    },
+    "lab-report": {
+      "query_intents": [
+        "lab report",
+        "assay validation",
+        "scientific evidence deck"
+      ],
+      "source_ids": [
+        "ppt_master_template_guide",
+        "gbif_ppt_template_metadata",
+        "google_material_design_3"
+      ],
+      "preferred_descriptor_tags": [
+        "structure_first",
+        "science_org",
+        "placeholder_slots"
+      ],
+      "mixing_knobs": {
+        "density": "medium-high",
+        "accent": "thin evidence and run-state rules",
+        "background": "clean report canvas with source-line footer"
+      },
+      "contact_collection_use_cases": [
+        "overview",
+        "data_evidence",
+        "decision_sources"
+      ]
+    },
+    "lavender-ops": {
+      "query_intents": [
+        "ops dashboard",
+        "workflow status",
+        "team operating review"
+      ],
+      "source_ids": [
+        "google_material_design_3",
+        "google_material_color_typography",
+        "ppt_master_template_guide"
+      ],
+      "preferred_descriptor_tags": [
+        "component_grid",
+        "semantic_roles",
+        "placeholder_slots"
+      ],
+      "mixing_knobs": {
+        "density": "medium",
+        "accent": "soft status accents",
+        "background": "light operational surfaces"
+      },
+      "contact_collection_use_cases": [
+        "overview",
+        "data_evidence",
+        "decision_sources"
+      ]
+    },
+    "midnight-neon": {
+      "query_intents": [
+        "developer demo",
+        "technical launch",
+        "security or AI talk"
+      ],
+      "source_ids": [
+        "slidev_open_source_presentations",
+        "primer_presentations_metadata",
+        "zach_holman_slide_design"
+      ],
+      "preferred_descriptor_tags": [
+        "source_first",
+        "developer_talk",
+        "code_demo"
+      ],
+      "mixing_knobs": {
+        "density": "low-medium",
+        "accent": "neon signal on dark field",
+        "background": "dark technical stage"
+      },
+      "contact_collection_use_cases": [
+        "overview",
+        "data_evidence",
+        "decision_sources"
+      ]
+    },
+    "paper-journal": {
+      "query_intents": [
+        "journal club",
+        "paper summary",
+        "scientific review"
+      ],
+      "source_ids": [
+        "gbif_ppt_template_metadata",
+        "google_material_color_typography",
+        "ppt_master_template_guide"
+      ],
+      "preferred_descriptor_tags": [
+        "science_org",
+        "typography_scale",
+        "structure_first"
+      ],
+      "mixing_knobs": {
+        "density": "medium-high",
+        "accent": "journal-like rulings",
+        "background": "paper field with caption discipline"
+      },
+      "contact_collection_use_cases": [
+        "overview",
+        "data_evidence",
+        "decision_sources"
+      ]
+    },
+    "sunset-investor": {
+      "query_intents": [
+        "investor deck",
+        "market story",
+        "fundraising narrative"
+      ],
+      "source_ids": [
+        "open_design_slides",
+        "zach_holman_slide_design",
+        "awesome_presentation_indexes"
+      ],
+      "preferred_descriptor_tags": [
+        "pitch-sequence",
+        "large_type",
+        "gallery_reference"
+      ],
+      "mixing_knobs": {
+        "density": "low-medium",
+        "accent": "warm proof moments",
+        "background": "confident pitch contrast"
+      },
+      "contact_collection_use_cases": [
+        "overview",
+        "data_evidence",
+        "decision_sources"
+      ]
+    },
+    "warm-terracotta": {
+      "query_intents": [
+        "case study",
+        "community report",
+        "human-centered analysis"
+      ],
+      "source_ids": [
+        "google_material_color_typography",
+        "open_design_slides",
+        "gbif_ppt_template_metadata"
+      ],
+      "preferred_descriptor_tags": [
+        "typography_scale",
+        "template_taxonomy",
+        "field_research"
+      ],
+      "mixing_knobs": {
+        "density": "medium",
+        "accent": "warm section markers",
+        "background": "neutral warm report field"
+      },
+      "contact_collection_use_cases": [
+        "overview",
+        "data_evidence",
+        "decision_sources"
+      ]
+    }
+  },
+  "subagent_contract": {
+    "contract_version": "style_inspiration_subagent_contract_v1",
+    "trigger": "Run after the user query when style or structure is underspecified, when the deck is high-stakes, or when multiple preset routes score closely.",
+    "output_schema": {
+      "selected_preset": "loadable preset name",
+      "primary_source_ids": [
+        "source id"
+      ],
+      "borrowed_descriptor_tags": [
+        "descriptor tag"
+      ],
+      "contact_collection_use_cases_to_open": [
+        "overview",
+        "data_evidence",
+        "decision_sources"
+      ],
+      "mixing_decisions": [
+        {
+          "treatment_key": "title | chart | table | figure | dashboard | comparison | decision | references",
+          "base_preset": "preset name",
+          "borrow_from_preset": "optional preset name",
+          "reason": "specific evidence/audience/asset reason"
+        }
+      ],
+      "safety_statement": "Confirm descriptor-only use and synthetic reconstruction."
+    },
+    "safety_rules": [
+      "Do not copy or store third-party PPTX files, screenshots, logos, proprietary text, or distinctive slide geometry.",
+      "Use public sources as descriptor memory and reconstruct with generic data/content through local scripts.",
+      "If a source is license-unclear, route it to metadata-only or reject it before release.",
+      "Record source ids, route id, style seed, treatment mix, and contact-sheet use cases in the design contract."
+    ],
+    "scout_loop": [
+      "Rank preset routes from prompt, audience, evidence objects, and asset burden.",
+      "Open the primary preset contact-sheet collection first, then compare one or two secondary preset collections.",
+      "Borrow treatment-specific ideas only when they fit the primary preset's metric profile and renderer pools.",
+      "Return deterministic choices that the main agent can write into design_brief.json and outline.json."
+    ]
+  }
+}

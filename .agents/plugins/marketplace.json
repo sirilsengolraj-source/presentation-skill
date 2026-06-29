@@ -1,0 +1,20 @@
+{
+  "name": "presentation-skill",
+  "interface": {
+    "displayName": "Presentation Skill"
+  },
+  "plugins": [
+    {
+      "name": "presentation-skill",
+      "source": {
+        "source": "local",
+        "path": "./plugins/presentation-skill"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

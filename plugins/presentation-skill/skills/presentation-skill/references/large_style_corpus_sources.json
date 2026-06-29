@@ -1,0 +1,854 @@
+{
+  "manifest_version": "large_style_corpus_source_manifest_v1",
+  "checked_date": "2026-06-22",
+  "purpose": "Descriptor-only discovery plan for a large public/open-source deck catalog. The collector records URLs and inferred style metadata only; it does not download or bundle raw third-party decks, screenshots, logos, slide text, or proprietary geometry.",
+  "policy": {
+    "storage_rule": "descriptor_only_no_raw_decks",
+    "allowed_record_types": [
+      "public repository URL",
+      "deck-like file path",
+      "repository metadata exposed by provider search",
+      "inferred style descriptors from names, paths, query route, and extension",
+      "balanced catalog summaries",
+      "synthetic reconstruction prompts"
+    ],
+    "forbidden_materials": [
+      "raw third-party PPTX files",
+      "raw screenshots from third-party decks",
+      "copied slide body text",
+      "logos or brand marks copied from source decks",
+      "distinctive copied slide geometry",
+      "private or confidential data"
+    ],
+    "rights_posture": "metadata_only_public_url_license_unverified",
+    "agent_use_rule": "Use catalog records as inspiration pointers and descriptor evidence. Do not download, embed, screenshot, copy, or reproduce source decks unless a later human-reviewed source route explicitly clears the asset/license."
+  },
+  "providers": [
+    {
+      "provider": "github_code_search",
+      "tool": "gh search code",
+      "official_docs": "https://cli.github.com/manual/gh_search_code",
+      "search_scope": "public GitHub code search metadata",
+      "record_fields": [
+        "repository.nameWithOwner",
+        "repository.url",
+        "repository.isFork",
+        "repository.isPrivate",
+        "path",
+        "url"
+      ],
+      "notes": [
+        "The GitHub CLI manual documents --extension, --filename, --json, --limit, and JSON fields path, repository, sha, textMatches, and url.",
+        "GitHub code search results are metadata pointers for this skill; raw file content is not collected."
+      ]
+    },
+    {
+      "provider": "github_repo_search",
+      "tool": "gh search repos",
+      "official_docs": "https://cli.github.com/manual/gh_search_repos",
+      "search_scope": "public GitHub repository metadata for slide systems and AI deck generators",
+      "record_fields": [
+        "fullName",
+        "url",
+        "description",
+        "license",
+        "stargazersCount",
+        "updatedAt",
+        "topics"
+      ],
+      "notes": [
+        "Repository search is used only for ecosystem/source-system context, not for claiming a repository contains one deck."
+      ]
+    }
+  ],
+  "deck_targets": {
+    "minimum_unique_deck_records": 2000,
+    "minimum_records_per_style_family": 10,
+    "stretch_records_per_style_family": 100,
+    "preferred_unique_repository_floor": 400,
+    "preferred_ai_agent_signal_floor": 25
+  },
+  "style_families": [
+    "lab-report",
+    "forest-research",
+    "paper-journal",
+    "executive-clinical",
+    "data-heavy-boardroom",
+    "charcoal-safety",
+    "bold-startup-narrative",
+    "sunset-investor",
+    "editorial-minimal",
+    "arctic-minimal",
+    "midnight-neon",
+    "lavender-ops",
+    "warm-terracotta"
+  ],
+  "overlap_policy": {
+    "dedupe_key": "provider + repository + normalized path",
+    "overlap_key_fields": [
+      "deck_system",
+      "primary_style_family",
+      "deck_format",
+      "path_shape"
+    ],
+    "default_max_per_repository": 8,
+    "default_max_per_owner": 40,
+    "default_max_per_overlap_key": 80,
+    "replacement_rule": "Prefer underrepresented style families, AI-agent-created or AI-tooling signals, diverse deck systems, and different repository owners before filling remaining slots from common slide/pdf buckets."
+  },
+  "query_defaults": {
+    "provider": "github_code_search",
+    "limit": 90,
+    "json_fields": [
+      "repository",
+      "path",
+      "url"
+    ],
+    "include_forks": false,
+    "sleep_ms": 250
+  },
+  "queries": [
+    {
+      "query_id": "slidev_filename_slides",
+      "terms": "slidev",
+      "filename": "slides.md",
+      "limit": 160,
+      "target_families": [
+        "midnight-neon",
+        "editorial-minimal",
+        "arctic-minimal"
+      ],
+      "design_signal": "developer-authored Slidev decks with markdown structure, code demos, and theme variation"
+    },
+    {
+      "query_id": "slidev_markdown_general",
+      "terms": "slidev",
+      "extension": "md",
+      "limit": 140,
+      "target_families": [
+        "midnight-neon",
+        "bold-startup-narrative",
+        "lavender-ops"
+      ],
+      "design_signal": "Slidev markdown decks and theme/example decks"
+    },
+    {
+      "query_id": "marp_markdown_general",
+      "terms": "marp",
+      "extension": "md",
+      "limit": 160,
+      "target_families": [
+        "paper-journal",
+        "arctic-minimal",
+        "editorial-minimal"
+      ],
+      "design_signal": "Marp markdown decks with CSS/themed structure"
+    },
+    {
+      "query_id": "reveal_html_general",
+      "terms": "reveal.js",
+      "extension": "html",
+      "limit": 110,
+      "target_families": [
+        "midnight-neon",
+        "editorial-minimal",
+        "bold-startup-narrative"
+      ],
+      "design_signal": "web-native reveal.js presentation pages"
+    },
+    {
+      "query_id": "reveal_markdown_general",
+      "terms": "reveal.js",
+      "extension": "md",
+      "limit": 110,
+      "target_families": [
+        "midnight-neon",
+        "paper-journal",
+        "arctic-minimal"
+      ],
+      "design_signal": "markdown reveal.js decks and notes"
+    },
+    {
+      "query_id": "pptx_presentation",
+      "terms": "presentation",
+      "extension": "pptx",
+      "limit": 120,
+      "target_families": [
+        "data-heavy-boardroom",
+        "bold-startup-narrative",
+        "executive-clinical"
+      ],
+      "design_signal": "PowerPoint files named or described as presentations"
+    },
+    {
+      "query_id": "pptx_slides",
+      "terms": "slides",
+      "extension": "pptx",
+      "limit": 120,
+      "target_families": [
+        "lab-report",
+        "data-heavy-boardroom",
+        "editorial-minimal"
+      ],
+      "design_signal": "PowerPoint slide decks"
+    },
+    {
+      "query_id": "pptx_deck",
+      "terms": "deck",
+      "extension": "pptx",
+      "limit": 120,
+      "target_families": [
+        "sunset-investor",
+        "bold-startup-narrative",
+        "data-heavy-boardroom"
+      ],
+      "design_signal": "PowerPoint decks with deck naming"
+    },
+    {
+      "query_id": "pdf_slides",
+      "terms": "slides",
+      "extension": "pdf",
+      "limit": 140,
+      "target_families": [
+        "paper-journal",
+        "forest-research",
+        "editorial-minimal"
+      ],
+      "design_signal": "exported slide PDFs"
+    },
+    {
+      "query_id": "pdf_presentation",
+      "terms": "presentation",
+      "extension": "pdf",
+      "limit": 140,
+      "target_families": [
+        "editorial-minimal",
+        "data-heavy-boardroom",
+        "warm-terracotta"
+      ],
+      "design_signal": "exported presentation PDFs"
+    },
+    {
+      "query_id": "pdf_talk",
+      "terms": "talk",
+      "extension": "pdf",
+      "limit": 110,
+      "target_families": [
+        "editorial-minimal",
+        "midnight-neon",
+        "paper-journal"
+      ],
+      "design_signal": "conference talk slide PDFs"
+    },
+    {
+      "query_id": "pdf_pitch_deck",
+      "terms": "pitch deck",
+      "extension": "pdf",
+      "limit": 110,
+      "target_families": [
+        "sunset-investor",
+        "bold-startup-narrative"
+      ],
+      "design_signal": "pitch deck PDFs"
+    },
+    {
+      "query_id": "pptx_pitch",
+      "terms": "pitch",
+      "extension": "pptx",
+      "limit": 110,
+      "target_families": [
+        "sunset-investor",
+        "bold-startup-narrative"
+      ],
+      "design_signal": "editable pitch PowerPoint decks"
+    },
+    {
+      "query_id": "pdf_investor_deck",
+      "terms": "investor deck",
+      "extension": "pdf",
+      "limit": 100,
+      "target_families": [
+        "sunset-investor",
+        "bold-startup-narrative"
+      ],
+      "design_signal": "investor narrative decks"
+    },
+    {
+      "query_id": "pdf_startup_pitch",
+      "terms": "startup pitch",
+      "extension": "pdf",
+      "limit": 100,
+      "target_families": [
+        "bold-startup-narrative",
+        "sunset-investor"
+      ],
+      "design_signal": "startup pitch examples"
+    },
+    {
+      "query_id": "pdf_dashboard_slides",
+      "terms": "dashboard slides",
+      "extension": "pdf",
+      "limit": 100,
+      "target_families": [
+        "data-heavy-boardroom",
+        "lavender-ops"
+      ],
+      "design_signal": "dashboard and metrics presentation exports"
+    },
+    {
+      "query_id": "pptx_metrics_presentation",
+      "terms": "metrics presentation",
+      "extension": "pptx",
+      "limit": 100,
+      "target_families": [
+        "data-heavy-boardroom",
+        "lavender-ops"
+      ],
+      "design_signal": "editable KPI and operations presentations"
+    },
+    {
+      "query_id": "pptx_quarterly_review",
+      "terms": "quarterly review",
+      "extension": "pptx",
+      "limit": 90,
+      "target_families": [
+        "data-heavy-boardroom",
+        "lavender-ops"
+      ],
+      "design_signal": "quarterly business review decks"
+    },
+    {
+      "query_id": "pdf_roadmap_presentation",
+      "terms": "roadmap presentation",
+      "extension": "pdf",
+      "limit": 90,
+      "target_families": [
+        "lavender-ops",
+        "bold-startup-narrative"
+      ],
+      "design_signal": "roadmap/product planning presentations"
+    },
+    {
+      "query_id": "pdf_risk_slides",
+      "terms": "risk slides",
+      "extension": "pdf",
+      "limit": 100,
+      "target_families": [
+        "charcoal-safety",
+        "data-heavy-boardroom"
+      ],
+      "design_signal": "risk memo and risk analysis slides"
+    },
+    {
+      "query_id": "pdf_security_slides",
+      "terms": "security slides",
+      "extension": "pdf",
+      "limit": 110,
+      "target_families": [
+        "charcoal-safety",
+        "midnight-neon"
+      ],
+      "design_signal": "security/cyber presentations"
+    },
+    {
+      "query_id": "pptx_safety_presentation",
+      "terms": "safety presentation",
+      "extension": "pptx",
+      "limit": 90,
+      "target_families": [
+        "charcoal-safety",
+        "executive-clinical"
+      ],
+      "design_signal": "safety and incident report presentations"
+    },
+    {
+      "query_id": "pdf_policy_presentation",
+      "terms": "policy presentation",
+      "extension": "pdf",
+      "limit": 100,
+      "target_families": [
+        "warm-terracotta",
+        "editorial-minimal"
+      ],
+      "design_signal": "policy and civic explainers"
+    },
+    {
+      "query_id": "pdf_governance_slides",
+      "terms": "governance slides",
+      "extension": "pdf",
+      "limit": 90,
+      "target_families": [
+        "charcoal-safety",
+        "warm-terracotta"
+      ],
+      "design_signal": "governance/risk/decision decks"
+    },
+    {
+      "query_id": "pdf_clinical_slides",
+      "terms": "clinical slides",
+      "extension": "pdf",
+      "limit": 100,
+      "target_families": [
+        "executive-clinical",
+        "lab-report"
+      ],
+      "design_signal": "clinical evidence and health-system slide PDFs"
+    },
+    {
+      "query_id": "pptx_healthcare_presentation",
+      "terms": "healthcare presentation",
+      "extension": "pptx",
+      "limit": 90,
+      "target_families": [
+        "executive-clinical",
+        "data-heavy-boardroom"
+      ],
+      "design_signal": "editable healthcare/clinical decks"
+    },
+    {
+      "query_id": "pdf_research_slides",
+      "terms": "research slides",
+      "extension": "pdf",
+      "limit": 120,
+      "target_families": [
+        "forest-research",
+        "paper-journal",
+        "lab-report"
+      ],
+      "design_signal": "research presentation PDFs"
+    },
+    {
+      "query_id": "pptx_scientific_presentation",
+      "terms": "scientific presentation",
+      "extension": "pptx",
+      "limit": 90,
+      "target_families": [
+        "lab-report",
+        "forest-research",
+        "paper-journal"
+      ],
+      "design_signal": "editable scientific presentations"
+    },
+    {
+      "query_id": "pptx_lab_presentation",
+      "terms": "lab presentation",
+      "extension": "pptx",
+      "limit": 90,
+      "target_families": [
+        "lab-report",
+        "executive-clinical"
+      ],
+      "design_signal": "lab and assay-style PowerPoint decks"
+    },
+    {
+      "query_id": "pdf_biology_slides",
+      "terms": "biology slides",
+      "extension": "pdf",
+      "limit": 100,
+      "target_families": [
+        "lab-report",
+        "forest-research",
+        "paper-journal"
+      ],
+      "design_signal": "biology/science lecture and research slides"
+    },
+    {
+      "query_id": "pdf_paper_presentation",
+      "terms": "paper presentation",
+      "extension": "pdf",
+      "limit": 100,
+      "target_families": [
+        "paper-journal",
+        "forest-research"
+      ],
+      "design_signal": "academic paper presentation exports"
+    },
+    {
+      "query_id": "pdf_journal_club",
+      "terms": "journal club",
+      "extension": "pdf",
+      "limit": 80,
+      "target_families": [
+        "paper-journal",
+        "lab-report"
+      ],
+      "design_signal": "journal-club and literature review decks"
+    },
+    {
+      "query_id": "pdf_workshop_slides",
+      "terms": "workshop slides",
+      "extension": "pdf",
+      "limit": 110,
+      "target_families": [
+        "warm-terracotta",
+        "lavender-ops",
+        "editorial-minimal"
+      ],
+      "design_signal": "workshop/training slide PDFs"
+    },
+    {
+      "query_id": "pptx_training_presentation",
+      "terms": "training presentation",
+      "extension": "pptx",
+      "limit": 100,
+      "target_families": [
+        "warm-terracotta",
+        "lavender-ops"
+      ],
+      "design_signal": "editable training decks"
+    },
+    {
+      "query_id": "pdf_lecture_slides",
+      "terms": "lecture slides",
+      "extension": "pdf",
+      "limit": 120,
+      "target_families": [
+        "paper-journal",
+        "forest-research",
+        "arctic-minimal"
+      ],
+      "design_signal": "lecture decks with content-dense educational rhythm"
+    },
+    {
+      "query_id": "pdf_conference_slides",
+      "terms": "conference slides",
+      "extension": "pdf",
+      "limit": 120,
+      "target_families": [
+        "editorial-minimal",
+        "midnight-neon",
+        "paper-journal"
+      ],
+      "design_signal": "conference talk slide exports"
+    },
+    {
+      "query_id": "pdf_keynote_slides",
+      "terms": "keynote slides",
+      "extension": "pdf",
+      "limit": 90,
+      "target_families": [
+        "editorial-minimal",
+        "bold-startup-narrative"
+      ],
+      "design_signal": "keynote-style presentation exports"
+    },
+    {
+      "query_id": "pdf_design_slides",
+      "terms": "design slides",
+      "extension": "pdf",
+      "limit": 100,
+      "target_families": [
+        "editorial-minimal",
+        "arctic-minimal",
+        "warm-terracotta"
+      ],
+      "design_signal": "design process and portfolio-like slide exports"
+    },
+    {
+      "query_id": "pdf_minimal_slides",
+      "terms": "minimal slides",
+      "extension": "pdf",
+      "limit": 80,
+      "target_families": [
+        "arctic-minimal",
+        "editorial-minimal"
+      ],
+      "design_signal": "minimal presentation exports"
+    },
+    {
+      "query_id": "pdf_whitepaper_presentation",
+      "terms": "whitepaper presentation",
+      "extension": "pdf",
+      "limit": 80,
+      "target_families": [
+        "arctic-minimal",
+        "paper-journal"
+      ],
+      "design_signal": "whitepaper/report presentation exports"
+    },
+    {
+      "query_id": "pdf_ai_slides",
+      "terms": "AI slides",
+      "extension": "pdf",
+      "limit": 110,
+      "target_families": [
+        "midnight-neon",
+        "bold-startup-narrative",
+        "data-heavy-boardroom"
+      ],
+      "design_signal": "AI topic slides and agent-era deck styles"
+    },
+    {
+      "query_id": "pptx_llm_presentation",
+      "terms": "llm presentation",
+      "extension": "pptx",
+      "limit": 80,
+      "target_families": [
+        "midnight-neon",
+        "bold-startup-narrative"
+      ],
+      "design_signal": "LLM topic editable presentations"
+    },
+    {
+      "query_id": "pdf_chatgpt_slides",
+      "terms": "chatgpt slides",
+      "extension": "pdf",
+      "limit": 90,
+      "target_families": [
+        "midnight-neon",
+        "bold-startup-narrative"
+      ],
+      "design_signal": "ChatGPT-related slide decks and AI-tooling usage"
+    },
+    {
+      "query_id": "pdf_openai_presentation",
+      "terms": "openai presentation",
+      "extension": "pdf",
+      "limit": 80,
+      "target_families": [
+        "midnight-neon",
+        "bold-startup-narrative"
+      ],
+      "design_signal": "OpenAI-related decks and agent tooling contexts"
+    },
+    {
+      "query_id": "pdf_agent_slides",
+      "terms": "agent slides",
+      "extension": "pdf",
+      "limit": 100,
+      "target_families": [
+        "midnight-neon",
+        "lavender-ops"
+      ],
+      "design_signal": "agent-workflow, AI-agent, or automation slide examples"
+    },
+    {
+      "query_id": "pdf_codex_slides",
+      "terms": "codex slides",
+      "extension": "pdf",
+      "limit": 70,
+      "target_families": [
+        "midnight-neon",
+        "arctic-minimal"
+      ],
+      "design_signal": "Codex/developer-agent slide examples"
+    },
+    {
+      "query_id": "pptx_data_analysis",
+      "terms": "data analysis",
+      "extension": "pptx",
+      "limit": 100,
+      "target_families": [
+        "data-heavy-boardroom",
+        "lab-report",
+        "forest-research"
+      ],
+      "design_signal": "data-analysis decks likely to include charts/tables"
+    },
+    {
+      "query_id": "pdf_machine_learning_slides",
+      "terms": "machine learning slides",
+      "extension": "pdf",
+      "limit": 120,
+      "target_families": [
+        "midnight-neon",
+        "paper-journal",
+        "data-heavy-boardroom"
+      ],
+      "design_signal": "ML lecture/research slides with equations and plots"
+    },
+    {
+      "query_id": "pdf_product_strategy",
+      "terms": "product strategy",
+      "extension": "pdf",
+      "limit": 90,
+      "target_families": [
+        "lavender-ops",
+        "bold-startup-narrative"
+      ],
+      "design_signal": "product strategy presentations"
+    },
+    {
+      "query_id": "pdf_community_report",
+      "terms": "community report",
+      "extension": "pdf",
+      "limit": 80,
+      "target_families": [
+        "warm-terracotta",
+        "editorial-minimal"
+      ],
+      "design_signal": "community/public report presentations"
+    },
+    {
+      "query_id": "pdf_field_report",
+      "terms": "field report",
+      "extension": "pdf",
+      "limit": 80,
+      "target_families": [
+        "warm-terracotta",
+        "forest-research"
+      ],
+      "design_signal": "field-report and place-based presentation exports"
+    },
+    {
+      "query_id": "pdf_civic_slides",
+      "terms": "civic slides",
+      "extension": "pdf",
+      "limit": 80,
+      "target_families": [
+        "warm-terracotta",
+        "editorial-minimal"
+      ],
+      "design_signal": "civic and public-service slide decks"
+    },
+    {
+      "query_id": "path_presentations_pdf",
+      "terms": "presentation",
+      "extension": "pdf",
+      "match": "path",
+      "limit": 120,
+      "target_families": [
+        "editorial-minimal",
+        "data-heavy-boardroom",
+        "paper-journal"
+      ],
+      "design_signal": "PDFs under presentation-style paths"
+    },
+    {
+      "query_id": "path_slides_pdf",
+      "terms": "slides",
+      "extension": "pdf",
+      "match": "path",
+      "limit": 120,
+      "target_families": [
+        "paper-journal",
+        "editorial-minimal",
+        "midnight-neon"
+      ],
+      "design_signal": "PDFs under slide-style paths"
+    },
+    {
+      "query_id": "path_talks_pdf",
+      "terms": "talks",
+      "extension": "pdf",
+      "match": "path",
+      "limit": 100,
+      "target_families": [
+        "editorial-minimal",
+        "midnight-neon",
+        "paper-journal"
+      ],
+      "design_signal": "talk PDF archives"
+    },
+    {
+      "query_id": "path_deck_pptx",
+      "terms": "deck",
+      "extension": "pptx",
+      "match": "path",
+      "limit": 100,
+      "target_families": [
+        "sunset-investor",
+        "bold-startup-narrative",
+        "data-heavy-boardroom"
+      ],
+      "design_signal": "PowerPoint files under deck-style paths"
+    },
+    {
+      "query_id": "odp_presentation",
+      "terms": "presentation",
+      "extension": "odp",
+      "limit": 80,
+      "target_families": [
+        "paper-journal",
+        "editorial-minimal",
+        "warm-terracotta"
+      ],
+      "design_signal": "OpenDocument presentation files"
+    }
+  ],
+  "tree_repositories": [
+    {
+      "query_id": "tree_conference_proceedings",
+      "provider": "github_tree_index",
+      "repo": "RichiH/conference_proceedings",
+      "target_families": [
+        "editorial-minimal",
+        "paper-journal",
+        "charcoal-safety"
+      ],
+      "design_signal": "large public archive of conference slide PDFs and talk materials"
+    },
+    {
+      "query_id": "tree_security_summit_ppt",
+      "provider": "github_tree_index",
+      "repo": "bit4woo/Summit_PPT",
+      "target_families": [
+        "charcoal-safety",
+        "midnight-neon",
+        "editorial-minimal"
+      ],
+      "design_signal": "public security conference and summit presentation archive"
+    },
+    {
+      "query_id": "tree_ulhpc_tutorials",
+      "provider": "github_tree_index",
+      "repo": "ULHPC/tutorials",
+      "target_families": [
+        "paper-journal",
+        "forest-research",
+        "arctic-minimal"
+      ],
+      "design_signal": "tutorial and technical training slide decks"
+    },
+    {
+      "query_id": "tree_deep_learning_course",
+      "provider": "github_tree_index",
+      "repo": "HemanthIITJ/Deep_learning",
+      "target_families": [
+        "paper-journal",
+        "midnight-neon",
+        "data-heavy-boardroom"
+      ],
+      "design_signal": "course-style deep learning slide materials"
+    },
+    {
+      "query_id": "tree_cs_course",
+      "provider": "github_tree_index",
+      "repo": "TremorPulse/CS-Course",
+      "target_families": [
+        "paper-journal",
+        "arctic-minimal",
+        "lavender-ops"
+      ],
+      "design_signal": "computer science course presentation materials"
+    },
+    {
+      "query_id": "tree_ai_workshop",
+      "provider": "github_tree_index",
+      "repo": "insanesac/ai_workshop",
+      "target_families": [
+        "midnight-neon",
+        "editorial-minimal",
+        "warm-terracotta"
+      ],
+      "design_signal": "AI workshop PowerPoint slide materials"
+    }
+  ],
+  "ai_agent_priority_terms": [
+    "ai",
+    "agent",
+    "agents",
+    "llm",
+    "gpt",
+    "chatgpt",
+    "openai",
+    "claude",
+    "codex",
+    "copilot",
+    "autogen",
+    "crew",
+    "langchain",
+    "slidev-ai",
+    "generated"
+  ]
+}

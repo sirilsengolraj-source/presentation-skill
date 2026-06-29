@@ -1,0 +1,872 @@
+{
+  "manifest_version": "style_reference_source_manifest_v1",
+  "source_checked_date": "2026-06-20",
+  "policy": {
+    "repo_storage_rule": "Store source URLs, license notes, extracted descriptors, and generated synthetic examples. Do not store third-party template PPTX files, screenshots, logos, private data, or distinctive copied geometry.",
+    "default_derivation_mode": "synthetic_reconstruction",
+    "allowed_derivation_modes": [
+      "metadata_only",
+      "synthetic_reconstruction",
+      "linked_attribution"
+    ],
+    "release_rule": "Generated gallery decks may be published when they use generic content and this manifest records the inspiration route and restrictions."
+  },
+  "source_classes": [
+    {
+      "source_id": "nasa_images_media_guidance",
+      "source_name": "NASA Images and Media Guidance",
+      "source_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "source_status": "public_domain_with_restrictions",
+      "license_summary": "NASA content is generally not subject to U.S. copyright, but identifiers, endorsement, third-party materials, people or likenesses, and AI attribution restrictions can apply.",
+      "source_verification": {
+        "checked_date": "2026-06-20",
+        "checked_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "evidence_summary": "Live NASA media guidance supports metadata-only or synthetic inspiration: NASA media are generally usable for educational or informational purposes, but NASA identifiers are protected, third-party materials may be copyrighted, commercial use must avoid endorsement, identifiable people may require permission, and AI outputs should not be attributed to NASA.",
+        "evidence_scope": [
+          "rights posture",
+          "protected identifiers",
+          "third-party material restrictions",
+          "endorsement and AI attribution restrictions"
+        ]
+      },
+      "allowed_extractions": [
+        "figure-first scientific layout vocabulary",
+        "mission or technical dashboard rhythm",
+        "caption and source posture",
+        "palette or contrast observations without identifiers"
+      ],
+      "generic_style_observations": [
+        "technical imagery works best when the figure owns the slide and labels stay small, factual, and source-backed",
+        "mission-style dashboards should use state, threshold, and next-action readouts rather than decorative chrome",
+        "scientific captions need enough room to explain context, limitations, and data provenance"
+      ],
+      "generic_slide_patterns": [
+        "large figure left or center with caption/source strip and interpretation sidecar",
+        "status console with one active route, two thresholds, and a next-action footer",
+        "map/field/technical panel followed by policy or engineering implication table"
+      ],
+      "design_constraints": [
+        "remove NASA identifiers and distinctive mission marks",
+        "replace direct media with generated or user-provided assets unless a deck-specific license chain is recorded"
+      ],
+      "forbidden_materials": [
+        "NASA identifiers or logos",
+        "third-party media",
+        "people or likenesses without rights",
+        "implied NASA endorsement",
+        "verbatim slide geometry"
+      ],
+      "attribution_policy": "When direct NASA material is used in a deck, cite the source URL and avoid endorsement language. For this skill repo, prefer metadata-only notes or synthetic reconstructions.",
+      "storage_policy": "Do not bundle NASA source assets in the skill repo.",
+      "safe_derivation_modes": [
+        "metadata_only",
+        "synthetic_reconstruction",
+        "linked_attribution"
+      ],
+      "preset_affinity": [
+        "arctic-minimal",
+        "forest-research",
+        "midnight-neon",
+        "paper-journal"
+      ]
+    },
+    {
+      "source_id": "cdc_agency_materials_guidance",
+      "source_name": "CDC Agency Materials Guidance",
+      "source_url": "https://www.cdc.gov/other/agencymaterials.html",
+      "source_status": "public_domain_with_exceptions",
+      "license_summary": "CDC agency materials are generally public domain unless otherwise noted, but contractor, grantee, state or local, third-party, logo, and endorsement restrictions can apply.",
+      "source_verification": {
+        "checked_date": "2026-06-20",
+        "checked_url": "https://www.cdc.gov/other/agencymaterials.html",
+        "evidence_summary": "Live CDC agency-material guidance supports public-domain use with attribution and disclaimer requirements, while explicitly warning that contractor, grantee, third-party, state/local, international, image, logo, and endorsement restrictions may apply.",
+        "evidence_scope": [
+          "public-domain posture",
+          "attribution and disclaimer requirements",
+          "contractor and third-party exceptions",
+          "logo and endorsement restrictions"
+        ]
+      },
+      "allowed_extractions": [
+        "public health source and disclaimer posture",
+        "clinical or lab report evidence hierarchy",
+        "plain-language executive summary structure",
+        "small reference and attribution table patterns"
+      ],
+      "generic_style_observations": [
+        "public-health pages benefit from a plain-language finding before dense evidence details",
+        "clinical and lab reports need visible denominator, sample, method, caveat, and source fields",
+        "reference material should compress into source IDs on content slides and expand into editable tables near the end"
+      ],
+      "generic_slide_patterns": [
+        "finding headline with clinical implication sidebar and source/disclaimer line",
+        "protocol or assay table with semantic pass/review/fail cells and compact method metadata",
+        "references table with source ID, title, date/accessed field, and usage note"
+      ],
+      "design_constraints": [
+        "remove agency marks and partner logos",
+        "use synthetic cohorts, samples, and public-health examples unless real source rights are explicit"
+      ],
+      "forbidden_materials": [
+        "CDC logos or marks",
+        "contractor or third-party content",
+        "state or local partner material without rights",
+        "implied CDC endorsement",
+        "copied patient or case data"
+      ],
+      "attribution_policy": "Attribute CDC material and include disclaimer language when a deck uses it directly. For this skill repo, store only high-level descriptors and generic examples.",
+      "storage_policy": "Do not bundle CDC or partner source decks, screenshots, or marks in the skill repo.",
+      "safe_derivation_modes": [
+        "metadata_only",
+        "synthetic_reconstruction",
+        "linked_attribution"
+      ],
+      "preset_affinity": [
+        "executive-clinical",
+        "lab-report",
+        "paper-journal",
+        "charcoal-safety"
+      ]
+    },
+    {
+      "source_id": "section508_accessible_presentations",
+      "source_name": "Section508.gov Create Accessible Presentations",
+      "source_url": "https://www.section508.gov/create/presentations/",
+      "source_status": "public_guidance_reference",
+      "license_summary": "Accessibility guidance for presentation structure, reading order, contrast, slide titles, tables, and media alternatives. Treat as design and QA guidance, not a visual template asset.",
+      "source_verification": {
+        "checked_date": "2026-06-20",
+        "checked_url": "https://www.section508.gov/create/presentations/",
+        "evidence_summary": "Live Section508.gov presentation guidance points to PowerPoint authoring/testing resources for accessible presentations. Treat this as constraints for structure, reading order, template hygiene, alternative text, and QA rather than as a visual template source.",
+        "evidence_scope": [
+          "PowerPoint accessibility guidance",
+          "authoring and testing resources",
+          "template hygiene",
+          "alternative text and related resources"
+        ]
+      },
+      "allowed_extractions": [
+        "readability and accessibility constraints",
+        "table and chart accessibility checks",
+        "slide title and reading-order rules",
+        "template hygiene guidance"
+      ],
+      "generic_style_observations": [
+        "every slide needs an explicit title, predictable reading order, and enough contrast before style polish matters",
+        "tables and charts should use direct labels, short legends, and redundant semantic cues instead of color-only meaning",
+        "decorative variation should never break the repeated structure that makes a deck scannable and testable"
+      ],
+      "generic_slide_patterns": [
+        "descriptive title, one evidence object, concise takeaway, and source line",
+        "chart with direct labels and adjacent data note rather than a tiny legend",
+        "table with real headers, no merged-cell dependency, and concise row labels"
+      ],
+      "design_constraints": [
+        "treat accessibility guidance as a hard QA constraint",
+        "do not use inaccessible screenshots of tables or charts when editable text is possible"
+      ],
+      "forbidden_materials": [
+        "claiming Section508 endorsement",
+        "using guidance as a copied visual template",
+        "dropping accessibility constraints during synthetic reconstruction"
+      ],
+      "attribution_policy": "Reference Section508.gov in notes when deck-specific accessibility choices are derived from the guidance.",
+      "storage_policy": "Store only guidance descriptors and QA constraints.",
+      "safe_derivation_modes": [
+        "metadata_only",
+        "synthetic_reconstruction"
+      ],
+      "preset_affinity": [
+        "executive-clinical",
+        "data-heavy-boardroom",
+        "arctic-minimal",
+        "lavender-ops",
+        "editorial-minimal",
+        "lab-report"
+      ]
+    },
+    {
+      "source_id": "slidescarnival_cc_by_terms",
+      "source_name": "SlidesCarnival Terms of Use",
+      "source_url": "https://www.slidescarnival.com/terms-of-use",
+      "source_status": "cc_by_template_reference",
+      "license_summary": "Templates are offered under CC BY 4.0 with credit requirements and with care needed for bundled photographs, illustrations, icons, and other third-party credits.",
+      "source_verification": {
+        "checked_date": "2026-06-20",
+        "checked_url": "https://www.slidescarnival.com/terms-of-use",
+        "evidence_summary": "Live SlidesCarnival terms state templates are under Creative Commons Attribution 4.0, require appropriate credit, require keeping the credits slide when using included photographs, and prohibit redistributing template files as-is. Use only high-level descriptors or attributed direct use outside this repo.",
+        "evidence_scope": [
+          "CC BY template posture",
+          "credit requirement",
+          "bundled photograph credit caveat",
+          "no as-is template redistribution"
+        ]
+      },
+      "allowed_extractions": [
+        "high-level presentation family taxonomy",
+        "non-distinctive structure ideas described in original words",
+        "synthetic recreation with generic content and attribution if direct use occurs"
+      ],
+      "generic_style_observations": [
+        "template galleries are useful for pacing archetypes, but direct geometry should be replaced with original grid systems",
+        "pitch and editorial decks need a stronger cover/body/closing rhythm than evidence-heavy reports",
+        "theme inspiration should become reusable constraints: cover archetype, content density, asset posture, and source handling"
+      ],
+      "generic_slide_patterns": [
+        "poster opener with one claim, one proof chip, and one supporting visual lane",
+        "before/after comparison with a verdict line instead of symmetric bullet lists",
+        "closing ask or recommendation table with proof, caveat, owner, and next milestone"
+      ],
+      "design_constraints": [
+        "do not bundle third-party templates or screenshots",
+        "if direct template use happens in a user deck, keep required credits outside this skill repo"
+      ],
+      "forbidden_materials": [
+        "bundled template PPTX files without attribution",
+        "template screenshots",
+        "distinctive copied slide geometry",
+        "third-party photos or icons without their own license chain",
+        "removing required credit from direct template use"
+      ],
+      "attribution_policy": "If a deck directly uses SlidesCarnival templates or assets, preserve CC BY credit and asset credits. This skill repo should prefer synthetic descriptors.",
+      "storage_policy": "Do not bundle SlidesCarnival templates or screenshots in the skill repo.",
+      "safe_derivation_modes": [
+        "metadata_only",
+        "synthetic_reconstruction",
+        "linked_attribution"
+      ],
+      "preset_affinity": [
+        "bold-startup-narrative",
+        "sunset-investor",
+        "warm-terracotta",
+        "editorial-minimal",
+        "lavender-ops"
+      ]
+    },
+    {
+      "source_id": "uswds_public_design_system",
+      "source_name": "U.S. Web Design System",
+      "source_url": "https://designsystem.digital.gov/",
+      "source_status": "public_domain_design_system",
+      "license_summary": "USWDS is a U.S. government design system; treat government-authored design guidance as public-domain/CC0-style inspiration while checking third-party fonts, icons, examples, and project-specific assets separately.",
+      "source_verification": {
+        "checked_date": "2026-06-20",
+        "checked_url": "https://designsystem.digital.gov/",
+        "evidence_summary": "Live USWDS documentation provides public-sector design-system guidance for accessible components, layout, tokens, identifiers, and design principles. Use this as a public-domain design-system reference for generic layout constraints and navigation/data patterns, not as a bundled asset source.",
+        "evidence_scope": [
+          "public-sector design-system guidance",
+          "layout and token structure",
+          "component hierarchy",
+          "accessibility posture"
+        ]
+      },
+      "allowed_extractions": [
+        "public-sector information hierarchy",
+        "accessible component and token vocabulary",
+        "form/table/status pattern descriptions",
+        "policy and service-page structure without identifiers"
+      ],
+      "generic_style_observations": [
+        "policy and public-service decks read better with direct headings, visible status labels, and restrained civic color use",
+        "operational pages should privilege task state, owner, and next step over decorative storytelling",
+        "data tables need plain headers, consistent tokenized states, and enough row height for repeated use"
+      ],
+      "generic_slide_patterns": [
+        "policy decision slide with status label, short rationale, owner, and deadline",
+        "service dashboard with task state tiles above an exception table",
+        "public brief page with direct title, one evidence object, and a source/accessibility footer"
+      ],
+      "design_constraints": [
+        "remove U.S. government identifiers and agency-specific marks unless the user supplies rights/context",
+        "convert component inspiration into original slide geometry and editable PowerPoint shapes"
+      ],
+      "forbidden_materials": [
+        "agency logos or official seals",
+        "copied component screenshots",
+        "third-party fonts or assets without their own license chain",
+        "implied government endorsement",
+        "verbatim design-system page geometry"
+      ],
+      "attribution_policy": "Cite USWDS or the relevant government source when a deck explicitly uses its guidance. This repo stores only descriptors and synthetic reconstructions.",
+      "storage_policy": "Store URLs, descriptors, and generated examples only; do not bundle USWDS screenshots or third-party assets.",
+      "safe_derivation_modes": [
+        "metadata_only",
+        "synthetic_reconstruction",
+        "linked_attribution"
+      ],
+      "preset_affinity": [
+        "data-heavy-boardroom",
+        "lavender-ops",
+        "charcoal-safety",
+        "executive-clinical",
+        "arctic-minimal"
+      ]
+    },
+    {
+      "source_id": "govuk_design_system_ogl",
+      "source_name": "GOV.UK Design System",
+      "source_url": "https://design-system.service.gov.uk/",
+      "source_status": "open_government_guidance",
+      "license_summary": "GOV.UK Design System guidance is suitable as Open Government Licence-style design inspiration, with government identifiers and third-party assets excluded from this repo.",
+      "source_verification": {
+        "checked_date": "2026-06-20",
+        "checked_url": "https://design-system.service.gov.uk/",
+        "evidence_summary": "Live GOV.UK Design System documentation exposes public-service patterns for typography, spacing, components, forms, summaries, and task-oriented content. Treat it as generic guidance for clear editorial/policy structures and not as a source of bundled screenshots or official marks.",
+        "evidence_scope": [
+          "public-service patterns",
+          "typography and spacing hierarchy",
+          "task-oriented page structure",
+          "government-mark restrictions"
+        ]
+      },
+      "allowed_extractions": [
+        "plain-language heading hierarchy",
+        "summary-list and decision-list structure",
+        "open whitespace with strong alignment",
+        "policy memo and public-service content rhythm"
+      ],
+      "generic_style_observations": [
+        "editorial and policy decks should use brutally clear headings, spare rules, and few decorative containers",
+        "summary-list structure is useful for evidence, caveat, owner, and date fields",
+        "forms and task pages translate into slide structures with one question, one answer, and one next action"
+      ],
+      "generic_slide_patterns": [
+        "policy summary slide with finding, evidence, caveat, and owner as aligned rows",
+        "minimal editorial page with one large statement and one compact source/readout block",
+        "case-study page with service moment, friction, intervention, and measured signal"
+      ],
+      "design_constraints": [
+        "remove GOV.UK crown, wordmarks, and exact page styling",
+        "translate component ideas into original slide layouts with generic labels and content"
+      ],
+      "forbidden_materials": [
+        "GOV.UK marks or identifiers",
+        "copied page or component screenshots",
+        "verbatim example content",
+        "third-party assets without rights",
+        "claims of government endorsement"
+      ],
+      "attribution_policy": "When deck-specific content uses GOV.UK guidance directly, cite the guidance URL. This skill repo keeps only generic descriptors and synthetic examples.",
+      "storage_policy": "Do not store GOV.UK screenshots, official marks, or copied component geometry in the skill repo.",
+      "safe_derivation_modes": [
+        "metadata_only",
+        "synthetic_reconstruction",
+        "linked_attribution"
+      ],
+      "preset_affinity": [
+        "editorial-minimal",
+        "forest-research",
+        "warm-terracotta",
+        "paper-journal",
+        "arctic-minimal"
+      ]
+    },
+    {
+      "source_id": "carbon_charts_design_guidance",
+      "source_name": "Carbon Design System Data Visualization",
+      "source_url": "https://carbondesignsystem.com/data-visualization/getting-started/",
+      "source_status": "open_source_design_system",
+      "license_summary": "Carbon and Carbon Charts provide open-source design and data-visualization guidance. Use only high-level chart, spacing, theme, and annotation descriptors unless a deck records a specific license chain.",
+      "source_verification": {
+        "checked_date": "2026-06-20",
+        "checked_url": "https://carbondesignsystem.com/data-visualization/getting-started/",
+        "evidence_summary": "Live Carbon data-visualization documentation provides chart-type, theme, palette, interaction, labeling, and accessibility guidance for data-heavy interfaces. Treat it as open-source design-system inspiration for generic chart/table/dashboard patterns, not as bundled UI screenshots.",
+        "evidence_scope": [
+          "data visualization guidance",
+          "chart palette and theme structure",
+          "accessibility and labeling posture",
+          "dashboard component rhythm"
+        ]
+      },
+      "allowed_extractions": [
+        "chart labeling and annotation vocabulary",
+        "dashboard hierarchy and state rhythm",
+        "dark/light technical theme constraints",
+        "table-adjacent metric readout patterns"
+      ],
+      "generic_style_observations": [
+        "data-heavy slides need chart title, axis clarity, direct annotation, and a nearby decision readout",
+        "dark technical dashboards work when color marks state and thresholds, not decoration",
+        "board and ops decks should pair charts with exception or owner tables to preserve actionability"
+      ],
+      "generic_slide_patterns": [
+        "chart with right-side facts rail for target, variance, owner, and data cut",
+        "dashboard with metric strip, central trend, exception table, and decision footer",
+        "dark console page with threshold chart, active status rail, and escalation owner"
+      ],
+      "design_constraints": [
+        "do not bundle Carbon screenshots or UI kit files",
+        "translate data-vis guidance into editable PowerPoint charts/tables and original synthetic examples"
+      ],
+      "forbidden_materials": [
+        "copied Carbon screenshots",
+        "Carbon or IBM marks without rights",
+        "third-party icons or UI kit assets",
+        "verbatim example data",
+        "unsupported dark-mode contrast"
+      ],
+      "attribution_policy": "Cite Carbon documentation when a deck explicitly relies on its data-visualization guidance. This repo stores only generic descriptors.",
+      "storage_policy": "Store source URLs and descriptors only; do not bundle Carbon source assets, screenshots, or examples.",
+      "safe_derivation_modes": [
+        "metadata_only",
+        "synthetic_reconstruction",
+        "linked_attribution"
+      ],
+      "preset_affinity": [
+        "data-heavy-boardroom",
+        "midnight-neon",
+        "lavender-ops",
+        "sunset-investor",
+        "bold-startup-narrative"
+      ]
+    },
+    {
+      "source_id": "cfpb_data_visualization_guidance",
+      "source_name": "CFPB Design System Data Visualization Guidelines",
+      "source_url": "https://cfpb.github.io/design-system/guidelines/data-visualization-guidelines",
+      "source_status": "public_guidance_reference",
+      "license_summary": "CFPB Design System documentation is an open public design-system reference; use as chart/accessibility guidance only, not as bundled screenshots, data, UI assets, or brand material.",
+      "source_verification": {
+        "checked_date": "2026-06-20",
+        "checked_url": "https://cfpb.github.io/design-system/guidelines/data-visualization-guidelines",
+        "evidence_summary": "Live CFPB data-visualization guidance requires a chart title, axis labels, downloadable source data, and alt text; it also describes optional figure numbers, intro text, data source, notes, supporting text, color, pattern, and accessibility guidance. Treat this as generic chart and source-data discipline for synthetic slide examples.",
+        "evidence_scope": [
+          "required chart information",
+          "downloadable source-data posture",
+          "alt text and accessibility",
+          "color and pattern guidance"
+        ]
+      },
+      "allowed_extractions": [
+        "chart title and axis-label completeness rules",
+        "downloadable source-data and metadata posture",
+        "alt text and accessibility requirements",
+        "pattern and color redundancy for non-color-only meaning"
+      ],
+      "generic_style_observations": [
+        "chart slides need a descriptive title, labeled axes, and a nearby source/data-cut cue before visual styling",
+        "data-heavy decks should bind every chart to a CSV or Excel-like source artifact for reproducible rebuilds",
+        "color should be reinforced with pattern, label, or direct annotation so meaning is not color-only"
+      ],
+      "generic_slide_patterns": [
+        "chart plus compact source-data note, direct takeaway, and optional figure number",
+        "comparison chart with patterned series and sidecar caveat instead of a tiny legend",
+        "source-backed data slide that pairs a chart with a downloadable-data or artifact alias note"
+      ],
+      "design_constraints": [
+        "treat the guidance as chart and accessibility rules, not a visual template",
+        "translate requirements into editable PowerPoint charts, tables, and source-footers"
+      ],
+      "forbidden_materials": [
+        "CFPB logos or marks",
+        "copied screenshots",
+        "verbatim example data",
+        "third-party assets without rights",
+        "claims of CFPB endorsement"
+      ],
+      "attribution_policy": "Cite CFPB Design System guidance when a deck explicitly relies on its data-visualization rules. This skill repo stores only URLs, descriptors, and synthetic reconstructions.",
+      "storage_policy": "Store source URLs and descriptors only; do not bundle CFPB screenshots, data files, brand assets, or copied examples.",
+      "safe_derivation_modes": [
+        "metadata_only",
+        "synthetic_reconstruction",
+        "linked_attribution"
+      ],
+      "preset_affinity": [
+        "data-heavy-boardroom",
+        "lavender-ops",
+        "sunset-investor",
+        "editorial-minimal",
+        "arctic-minimal"
+      ]
+    }
+  ],
+  "preset_intake_routes": {
+    "arctic-minimal": {
+      "route_id": "source-route-arctic-minimal",
+      "source_ids": [
+        "nasa_images_media_guidance",
+        "govuk_design_system_ogl",
+        "uswds_public_design_system",
+        "section508_accessible_presentations"
+      ],
+      "derivation_mode": "synthetic_reconstruction",
+      "use_cases": [
+        "sparse technical brief structure",
+        "one-anchor evidence slides",
+        "readability and contrast constraints"
+      ],
+      "required_synthetic_content": [
+        "single figure or chart anchor",
+        "compact decision line",
+        "short source or references table"
+      ],
+      "content_treatment_scope": [
+        "title",
+        "comparison",
+        "chart",
+        "table",
+        "figure",
+        "dashboard",
+        "decision",
+        "references"
+      ]
+    },
+    "bold-startup-narrative": {
+      "route_id": "source-route-bold-startup-narrative",
+      "source_ids": [
+        "slidescarnival_cc_by_terms",
+        "carbon_charts_design_guidance",
+        "section508_accessible_presentations"
+      ],
+      "derivation_mode": "synthetic_reconstruction",
+      "use_cases": [
+        "pitch pacing without copied templates",
+        "hero metric slides",
+        "before-after commercial comparison"
+      ],
+      "required_synthetic_content": [
+        "poster-style title",
+        "hero metric proof slide",
+        "milestone or ask table"
+      ],
+      "content_treatment_scope": [
+        "title",
+        "comparison",
+        "chart",
+        "table",
+        "figure",
+        "dashboard",
+        "decision",
+        "references"
+      ]
+    },
+    "charcoal-safety": {
+      "route_id": "source-route-charcoal-safety",
+      "source_ids": [
+        "cdc_agency_materials_guidance",
+        "uswds_public_design_system",
+        "section508_accessible_presentations"
+      ],
+      "derivation_mode": "synthetic_reconstruction",
+      "use_cases": [
+        "risk memo source posture",
+        "severity and owner tables",
+        "incident sequence readability"
+      ],
+      "required_synthetic_content": [
+        "severity timeline",
+        "control gap table",
+        "remediation decision log"
+      ],
+      "content_treatment_scope": [
+        "title",
+        "comparison",
+        "chart",
+        "table",
+        "figure",
+        "dashboard",
+        "decision",
+        "references"
+      ]
+    },
+    "data-heavy-boardroom": {
+      "route_id": "source-route-data-heavy-boardroom",
+      "source_ids": [
+        "carbon_charts_design_guidance",
+        "cfpb_data_visualization_guidance",
+        "uswds_public_design_system",
+        "section508_accessible_presentations"
+      ],
+      "derivation_mode": "synthetic_reconstruction",
+      "use_cases": [
+        "accessible charts and tables",
+        "board dashboard density limits",
+        "source and version footers"
+      ],
+      "required_synthetic_content": [
+        "chart plus facts rail",
+        "compact ledger table",
+        "decision trigger table"
+      ],
+      "content_treatment_scope": [
+        "title",
+        "comparison",
+        "chart",
+        "table",
+        "figure",
+        "dashboard",
+        "decision",
+        "references"
+      ]
+    },
+    "editorial-minimal": {
+      "route_id": "source-route-editorial-minimal",
+      "source_ids": [
+        "govuk_design_system_ogl",
+        "slidescarnival_cc_by_terms",
+        "cfpb_data_visualization_guidance",
+        "section508_accessible_presentations"
+      ],
+      "derivation_mode": "synthetic_reconstruction",
+      "use_cases": [
+        "editorial pacing without copied slides",
+        "single visual anchor rules",
+        "accessible typographic hierarchy"
+      ],
+      "required_synthetic_content": [
+        "masthead title",
+        "one image or chart anchor",
+        "short sources slide"
+      ],
+      "content_treatment_scope": [
+        "title",
+        "comparison",
+        "chart",
+        "table",
+        "figure",
+        "dashboard",
+        "decision",
+        "references"
+      ]
+    },
+    "executive-clinical": {
+      "route_id": "source-route-executive-clinical",
+      "source_ids": [
+        "cdc_agency_materials_guidance",
+        "uswds_public_design_system",
+        "section508_accessible_presentations"
+      ],
+      "derivation_mode": "synthetic_reconstruction",
+      "use_cases": [
+        "clinical evidence brief",
+        "executive implication sidebar",
+        "source disclaimer and attribution posture"
+      ],
+      "required_synthetic_content": [
+        "clinical status rail",
+        "protocol or cohort table",
+        "decision owner table"
+      ],
+      "content_treatment_scope": [
+        "title",
+        "comparison",
+        "chart",
+        "table",
+        "figure",
+        "dashboard",
+        "decision",
+        "references"
+      ]
+    },
+    "forest-research": {
+      "route_id": "source-route-forest-research",
+      "source_ids": [
+        "nasa_images_media_guidance",
+        "govuk_design_system_ogl",
+        "section508_accessible_presentations"
+      ],
+      "derivation_mode": "synthetic_reconstruction",
+      "use_cases": [
+        "field science figure-first structure",
+        "map or plot caption discipline",
+        "policy tradeoff matrices"
+      ],
+      "required_synthetic_content": [
+        "figure panel with interpretation",
+        "trend chart",
+        "policy option table"
+      ],
+      "content_treatment_scope": [
+        "title",
+        "comparison",
+        "chart",
+        "table",
+        "figure",
+        "dashboard",
+        "decision",
+        "references"
+      ]
+    },
+    "lab-report": {
+      "route_id": "source-route-lab-report",
+      "source_ids": [
+        "cdc_agency_materials_guidance",
+        "carbon_charts_design_guidance",
+        "cfpb_data_visualization_guidance",
+        "section508_accessible_presentations"
+      ],
+      "derivation_mode": "synthetic_reconstruction",
+      "use_cases": [
+        "lab report source and disclaimer posture",
+        "sample/run metadata tables",
+        "chart/table readability gates"
+      ],
+      "required_synthetic_content": [
+        "run metadata title",
+        "lab-run-results table",
+        "figure panel with caption",
+        "references table"
+      ],
+      "content_treatment_scope": [
+        "title",
+        "comparison",
+        "chart",
+        "table",
+        "figure",
+        "dashboard",
+        "decision",
+        "references"
+      ]
+    },
+    "lavender-ops": {
+      "route_id": "source-route-lavender-ops",
+      "source_ids": [
+        "slidescarnival_cc_by_terms",
+        "carbon_charts_design_guidance",
+        "cfpb_data_visualization_guidance",
+        "uswds_public_design_system",
+        "section508_accessible_presentations"
+      ],
+      "derivation_mode": "synthetic_reconstruction",
+      "use_cases": [
+        "ops workbench presentation families",
+        "SLA dashboard readability",
+        "owner and next-touch tables"
+      ],
+      "required_synthetic_content": [
+        "SLA dashboard",
+        "worklist table",
+        "workflow route diagram"
+      ],
+      "content_treatment_scope": [
+        "title",
+        "comparison",
+        "chart",
+        "table",
+        "figure",
+        "dashboard",
+        "decision",
+        "references"
+      ]
+    },
+    "midnight-neon": {
+      "route_id": "source-route-midnight-neon",
+      "source_ids": [
+        "nasa_images_media_guidance",
+        "carbon_charts_design_guidance",
+        "cfpb_data_visualization_guidance",
+        "section508_accessible_presentations"
+      ],
+      "derivation_mode": "synthetic_reconstruction",
+      "use_cases": [
+        "technical command-center cues without copied screens",
+        "dark-mode contrast constraints",
+        "status and threshold readout slides"
+      ],
+      "required_synthetic_content": [
+        "console-style dashboard",
+        "route diagram",
+        "threshold chart"
+      ],
+      "content_treatment_scope": [
+        "title",
+        "comparison",
+        "chart",
+        "table",
+        "figure",
+        "dashboard",
+        "decision",
+        "references"
+      ]
+    },
+    "paper-journal": {
+      "route_id": "source-route-paper-journal",
+      "source_ids": [
+        "cdc_agency_materials_guidance",
+        "nasa_images_media_guidance",
+        "govuk_design_system_ogl",
+        "section508_accessible_presentations"
+      ],
+      "derivation_mode": "synthetic_reconstruction",
+      "use_cases": [
+        "caption-led scientific figures",
+        "methods/results table rhythm",
+        "accessible references"
+      ],
+      "required_synthetic_content": [
+        "journal masthead",
+        "methods/results table",
+        "figure panels with captions"
+      ],
+      "content_treatment_scope": [
+        "title",
+        "comparison",
+        "chart",
+        "table",
+        "figure",
+        "dashboard",
+        "decision",
+        "references"
+      ]
+    },
+    "sunset-investor": {
+      "route_id": "source-route-sunset-investor",
+      "source_ids": [
+        "slidescarnival_cc_by_terms",
+        "carbon_charts_design_guidance",
+        "cfpb_data_visualization_guidance",
+        "section508_accessible_presentations"
+      ],
+      "derivation_mode": "synthetic_reconstruction",
+      "use_cases": [
+        "investor memo pacing without copied templates",
+        "unit economics table readability",
+        "milestone and capital decision slides"
+      ],
+      "required_synthetic_content": [
+        "thesis opener",
+        "unit economics table",
+        "capital milestone sequence"
+      ],
+      "content_treatment_scope": [
+        "title",
+        "comparison",
+        "chart",
+        "table",
+        "figure",
+        "dashboard",
+        "decision",
+        "references"
+      ]
+    },
+    "warm-terracotta": {
+      "route_id": "source-route-warm-terracotta",
+      "source_ids": [
+        "govuk_design_system_ogl",
+        "slidescarnival_cc_by_terms",
+        "section508_accessible_presentations"
+      ],
+      "derivation_mode": "synthetic_reconstruction",
+      "use_cases": [
+        "human-centered case brief pacing",
+        "photo or artifact sidebar without copied assets",
+        "service friction table"
+      ],
+      "required_synthetic_content": [
+        "case context opener",
+        "artifact or place sidebar",
+        "friction/intervention table"
+      ],
+      "content_treatment_scope": [
+        "title",
+        "comparison",
+        "chart",
+        "table",
+        "figure",
+        "dashboard",
+        "decision",
+        "references"
+      ]
+    }
+  }
+}

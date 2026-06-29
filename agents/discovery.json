@@ -1,7 +1,7 @@
 {
   "schema": "presentation_skill_discovery_v1",
   "name": "presentation-skill",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "license": "MIT",
   "repository": "https://github.com/sirilsengolraj-source/presentation-skill",
   "summary": "Source-first PowerPoint/PPTX generation skill for Codex, ChatGPT, and OpenAI-style agents.",

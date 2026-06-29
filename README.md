@@ -55,6 +55,24 @@ Full release notes and comparison images are in the [v0.7.0 release](https://git
 
 ## Install
 
+### Install as a Codex plugin
+
+Add this repo as a Codex plugin marketplace, then open `/plugins` in Codex and install `presentation-skill` from the **Presentation Skill** marketplace:
+
+```bash
+codex plugin marketplace add sirilsengolraj-source/presentation-skill --ref v0.8.0
+```
+
+For local development against a checkout:
+
+```bash
+codex plugin marketplace add /absolute/path/to/presentation-skill
+```
+
+The marketplace entry lives at `.agents/plugins/marketplace.json` and points to `plugins/presentation-skill`, which bundles a synced snapshot of the root skill.
+
+### Install as a local skill
+
 Clone or copy this repo into your Codex skills directory:
 
 ```bash
@@ -170,6 +188,7 @@ Discovery metadata for agents and shareable summaries for humans live in [`DISCO
 
 ## Releases
 
+- [`v0.8.0`](https://github.com/sirilsengolraj-source/presentation-skill/releases/tag/v0.8.0) — Codex plugin packaging, repo marketplace entry, synced plugin skill snapshot, and marketplace install docs.
 - [`v0.7.0`](https://github.com/sirilsengolraj-source/presentation-skill/releases/tag/v0.7.0) — optional first-class atom composition in the normal deck-start/design-contract/style-router workflow, plus README proof boards for renderer variants, style families, and Codex-native vs updated-skill comparison.
 - [`v0.6.0`](https://github.com/sirilsengolraj-source/presentation-skill/releases/tag/v0.6.0) — topic-aware atom router, stricter reproducible composition prompts, readable stats rendering, refreshed random-topic evidence gallery.
 - [`v0.5.0`](https://github.com/sirilsengolraj-source/presentation-skill/releases/tag/v0.5.0) — descriptor-only style corpus (~2,000 records), random-topic comparison gallery, design-catalog selector.

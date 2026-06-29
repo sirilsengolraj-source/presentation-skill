@@ -68,7 +68,7 @@ Do not use it for pure text brainstorming when no deck artifact is needed.
 - Codex-native vs updated comparison:
   `decks/native-vs-latest-random-topics-20260623/readme_images/codex_native_vs_updated_clean_three_topics.png`
 - Latest release evidence:
-  <https://github.com/sirilsengolraj-source/presentation-skill/releases/tag/v0.7.0>
+  <https://github.com/sirilsengolraj-source/presentation-skill/releases/tag/v0.8.0>
 
 ## Example Prompts
 
@@ -108,3 +108,5 @@ workspaces.
 - `agents/openai.yaml` and `agents/discovery.json` give agent-readable routing.
 - Release assets include proof boards and before/after comparisons.
 - Issue templates collect real deck-quality feedback from users.
+- The Codex plugin marketplace lives at `.agents/plugins/marketplace.json`
+  and exposes `plugins/presentation-skill`.

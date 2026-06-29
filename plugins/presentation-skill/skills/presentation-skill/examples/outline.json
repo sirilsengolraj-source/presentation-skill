@@ -1,0 +1,110 @@
+{
+  "slides": [
+    {
+      "type": "title",
+      "title": "How City Libraries Become Climate Refuges",
+      "subtitle": "Cooling centers, charging stations, and filtered air for the hot week"
+    },
+    {
+      "type": "section",
+      "title": "Why Libraries",
+      "subtitle": "Already trusted, distributed, and free to enter"
+    },
+    {
+      "type": "content",
+      "variant": "cards-3",
+      "title": "What a Refuge Provides",
+      "subtitle": "Three services that change risk during a heat wave",
+      "cards": [
+        {
+          "title": "Cool Air",
+          "body": "Conditioned space for residents without home cooling.",
+          "accent": "accent_primary"
+        },
+        {
+          "title": "Power",
+          "body": "Charging for phones and medical devices.",
+          "accent": "accent_secondary"
+        },
+        {
+          "title": "Clean Air",
+          "body": "MERV-13 filtration on wildfire smoke days.",
+          "accent": "accent_primary"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "variant": "split",
+      "title": "What It Takes to Operate",
+      "subtitle": "Coordination beats hardware",
+      "bullets": [
+        "Extend opening hours during heat advisories.",
+        "Train staff on heat-illness recognition.",
+        "Pre-stage water near the entrance."
+      ],
+      "highlights": [
+        "Pair every refuge with a public-health contact."
+      ],
+      "footer": "Operations, not just infrastructure"
+    },
+    {
+      "type": "content",
+      "variant": "timeline",
+      "title": "Setup Timeline",
+      "subtitle": "From building audit to first hot day",
+      "milestones": [
+        {
+          "label": "Wk 1",
+          "title": "Audit",
+          "body": "Score HVAC capacity per branch."
+        },
+        {
+          "label": "Wk 3",
+          "title": "Retrofit",
+          "body": "Install filtration; verify cooling load."
+        },
+        {
+          "label": "Wk 5",
+          "title": "Train",
+          "body": "Tabletop with staff and public health."
+        },
+        {
+          "label": "Wk 6",
+          "title": "Publish",
+          "body": "Refuge map on city + library portals."
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "variant": "comparison-2col",
+      "title": "Day-Of vs Pre-Positioned",
+      "subtitle": "Two ways the same heat wave plays out",
+      "left": {
+        "title": "Day-Of Scramble",
+        "body": [
+          "Staff find out via the news.",
+          "No filtered air for smoke days.",
+          "Residents wander between buildings.",
+          "First-aid kits checked the morning of."
+        ]
+      },
+      "right": {
+        "title": "Pre-Positioned",
+        "body": [
+          "Heads-up at the 48-hour forecast.",
+          "Filtration installed and tested.",
+          "Refuge map published before the heat.",
+          "Staff already trained, supplies staged."
+        ]
+      },
+      "verdict": "Pre-positioning is a procurement question solved months early, not a crisis decision."
+    },
+    {
+      "type": "section",
+      "title": "What It Costs",
+      "subtitle": "Less than a single emergency room admission for heat stroke"
+    }
+  ]
+}
