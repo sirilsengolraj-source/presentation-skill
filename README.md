@@ -2,9 +2,15 @@
 
 A skill for coding agents that produces editable PowerPoint decks from structured source files. The idea is to treat a deck like code: `outline.json` is the source, scripts build the `.pptx`, and a validation loop checks layout, density, and design-taste issues before delivery.
 
+[![Release](https://img.shields.io/github/v/release/sirilsengolraj-source/presentation-skill?sort=semver)](https://github.com/sirilsengolraj-source/presentation-skill/releases)
+[![License: MIT](https://img.shields.io/badge/license-MIT-111827.svg)](LICENSE)
+[![Built with pptxgenjs](https://img.shields.io/badge/renderer-pptxgenjs-2563eb.svg)](templates/pptxgenjs/README.md)
+
 ![presentation-skill variant proof board](decks/native-vs-latest-random-topics-20260623/readme_images/presentation_skill_variant_proof.png)
 
 *Rendered samples across the renderer variants, from title and section slides to lab tables, figures, KPI, matrix, chart, comparison, and flow layouts.*
+
+Ask an agent for a lab report, board memo, investor update, clinical dashboard, policy brief, or scientific figure deck. The skill writes source JSON, routes style and content structure, builds an editable `.pptx`, and runs QA instead of shipping a screenshot or a stack of centered bullets.
 
 ## Why
 
@@ -61,7 +67,9 @@ npm install
 
 Core generation does not require LibreOffice. Render-based verification uses LibreOffice `soffice` and Poppler `pdftoppm` when available.
 
-## Build a deck
+## Try It
+
+Build and verify the bundled example:
 
 ```bash
 node scripts/build_deck_pptxgenjs.js \
@@ -82,6 +90,10 @@ python3 scripts/qa_gate.py \
 
 For production builds, add `--strict-geometry --fail-on-design-warnings --fail-on-whitespace-warnings` and complete one manual visual review (which writes a `manual_review_passed.flag` into the outdir) before re-running.
 
+For agents, the shortest useful prompt is:
+
+> Use `presentation-skill` to build a 7-slide editable PowerPoint deck. Treat `outline.json` as source, choose a preset that fits the topic, use charts/tables/figures where they help, and run the QA gate before delivery.
+
 ## What people actually build with this
 
 A few concrete use cases this skill is set up for, drawn from the variants and presets it ships with:
@@ -90,6 +102,10 @@ A few concrete use cases this skill is set up for, drawn from the variants and p
 - **Investor and board decks.** `kpi-hero`, `stats`, and `comparison-2col` variants with the `bold-startup-narrative` or `data-heavy-boardroom` presets. Generated charts cropped, slide-sized, and readable before assembly.
 - **Editorial and policy briefs.** `editorial-report` and `civic-science-policy` presets with `cards-3`, `matrix`, and `timeline` variants. Built for proof-burden + audience-posture decks rather than 10-bullet recap slides.
 - **Design gallery testing.** Build the same outline across all 13 presets with multiple header variants to see how a content shape lands in different design families. Useful when you don't know which preset fits a topic.
+
+## Feedback
+
+The most useful feedback is a concrete deck-quality miss: repeated layout, crowded text, weak chart/table/figure use, unreadable type, awkward whitespace, or a style that did not match the topic. Use the [deck quality feedback template](.github/ISSUE_TEMPLATE/deck_quality_feedback.yml) and include the prompt, preset, contact sheet, or `outline.json` when possible.
 
 ## Workspaces
 
@@ -150,6 +166,8 @@ Codex and other OpenAI-style agents trigger this skill for PowerPoint, `.pptx`, 
 - Fix the source files, never the `.pptx` artifact.
 - Run QA before delivery. If QA fails, rebuild from source.
 
+Discovery metadata for agents and shareable summaries for humans live in [`DISCOVERY.md`](DISCOVERY.md) and [`agents/discovery.json`](agents/discovery.json).
+
 ## Releases
 
 - [`v0.7.0`](https://github.com/sirilsengolraj-source/presentation-skill/releases/tag/v0.7.0) — optional first-class atom composition in the normal deck-start/design-contract/style-router workflow, plus README proof boards for renderer variants, style families, and Codex-native vs updated-skill comparison.
@@ -161,6 +179,7 @@ Codex and other OpenAI-style agents trigger this skill for PowerPoint, `.pptx`, 
 ## Further reading
 
 - [`SKILL.md`](SKILL.md) — full agent contract and verification loop
+- [`DISCOVERY.md`](DISCOVERY.md) — share kit, trigger phrases, proof links, and adoption checklist
 - [`DESIGN.md`](DESIGN.md) — design philosophy and decisions
 - [`ROADMAP.md`](ROADMAP.md) — open work and direction
 - [`DEVELOPMENT.md`](DEVELOPMENT.md) — maintainer workflow

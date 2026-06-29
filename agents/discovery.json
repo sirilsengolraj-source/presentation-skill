@@ -1,0 +1,79 @@
+{
+  "schema": "presentation_skill_discovery_v1",
+  "name": "presentation-skill",
+  "version": "0.7.0",
+  "license": "MIT",
+  "repository": "https://github.com/sirilsengolraj-source/presentation-skill",
+  "summary": "Source-first PowerPoint/PPTX generation skill for Codex, ChatGPT, and OpenAI-style agents.",
+  "one_line": "Write outline.json, build editable .pptx decks with scripts, and run layout QA before delivery.",
+  "primary_audience": [
+    "Codex agents",
+    "ChatGPT agents",
+    "OpenAI-style agents",
+    "developers building generated PowerPoint workflows",
+    "people who need reproducible lab, clinical, investor, board, or report decks"
+  ],
+  "trigger_phrases": [
+    "build a PowerPoint",
+    "create a PPTX",
+    "generate a slide deck",
+    "make a presentation",
+    "redesign this deck",
+    "run layout QA on this deck",
+    "make a lab report deck",
+    "make a clinical summary deck",
+    "make an investor deck",
+    "make a board memo deck",
+    "turn this CSV or Excel file into slides",
+    "create scientific figure slides",
+    "make the deck rebuildable"
+  ],
+  "aliases": [
+    "powerpoint-deck-builder",
+    "pptx-skill",
+    "PowerPoint skill",
+    "PPTX skill",
+    "slide-deck generator",
+    "slides generator",
+    "deck builder",
+    "presentation generator",
+    "presentation maker",
+    "agent presentation skill",
+    "Codex presentation skill",
+    "ChatGPT presentation skill"
+  ],
+  "capabilities": [
+    "editable PowerPoint generation from outline.json",
+    "workspace mode with design_brief.json, content_plan.json, evidence_plan.json, asset_plan.json, outline.json, and notes.md",
+    "13 renderer slide variants",
+    "13 style families",
+    "descriptor-only style corpus and atom routing",
+    "chart, table, figure, lab-run-results, scientific-figure, KPI, comparison, matrix, timeline, and Mermaid flow slides",
+    "generated data artifact scaffolding from local tabular data",
+    "geometry, visual, readability, placeholder, and reproducibility QA"
+  ],
+  "entrypoints": {
+    "skill_contract": "SKILL.md",
+    "agent_prompt": "agents/openai.yaml",
+    "quick_example": "examples/outline.json",
+    "human_discovery": "DISCOVERY.md",
+    "readme": "README.md"
+  },
+  "proof_assets": {
+    "variant_board": "decks/native-vs-latest-random-topics-20260623/readme_images/presentation_skill_variant_proof.png",
+    "style_family_board": "decks/native-vs-latest-random-topics-20260623/readme_images/presentation_skill_style_family_proof.png",
+    "native_vs_updated": "decks/native-vs-latest-random-topics-20260623/readme_images/codex_native_vs_updated_clean_three_topics.png",
+    "release_url": "https://github.com/sirilsengolraj-source/presentation-skill/releases/tag/v0.7.0"
+  },
+  "default_commands": {
+    "build_example": "node scripts/build_deck_pptxgenjs.js --outline examples/outline.json --output out.pptx --style-preset executive-clinical",
+    "fast_qa": "python3 scripts/qa_gate.py --input out.pptx --outdir /tmp/pptx-qa --style-preset executive-clinical --skip-render",
+    "workspace_init": "python3 scripts/init_deck_workspace.py --workspace decks/my-deck --title \"My Deck Title\" --style-preset executive-clinical",
+    "workspace_build": "python3 scripts/build_workspace.py --workspace decks/my-deck --qa --overwrite"
+  },
+  "do_not_use_for": [
+    "pure text brainstorming with no deck artifact",
+    "mutating a generated PPTX when source workspace files exist",
+    "shipping a deliverable deck without QA"
+  ]
+}

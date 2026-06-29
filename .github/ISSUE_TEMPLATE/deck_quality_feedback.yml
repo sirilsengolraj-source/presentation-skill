@@ -1,0 +1,45 @@
+name: Deck quality feedback
+description: Report a generated deck that looked repetitive, crowded, unreadable, or off-style.
+title: "[Deck quality] "
+labels:
+  - deck-quality
+  - feedback
+body:
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Original deck request
+      description: Paste the user prompt or a short summary of the task.
+      placeholder: "Build a 7-slide lab report deck about..."
+    validations:
+      required: true
+  - type: input
+    id: preset
+    attributes:
+      label: Preset or route used
+      description: If known, include the style preset or topic route.
+      placeholder: "lab-report, executive-clinical, data-heavy-boardroom..."
+  - type: textarea
+    id: issue
+    attributes:
+      label: What felt wrong?
+      description: Be concrete about repetition, density, empty space, unreadable text, weak chart/table/figure use, or style mismatch.
+      placeholder: "The deck used the same two-column layout on every slide and the KPI slide was hard to read."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should it have done instead?
+      placeholder: "Use a lab-run-results slide for the table, a scientific-figure slide for the plot, and a cleaner source footer."
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or screenshots
+      description: Attach contact sheets, rendered slide images, the outline, or QA output if available.
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include OS, Python, Node, LibreOffice availability, and command if relevant.
+      render: text
