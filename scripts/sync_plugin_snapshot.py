@@ -23,6 +23,7 @@ FILES = [
 
 DIRECTORIES = [
     "agents",
+    "docs",
     "examples",
     "references",
     "scripts",

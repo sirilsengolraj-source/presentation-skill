@@ -185,6 +185,7 @@ Codex and other OpenAI-style agents trigger this skill for PowerPoint, `.pptx`, 
 - Run QA before delivery. If QA fails, rebuild from source.
 
 Discovery metadata for agents and shareable summaries for humans live in [`DISCOVERY.md`](DISCOVERY.md) and [`agents/discovery.json`](agents/discovery.json).
+Copy-ready community posts and curation-request text live in [`docs/PROMOTION.md`](docs/PROMOTION.md).
 
 ## Releases
 

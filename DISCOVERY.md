@@ -110,3 +110,4 @@ workspaces.
 - Issue templates collect real deck-quality feedback from users.
 - The Codex plugin marketplace lives at `.agents/plugins/marketplace.json`
   and exposes `plugins/presentation-skill`.
+- `docs/PROMOTION.md` contains copy-ready posts and a curation request.
